@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allows you to manually trigger it
 
 permissions:
-  contents: write  # THIS IS THE FIX: Allows the bot to save files
+  contents: write  # Allows the bot to save files
 
 jobs:
   update-feed:
