@@ -12,14 +12,15 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # Define Sectors and Keywords for filtering
+# This helps us find relevant articles AND validate the AI's response
 SECTORS = {
-    "FINTECH": ["mpesa", "cbk", "fintech", "loan", "banking", "crypto", "equity bank", "kcb", "credit", "sacco"],
-    "CLEAN ENERGY": ["kengen", "geothermal", "solar", "wind power", "renewable", "energy", "kplc", "off-grid"],
-    "MANUFACTURING": ["factory", "manufacturing", "industrial", "processing", "export", "epz"],
-    "HEALTHCARE": ["health", "hospital", "who", "ministry of health", "vaccine", "doctors", "shif"],
-    "INFRASTRUCTURE": ["road", "railway", "airport", "port", "construction", "housing", "expressway", "freight"],
-    "AGRICULTURE": ["maize", "fertilizer", "farming", "agriculture", "food security", "irrigation", "coffee", "tea"],
-    "E-MOBILITY": ["electric vehicle", "ev", "boda boda", "motorbike", "mobility", "electric bus", "roam"]
+    "FINTECH": ["mpesa", "cbk", "fintech", "loan", "banking", "crypto", "equity bank", "kcb", "credit", "sacco", "mobile money"],
+    "CLEAN ENERGY": ["kengen", "geothermal", "solar", "wind power", "renewable", "energy", "kplc", "off-grid", "hydropower"],
+    "MANUFACTURING": ["factory", "manufacturing", "industrial", "processing", "export", "epz", "cdsc"],
+    "HEALTHCARE": ["health", "hospital", "who", "ministry of health", "vaccine", "doctors", "shif", "medicines", "medical"],
+    "INFRASTRUCTURE": ["road", "railway", "airport", "port", "construction", "housing", "expressway", "freight", "infrastructure"],
+    "AGRICULTURE": ["maize", "fertilizer", "farming", "agriculture", "food security", "irrigation", "coffee", "tea", "sugar"],
+    "E-MOBILITY": ["electric vehicle", "ev", "boda boda", "motorbike", "mobility", "electric bus", "roam", "bike"]
 }
 
 # RSS Feeds from Kenyan sources
@@ -41,7 +42,7 @@ def fetch_news():
         try:
             feed = feedparser.parse(source['url'])
             
-            for entry in feed.entries[:10]: # Check top 10 per source
+            for entry in feed.entries[:15]: # Check top 15 per source
                 title = entry.title
                 summary = entry.get('summary', '')
                 content = f"{title}. {summary}".lower()
@@ -57,13 +58,13 @@ def fetch_news():
                     relevant_articles.append({
                         "title": title,
                         "link": entry.link,
-                        "sector": found_sector,
+                        "sector": found_sector, # We pass this as a fallback
                         "source": source['name'],
                         "date": entry.get('published', 'Today')
                     })
                     
         except Exception as e:
-            print(f"   ⚠️ Could not read {source['name']}")
+            print(f"   ⚠️ Could not read {source['name']}: {e}")
             
     print(f"✅ Found {len(relevant_articles)} relevant articles.")
     return relevant_articles
@@ -75,7 +76,7 @@ def analyze_intelligence(article):
     You are a Senior Investment Analyst for Kenya.
     Analyze the following news headline: "{article['title']}"
     
-    1. Confirm Sector (One of: FINTECH, CLEAN ENERGY, MANUFACTURING, HEALTHCARE, INFRASTRUCTURE, AGRICULTURE, E-MOBILITY).
+    1. Confirm Sector (Strictly choose one: FINTECH, CLEAN ENERGY, MANUFACTURING, HEALTHCARE, INFRASTRUCTURE, AGRICULTURE, E-MOBILITY).
     2. Write a 1-sentence Interpretation (Why does this matter strategically?).
     3. Write a 1-sentence Opportunity Signal.
     4. Write a 1-sentence Risk Signal.
@@ -89,7 +90,6 @@ def analyze_intelligence(article):
     }
 
     data = {
-        # Updated to the latest stable model ID
         "model": "llama-3.1-8b-instant", 
         "messages": [{"role": "user", "content": prompt}],
         "response_format": {"type": "json_object"}
@@ -102,9 +102,25 @@ def analyze_intelligence(article):
         if response.status_code == 200:
             result = response.json()
             content = result['choices'][0]['message']['content']
-            return json.loads(content)
+            analysis = json.loads(content)
+            
+            # --- STRICT VALIDATION FIX ---
+            # Define the allowed list
+            valid_sectors = ["FINTECH", "CLEAN ENERGY", "MANUFACTURING", "HEALTHCARE", "INFRASTRUCTURE", "AGRICULTURE", "E-MOBILITY"]
+            
+            # Get the AI's sector choice and make it uppercase
+            ai_sector = analysis.get('sector', '').upper()
+            
+            # If the AI chose a valid sector, use it.
+            if ai_sector in valid_sectors:
+                analysis['sector'] = ai_sector
+            else:
+                # If AI made a mistake (e.g. said "Finance"), use the keyword-based sector we found earlier
+                analysis['sector'] = article['sector']
+            
+            return analysis
         else:
-            # UPDATED: This prints the ACTUAL error message from Groq
+            # This prints the ACTUAL error message from Groq
             print(f"   ❌ API Error {response.status_code}: {response.text}")
             return None
             
@@ -140,7 +156,7 @@ if __name__ == "__main__":
                 if analysis:
                     entry = {
                         "id": len(final_intel) + 1,
-                        "sector": analysis.get('sector', item['sector']),
+                        "sector": analysis['sector'],
                         "title": item['title'],
                         "date": item['date'],
                         "interpretation": analysis.get('interpretation', ''),
