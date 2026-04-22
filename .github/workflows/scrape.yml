@@ -1,0 +1,36 @@
+name: Update Intelligence Feed
+
+on:
+  schedule:
+    # Runs every day at 5:00 AM UTC (8:00 AM Nairobi Time)
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Allows you to manually trigger it
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests feedparser python-dotenv
+          
+      - name: Run Scraper
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python agent.py
+        
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "KSI Bot"
+          git config --global user.email "bot@ksi.com"
+          git add .
+          git commit -m "Auto-update intelligence feed" || echo "No changes to commit"
+          git push
