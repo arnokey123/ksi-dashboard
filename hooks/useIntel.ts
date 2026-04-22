@@ -1,10 +1,21 @@
 import useSWR from 'swr';
 
-const fetcher = (url) => fetch(url).then((res) => res.json());
+// Define the shape of our data
+interface IntelItem {
+  id: number;
+  sector: string;
+  title: string;
+  date: string;
+  interpretation: string;
+  opportunity: string;
+  risk: string;
+}
+
+const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 export default function useIntel() {
   // Fetching directly from GitHub Raw file
-  const { data, error, isLoading } = useSWR(
+  const { data, error, isLoading } = useSWR<IntelItem[]>(
     'https://raw.githubusercontent.com/arnokey123/ksi-dashboard/master/public/intel.json', 
     fetcher, 
     {
@@ -18,4 +29,3 @@ export default function useIntel() {
     isError: error,
   };
 }
-
