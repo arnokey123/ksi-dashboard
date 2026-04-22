@@ -1,15 +1,12 @@
 import useSWR from 'swr';
 
-// The fetcher function handles the API call
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function useIntel() {
-  // SWR Configuration:
-  // refreshInterval: 5000 means it checks for updates every 5 seconds automatically.
-  // revalidateOnFocus: true means it updates immediately if the user switches tabs back.
-  const { data, error, isLoading } = useSWR('/api/intel', fetcher, {
-    refreshInterval: 5000, 
-    revalidateOnFocus: true,
+  // We point directly to the public file URL
+  // Replace 'ksi-dashboard-dusky' with your actual vercel app name if different
+  const { data, error, isLoading } = useSWR('https://ksi-dashboard-dusky.vercel.app/intel.json', fetcher, {
+    refreshInterval: 5000,
   });
 
   return {
