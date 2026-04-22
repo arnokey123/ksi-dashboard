@@ -1,51 +1,9 @@
-"use client"; // This tells Next.js to run this logic in the browser
+"use client"; // Required for interactivity
 
 import { useState } from "react";
+import useIntel from "@/hooks/useIntel"; // Import our real-time hook
 
-// 1. THE DATABASE (Our Mock Intelligence)
-const intelligenceData = [
-  {
-    id: 1,
-    sector: "FINTECH",
-    title: "CBK Introduces Digital Credit Provider Licensing Framework",
-    date: "Tue, 21 April 2026",
-    type: "EVENT",
-    interpretation: "The Central Bank of Kenya is asserting tighter oversight of the expanding digital lending ecosystem. This signals a deliberate regulatory shift toward consumer protection and market hygiene, responding to years of complaints around predatory lending practices by unregistered mobile lenders.",
-    opportunity: "Formalisation creates a level playing field favouring well-capitalised, compliant fintechs. Licensed players gain reputational credibility and access to institutional capital.",
-    risk: "Smaller and informal lenders may exit the market, creating short-term credit gaps in underserved segments. Compliance costs could squeeze margins for mid-tier players."
-  },
-  {
-    id: 2,
-    sector: "LOGISTICS",
-    title: "Agri-logistics platform Twiga Foods announced a $12M expansion into 18 secondary towns.",
-    date: "Tue, 21 April 2026",
-    type: "EVENT",
-    interpretation: "Twiga's expansion represents a significant bet on Kenya's secondary city growth story. By extending cold chain infrastructure beyond Nairobi, the company is addressing one of the most persistent inefficiencies in Kenya's food supply chain.",
-    opportunity: "The cold chain buildout creates demand for refrigeration equipment suppliers and renewable energy solutions for off-grid cold storage.",
-    risk: "Secondary town logistics operations face higher per-unit costs than Nairobi routes, putting pressure on unit economics."
-  },
-  {
-    id: 3,
-    sector: "CLEAN ENERGY",
-    title: "KenGen secures $600M financing for 400MW geothermal expansion in Olkaria.",
-    date: "Tue, 21 April 2026",
-    type: "EVENT",
-    interpretation: "This expansion cements Kenya's position as Africa's leading geothermal power producer. The scale of financing reflects high confidence from DFIs in Kenya's energy transition narrative and KenGen's execution track record.",
-    opportunity: "Local engineering and drilling service providers stand to capture significant contract value. Kenya could become a regional electricity exporter.",
-    risk: "Project timelines face risks from land use disputes with local communities. Currency exposure on dollar-denominated debt could strain finances."
-  },
-  {
-    id: 4,
-    sector: "AGRICULTURE",
-    title: "Government lifts ban on GMO imports to combat rising food insecurity.",
-    date: "Mon, 20 April 2026",
-    type: "EVENT",
-    interpretation: "A controversial but decisive policy shift aimed at lowering animal feed costs and addressing drought resilience. It signals a prioritization of food security over previous biosafety caution.",
-    opportunity: "Opens the market for genetically modified seed technologies and large-scale commercial grain farming.",
-    risk: "Potential backlash from export markets (EU) with strict GMO restrictions, and legal challenges from civil society groups."
-  }
-];
-
+// Define the Sector List
 const sectors = [
   { name: "Overview", icon: "📊" },
   { name: "Fintech", icon: "💵" },
@@ -57,14 +15,38 @@ const sectors = [
 ];
 
 export default function Home() {
-  // 2. THE STATE (The "Brain" that remembers what you clicked)
+  // 1. STATE: Manage which sector is selected
   const [activeSector, setActiveSector] = useState("Overview");
 
-  // 3. THE FILTER (Logic to decide which news to show)
-  const filteredNews = intelligenceData.filter((item) => {
-    if (activeSector === "Overview") return true; // Show all if Overview is selected
-    return item.sector === activeSector.toUpperCase(); // Match the sector name
-  });
+  // 2. DATA FETCHING: Use our SWR hook to get live data
+  // This checks for updates automatically every 5 seconds
+  const { intelligenceData, isLoading, isError } = useIntel();
+
+  // 3. HANDLERS: Manage UI states
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-zinc-400">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b border-zinc-600 mx-auto mb-4"></div>
+          <p>Loading Intelligence...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (isError) {
+    return (
+      <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-red-500">
+        <p>Failed to load intelligence feed. Please check your connection.</p>
+      </div>
+    );
+  }
+
+  // 4. FILTER LOGIC: Decide what news to show
+  const filteredNews = intelligenceData?.filter((item) => {
+    if (activeSector === "Overview") return true; // Show all
+    return item.sector === activeSector.toUpperCase(); // Filter by sector
+  }) || [];
 
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col md:flex-row">
@@ -78,17 +60,16 @@ export default function Home() {
 
         <div className="flex flex-row md:flex-col gap-1 overflow-x-auto md:overflow-visible pb-2 md:pb-0">
           {sectors.map((sector) => {
-            // Logic to check if this button is active
             const isActive = activeSector === sector.name;
             
             return (
               <button 
                 key={sector.name}
-                onClick={() => setActiveSector(sector.name)} // 4. THE ACTION (Update state on click)
+                onClick={() => setActiveSector(sector.name)}
                 className={`flex items-center justify-between px-3 py-2 rounded-md cursor-pointer transition-colors group whitespace-nowrap
                   ${isActive 
-                    ? "bg-white text-zinc-900 font-bold" // Active style (White button)
-                    : "hover:bg-zinc-800/60 text-zinc-300" // Inactive style
+                    ? "bg-white text-zinc-900 font-bold" 
+                    : "hover:bg-zinc-800/60 text-zinc-300"
                   }
                 `}
               >
@@ -112,6 +93,14 @@ export default function Home() {
               Intelligence Feed {activeSector !== "Overview" ? `— ${activeSector}` : ""}
             </h2>
             <p className="text-xs text-zinc-500">Real-time strategic analysis</p>
+          </div>
+          {/* Live indicator */}
+          <div className="flex items-center gap-2 text-[10px] text-emerald-400 bg-emerald-900/20 px-2 py-1 rounded border border-emerald-800/50">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            LIVE
           </div>
         </div>
 
@@ -152,8 +141,8 @@ export default function Home() {
               </div>
             ))
           ) : (
-            <div className="text-center text-zinc-500 py-10">
-              No intelligence entries found for this sector yet.
+            <div className="text-center text-zinc-500 py-10 border border-dashed border-zinc-800 rounded-lg">
+              <p>No intelligence entries found for this sector yet.</p>
             </div>
           )}
         </div>
