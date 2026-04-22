@@ -10,24 +10,25 @@ load_dotenv('.env.local')
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-# CRITICAL FIX: Sectors are now ORDERED by specificity.
-# Specific sectors (Health, Agri) are checked FIRST.
-# Broad sectors (Fintech) are checked LAST.
+# CRITICAL FIX: Sectors are ordered by specificity with STRICT keywords.
+# "Infrastructure" no longer uses the word "infrastructure" (too broad).
+# "Fintech" includes specific bank names.
 SECTORS = {
     # 1. VERY SPECIFIC SECTORS (Check these first)
     "E-MOBILITY": ["electric vehicle", "ev", "boda boda", "motorbike", "mobility", "electric bus", "roam", "bike", "electrification"],
     "HEALTHCARE": ["health", "hospital", "who", "ministry of health", "vaccine", "doctors", "shif", "medicines", "medical", "patient", "nurse"],
     "AGRICULTURE": ["maize", "fertilizer", "farming", "agriculture", "food security", "irrigation", "coffee", "tea", "sugar", "farmers", "livestock", "crop"],
-    "INFRASTRUCTURE": ["road", "railway", "airport", "port", "construction", "housing", "expressway", "freight", "infrastructure", "building", "bridge"],
     
-    # 2. MODERATELY SPECIFIC SECTORS
+    # 2. STRICTER DEFINITIONS
+    # Removed generic "infrastructure" to prevent stealing bank articles
+    "INFRASTRUCTURE": ["road", "railway", "airport", "port", "construction", "housing", "expressway", "freight", "building", "bridge", "kenha", "kura"],
     "CLEAN ENERGY": ["kengen", "geothermal", "solar", "wind power", "renewable", "energy", "kplc", "off-grid", "hydropower", "power", "electricity"],
     "MANUFACTURING": ["factory", "manufacturing", "industrial", "processing", "export", "epz", "cdsc", "produce", "assembly"],
     "LOGISTICS": ["logistics", "transport", "delivery", "shipping", "cargo", "supply chain", "twiga", "truck", "distribution"],
     
     # 3. BROAD SECTORS (Check these LAST)
-    # Fintech often shares keywords (bank, loan) with other sectors, so it goes last.
-    "FINTECH": ["mpesa", "cbk", "fintech", "loan", "banking", "crypto", "equity bank", "kcb", "credit", "sacco", "mobile money", "bank"]
+    # Added specific bank names to ensure capture
+    "FINTECH": ["mpesa", "cbk", "fintech", "loan", "banking", "crypto", "equity bank", "kcb", "credit", "sacco", "mobile money", "bank", "absa", "ncba", "stanbic", "family bank"]
 }
 
 SOURCES = [
@@ -53,7 +54,7 @@ def fetch_news():
                 content = f"{title}. {summary}".lower()
                 
                 found_sector = None
-                # Loop now respects the order defined in SECTORS dictionary
+                # Loop respects the order defined in SECTORS dictionary
                 for sector, keywords in SECTORS.items():
                     if any(keyword in content for keyword in keywords):
                         found_sector = sector
@@ -106,7 +107,7 @@ def analyze_intelligence(article):
             content = result['choices'][0]['message']['content']
             analysis = json.loads(content)
             
-            # STRICT VALIDATION FIX
+            # STRICT VALIDATION
             valid_sectors = ["FINTECH", "CLEAN ENERGY", "MANUFACTURING", "HEALTHCARE", "INFRASTRUCTURE", "AGRICULTURE", "E-MOBILITY", "LOGISTICS"]
             
             ai_sector = analysis.get('sector', '').upper()
@@ -114,7 +115,7 @@ def analyze_intelligence(article):
             if ai_sector in valid_sectors:
                 analysis['sector'] = ai_sector
             else:
-                # Fallback to keyword-based sector
+                # Fallback to keyword-based sector if AI hallucinates
                 analysis['sector'] = article['sector']
             
             return analysis
