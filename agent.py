@@ -5,25 +5,31 @@ import requests
 from dotenv import load_dotenv
 
 # --- 1. CONFIGURATION ---
-# Load the secret key from .env.local file
 load_dotenv('.env.local')
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-# Define Sectors and Keywords for filtering
-# This helps us find relevant articles AND validate the AI's response
+# CRITICAL FIX: Sectors are now ORDERED by specificity.
+# Specific sectors (Health, Agri) are checked FIRST.
+# Broad sectors (Fintech) are checked LAST.
 SECTORS = {
-    "FINTECH": ["mpesa", "cbk", "fintech", "loan", "banking", "crypto", "equity bank", "kcb", "credit", "sacco", "mobile money"],
-    "CLEAN ENERGY": ["kengen", "geothermal", "solar", "wind power", "renewable", "energy", "kplc", "off-grid", "hydropower"],
-    "MANUFACTURING": ["factory", "manufacturing", "industrial", "processing", "export", "epz", "cdsc"],
-    "HEALTHCARE": ["health", "hospital", "who", "ministry of health", "vaccine", "doctors", "shif", "medicines", "medical"],
-    "INFRASTRUCTURE": ["road", "railway", "airport", "port", "construction", "housing", "expressway", "freight", "infrastructure"],
-    "AGRICULTURE": ["maize", "fertilizer", "farming", "agriculture", "food security", "irrigation", "coffee", "tea", "sugar"],
-    "E-MOBILITY": ["electric vehicle", "ev", "boda boda", "motorbike", "mobility", "electric bus", "roam", "bike"]
+    # 1. VERY SPECIFIC SECTORS (Check these first)
+    "E-MOBILITY": ["electric vehicle", "ev", "boda boda", "motorbike", "mobility", "electric bus", "roam", "bike", "electrification"],
+    "HEALTHCARE": ["health", "hospital", "who", "ministry of health", "vaccine", "doctors", "shif", "medicines", "medical", "patient", "nurse"],
+    "AGRICULTURE": ["maize", "fertilizer", "farming", "agriculture", "food security", "irrigation", "coffee", "tea", "sugar", "farmers", "livestock", "crop"],
+    "INFRASTRUCTURE": ["road", "railway", "airport", "port", "construction", "housing", "expressway", "freight", "infrastructure", "building", "bridge"],
+    
+    # 2. MODERATELY SPECIFIC SECTORS
+    "CLEAN ENERGY": ["kengen", "geothermal", "solar", "wind power", "renewable", "energy", "kplc", "off-grid", "hydropower", "power", "electricity"],
+    "MANUFACTURING": ["factory", "manufacturing", "industrial", "processing", "export", "epz", "cdsc", "produce", "assembly"],
+    "LOGISTICS": ["logistics", "transport", "delivery", "shipping", "cargo", "supply chain", "twiga", "truck", "distribution"],
+    
+    # 3. BROAD SECTORS (Check these LAST)
+    # Fintech often shares keywords (bank, loan) with other sectors, so it goes last.
+    "FINTECH": ["mpesa", "cbk", "fintech", "loan", "banking", "crypto", "equity bank", "kcb", "credit", "sacco", "mobile money", "bank"]
 }
 
-# RSS Feeds from Kenyan sources
 SOURCES = [
     {"name": "Business Daily", "url": "https://www.businessdailyafrica.com/rss"},
     {"name": "Standard Media", "url": "https://www.standardmedia.co.ke/rss/headlines.xml"},
@@ -34,7 +40,6 @@ SOURCES = [
 # --- 2. FUNCTIONS ---
 
 def fetch_news():
-    """Scans RSS feeds for articles matching our sectors."""
     relevant_articles = []
     print("🔍 Scanning news feeds...")
     
@@ -42,23 +47,23 @@ def fetch_news():
         try:
             feed = feedparser.parse(source['url'])
             
-            for entry in feed.entries[:15]: # Check top 15 per source
+            for entry in feed.entries[:15]:
                 title = entry.title
                 summary = entry.get('summary', '')
                 content = f"{title}. {summary}".lower()
                 
-                # Check if any keyword matches
                 found_sector = None
+                # Loop now respects the order defined in SECTORS dictionary
                 for sector, keywords in SECTORS.items():
                     if any(keyword in content for keyword in keywords):
                         found_sector = sector
-                        break
+                        break # Stop checking other sectors once a match is found
                 
                 if found_sector:
                     relevant_articles.append({
                         "title": title,
                         "link": entry.link,
-                        "sector": found_sector, # We pass this as a fallback
+                        "sector": found_sector,
                         "source": source['name'],
                         "date": entry.get('published', 'Today')
                     })
@@ -70,13 +75,11 @@ def fetch_news():
     return relevant_articles
 
 def analyze_intelligence(article):
-    """Sends the article to Groq AI for strategic analysis."""
-    
     prompt = f"""
     You are a Senior Investment Analyst for Kenya.
     Analyze the following news headline: "{article['title']}"
     
-    1. Confirm Sector (Strictly choose one: FINTECH, CLEAN ENERGY, MANUFACTURING, HEALTHCARE, INFRASTRUCTURE, AGRICULTURE, E-MOBILITY).
+    1. Confirm Sector (Strictly choose one: FINTECH, CLEAN ENERGY, MANUFACTURING, HEALTHCARE, INFRASTRUCTURE, AGRICULTURE, E-MOBILITY, LOGISTICS).
     2. Write a 1-sentence Interpretation (Why does this matter strategically?).
     3. Write a 1-sentence Opportunity Signal.
     4. Write a 1-sentence Risk Signal.
@@ -96,7 +99,6 @@ def analyze_intelligence(article):
     }
 
     try:
-        # Using requests instead of the groq library to avoid Rust errors on Termux
         response = requests.post(GROQ_URL, headers=headers, json=data)
         
         if response.status_code == 200:
@@ -104,23 +106,19 @@ def analyze_intelligence(article):
             content = result['choices'][0]['message']['content']
             analysis = json.loads(content)
             
-            # --- STRICT VALIDATION FIX ---
-            # Define the allowed list
-            valid_sectors = ["FINTECH", "CLEAN ENERGY", "MANUFACTURING", "HEALTHCARE", "INFRASTRUCTURE", "AGRICULTURE", "E-MOBILITY"]
+            # STRICT VALIDATION FIX
+            valid_sectors = ["FINTECH", "CLEAN ENERGY", "MANUFACTURING", "HEALTHCARE", "INFRASTRUCTURE", "AGRICULTURE", "E-MOBILITY", "LOGISTICS"]
             
-            # Get the AI's sector choice and make it uppercase
             ai_sector = analysis.get('sector', '').upper()
             
-            # If the AI chose a valid sector, use it.
             if ai_sector in valid_sectors:
                 analysis['sector'] = ai_sector
             else:
-                # If AI made a mistake (e.g. said "Finance"), use the keyword-based sector we found earlier
+                # Fallback to keyword-based sector
                 analysis['sector'] = article['sector']
             
             return analysis
         else:
-            # This prints the ACTUAL error message from Groq
             print(f"   ❌ API Error {response.status_code}: {response.text}")
             return None
             
@@ -129,7 +127,6 @@ def analyze_intelligence(article):
         return None
 
 def save_to_json(data):
-    """Saves the final intelligence to the JSON file."""
     output_path = "public/intel.json"
     with open(output_path, "w") as f:
         json.dump(data, f, indent=2)
@@ -137,16 +134,12 @@ def save_to_json(data):
 
 # --- 3. MAIN EXECUTION ---
 if __name__ == "__main__":
-    # Safety check for key
     if not GROQ_API_KEY:
         print("❌ ERROR: GROQ_API_KEY not found. Check your .env.local file.")
     else:
-        # 1. Get the news
         raw_news = fetch_news()
-        
         final_intel = []
         
-        # 2. Analyze with AI (limit to top 5 to save time/credits)
         if len(raw_news) > 0:
             print("🧠 Analyzing with AI...")
             
@@ -166,7 +159,6 @@ if __name__ == "__main__":
                     final_intel.append(entry)
                     print(f"   ✅ Processed: {item['title'][:40]}...")
             
-            # 3. Save the file
             if final_intel:
                 save_to_json(final_intel)
             else:
