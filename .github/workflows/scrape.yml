@@ -6,6 +6,9 @@ on:
     - cron: '0 5 * * *'
   workflow_dispatch: # Allows you to manually trigger it
 
+permissions:
+  contents: write  # THIS IS THE FIX: Allows the bot to save files
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
