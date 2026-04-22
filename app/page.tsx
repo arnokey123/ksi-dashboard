@@ -5,7 +5,7 @@ import useIntel from "@/hooks/useIntel";
 
 // Configuration: Match these exactly to the Python script sectors
 const SECTOR_CONFIG = [
-  { name: "Overview", icon: "📊", color: "text-white" },
+  { name: "Overview", icon: "📊", color: "text-white", match: "OVERVIEW" },
   { name: "Fintech", icon: "💵", color: "text-blue-400", match: "FINTECH" },
   { name: "Clean Energy", icon: "⚡", color: "text-emerald-400", match: "CLEAN ENERGY" },
   { name: "Agriculture", icon: "🌾", color: "text-yellow-400", match: "AGRICULTURE" },
@@ -18,42 +18,69 @@ const SECTOR_CONFIG = [
 
 export default function Home() {
   const [activeSector, setActiveSector] = useState("Overview");
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Mobile toggle
   const { intelligenceData, isLoading, isError } = useIntel();
 
-  // 1. FILTER LOGIC (Fixed)
+  // 1. FILTER LOGIC (Fixed for Case Sensitivity)
   const filteredNews = intelligenceData?.filter((item) => {
-    if (activeSector === "Overview") return true; // Show all
+    if (activeSector === "Overview") return true;
     
-    // Find the config for the active sector to get the 'match' string
+    // Find the config for the active sector
     const config = SECTOR_CONFIG.find(s => s.name === activeSector);
-    
-    // Check if the item's sector matches the required string (e.g., "FINTECH")
-    return item.sector === config?.match;
+    if (!config) return false;
+
+    // Compare in Uppercase to ensure match
+    return (item.sector || "").toUpperCase() === config.match.toUpperCase();
   }) || [];
 
   // 2. GROUP LOGIC (For Overview)
   const groupedNews = intelligenceData?.reduce((acc, item) => {
-    if (!acc[item.sector]) {
-      acc[item.sector] = [];
+    const sectorKey = item.sector || "GENERAL";
+    if (!acc[sectorKey]) {
+      acc[sectorKey] = [];
     }
-    acc[item.sector].push(item);
+    acc[sectorKey].push(item);
     return acc;
   }, {} as Record<string, typeof intelligenceData>);
 
-  if (isLoading) return <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-zinc-500 animate-pulse">Initializing Intelligence...</div>;
-  if (isError) return <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-red-500">Connection Error.</div>;
+  // Helper to select sector and close menu
+  const handleSectorChange = (sectorName: string) => {
+    setActiveSector(sectorName);
+    setIsSidebarOpen(false); // Close sidebar on mobile after selection
+  };
+
+  if (isLoading) return <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-zinc-500">Loading...</div>;
+  if (isError) return <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-red-500">Error.</div>;
 
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col md:flex-row">
       
-      {/* SIDEBAR */}
-      <aside className="w-full md:w-72 border-b md:border-b-0 md:border-r border-zinc-800/50 p-6 flex flex-col bg-zinc-900/30 backdrop-blur-sm sticky top-0 h-screen">
-        <div className="mb-8">
-          <div className="flex items-center gap-2 mb-1">
-            <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-            <h1 className="text-xl font-bold tracking-tight text-white">KSI</h1>
-          </div>
-          <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-medium pl-4">Kenya Sector Intel</p>
+      {/* --- MOBILE HEADER --- */}
+      <div className="md:hidden flex items-center justify-between p-4 border-b border-zinc-800 bg-zinc-900/50 sticky top-0 z-40">
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
+          <h1 className="text-lg font-bold">KSI</h1>
+        </div>
+        <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="text-zinc-400 p-2">
+          {isSidebarOpen ? "✕" : "☰"}
+        </button>
+      </div>
+
+      {/* --- SIDEBAR --- */}
+      {/* Mobile Overlay */}
+      {isSidebarOpen && (
+        <div className="fixed inset-0 bg-black/60 z-40 md:hidden" onClick={() => setIsSidebarOpen(false)}></div>
+      )}
+
+      <aside className={`
+        fixed md:sticky top-0 left-0 h-screen w-72 border-r border-zinc-800/50 p-6 flex flex-col bg-zinc-900/90 backdrop-blur-md z-50
+        transition-transform duration-300 ease-in-out
+        ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"}
+        md:translate-x-0
+      `}>
+        <div className="mb-8 hidden md:block">
+          <h1 className="text-xl font-bold tracking-tight text-white">KSI</h1>
+          <p className="text-[10px] uppercase tracking-widest text-zinc-500 font-medium">Kenya Sector Intel</p>
         </div>
 
         <nav className="flex flex-col gap-1 flex-1 overflow-y-auto">
@@ -61,28 +88,26 @@ export default function Home() {
             const isActive = activeSector === sector.name;
             const count = sector.name === "Overview" 
               ? intelligenceData?.length 
-              : intelligenceData?.filter(i => i.sector === sector.match).length;
+              : intelligenceData?.filter(i => (i.sector || "").toUpperCase() === sector.match.toUpperCase()).length;
 
             return (
               <button 
                 key={sector.name}
-                onClick={() => setActiveSector(sector.name)}
+                onClick={() => handleSectorChange(sector.name)}
                 className={`
                   flex items-center justify-between px-4 py-3 rounded-lg transition-all duration-200 group text-left
                   ${isActive 
-                    ? "bg-white text-zinc-900 shadow-lg shadow-white/5" 
+                    ? "bg-white text-zinc-900 shadow-lg" 
                     : "hover:bg-zinc-800/50 text-zinc-400 hover:text-zinc-100"
                   }
                 `}
               >
                 <div className="flex items-center gap-3">
-                  <span className={`text-lg ${isActive ? 'opacity-100' : 'opacity-70 group-hover:opacity-100'}`}>
-                    {sector.icon}
-                  </span>
+                  <span className="text-lg">{sector.icon}</span>
                   <span className="text-sm font-medium">{sector.name}</span>
                 </div>
                 {count !== undefined && count > 0 && (
-                   <span className={`text-xs px-2 py-0.5 rounded-full font-mono ${isActive ? 'bg-zinc-900/10 text-zinc-700' : 'bg-zinc-800 text-zinc-500'}`}>
+                   <span className={`text-xs px-2 py-0.5 rounded-full font-mono ${isActive ? 'bg-zinc-900/10 text-zinc-600' : 'bg-zinc-800 text-zinc-500'}`}>
                      {count}
                    </span>
                 )}
@@ -90,34 +115,19 @@ export default function Home() {
             );
           })}
         </nav>
-        
-        <div className="mt-4 pt-4 border-t border-zinc-800/50 hidden md:block">
-           <p className="text-[10px] text-zinc-600 text-center">Updated Automatically</p>
-        </div>
       </aside>
 
-      {/* MAIN CONTENT */}
-      <main className="flex-1 p-6 md:p-8 overflow-y-auto">
+      {/* --- MAIN CONTENT --- */}
+      <main className="flex-1 p-6 md:p-8 overflow-y-auto pb-20">
         
         {/* HEADER */}
-        <header className="mb-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <div>
-            <h2 className="text-2xl font-bold tracking-tight text-white">
-              {activeSector === "Overview" ? "Intelligence Feed" : activeSector}
-            </h2>
-            <p className="text-sm text-zinc-500 mt-1">
-              Real-time strategic analysis for Kenyan markets
-            </p>
-          </div>
-          
-          {/* STATUS BADGE */}
-          <div className="flex items-center gap-2 bg-zinc-900/50 border border-zinc-800 px-3 py-1.5 rounded-full">
-             <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-             </span>
-             <span className="text-xs text-zinc-400 font-mono">LIVE</span>
-          </div>
+        <header className="mb-8">
+          <h2 className="text-2xl font-bold tracking-tight text-white">
+            {activeSector === "Overview" ? "Intelligence Feed" : activeSector}
+          </h2>
+          <p className="text-sm text-zinc-500 mt-1">
+            {activeSector === "Overview" ? "All sectors combined" : "Filtered strategic analysis"}
+          </p>
         </header>
 
         {/* NEWS GRID */}
@@ -126,10 +136,10 @@ export default function Home() {
             // OVERVIEW MODE: Group by Sector
             Object.entries(groupedNews).map(([sector, items]) => (
               <div key={sector}>
-                <h3 className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-4 border-b border-zinc-800/50 pb-2">
+                <h3 className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-4 border-b border-zinc-800 pb-2">
                   {sector}
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   {items.map((item) => (
                      <NewsCard key={item.id} item={item} />
                   ))}
@@ -139,14 +149,14 @@ export default function Home() {
           ) : (
             // SECTOR MODE: Simple List
             filteredNews.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {filteredNews.map((item) => (
                   <NewsCard key={item.id} item={item} />
                 ))}
               </div>
             ) : (
               <div className="text-center py-20 text-zinc-500 border border-dashed border-zinc-800 rounded-lg bg-zinc-900/20">
-                <p className="text-sm">No intelligence available for this sector.</p>
+                <p className="text-sm">No intelligence available for this sector today.</p>
               </div>
             )
           )}
@@ -158,7 +168,7 @@ export default function Home() {
 
 // SUB-COMPONENT: News Card
 function NewsCard({ item }: { item: any }) {
-  const sectorConfig = SECTOR_CONFIG.find(s => s.match === item.sector);
+  const sectorConfig = SECTOR_CONFIG.find(s => s.match === (item.sector || "").toUpperCase());
   const colorClass = sectorConfig?.color || "text-zinc-400";
 
   return (
@@ -177,7 +187,7 @@ function NewsCard({ item }: { item: any }) {
         </h3>
 
         <div className="space-y-3 text-xs">
-          <div className="bg-zinc-800/20 p-2.5 rounded border-l-2 border-zinc-700">
+          <div className="bg-zinc-800/30 p-2.5 rounded border-l-2 border-zinc-700">
             <p className="text-zinc-400 leading-relaxed">{item.interpretation}</p>
           </div>
 
