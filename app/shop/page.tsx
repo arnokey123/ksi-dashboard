@@ -132,34 +132,73 @@ export default function ShopDashboard() {
       {/* CONTENT */}
       <div className="p-4 space-y-4">
         
-        {/* INVENTORY TAB */}
-        {tab === 'inventory' && (
-          <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
-            <div className="p-4 border-b border-zinc-800 flex justify-between items-center">
-              <h3 className="text-zinc-400 text-sm font-bold uppercase">Stock Levels</h3>
-              <span className="text-xs text-zinc-500">{inventory.length} Items</span>
-            </div>
-            <div className="divide-y divide-zinc-800">
-              {inventory.length === 0 ? (
-                <div className="p-10 text-center text-zinc-600">
-                  No inventory found. Click "Sync" in the App settings.
+
+
+
+
+
+
+
+
+
+
+{/* INVENTORY TAB */}
+{tab === 'inventory' && (
+  <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
+    <div className="p-4 border-b border-zinc-800 flex justify-between items-center">
+      <h3 className="text-zinc-400 text-sm font-bold uppercase">Stock Levels</h3>
+      <span className="text-xs text-zinc-500">{inventory.length} Items</span>
+    </div>
+    <div className="divide-y divide-zinc-800">
+      {inventory.length === 0 ? (
+        <div className="p-10 text-center text-zinc-600">No inventory found.</div>
+      ) : (
+        inventory.map((item: any, i: number) => {
+          // SMART LABELLING LOGIC
+          let stockLabel = "";
+          let stockValue = item.stock || 0;
+          
+          if (item.unit === 'kg') {
+            stockLabel = `${stockValue.toFixed(2)} kg`;
+          } else if (item.unit === 'ml') {
+            stockLabel = `${stockValue.toFixed(2)} L`; // Display as Liters
+          } else {
+            stockLabel = `${Math.round(stockValue)} left`;
+          }
+
+          return (
+            <div key={i} className="p-3 flex justify-between items-center">
+              <div>
+                <div className="text-sm text-white font-medium">{item.name}</div>
+                <div className="text-xs text-zinc-500">
+                  KSh {item.price?.toFixed(0)} 
+                  <span className="text-zinc-600 ml-1">
+                    / {item.unit === 'ml' ? 'Liter' : item.unit || 'ea'}
+                  </span>
                 </div>
-              ) : (
-                inventory.map((item: any, i: number) => (
-                  <div key={i} className="p-3 flex justify-between items-center">
-                    <div>
-                      <div className="text-sm text-white font-medium">{item.name}</div>
-                      <div className="text-xs text-zinc-500">KSh {item.price} / {item.unit || 'ea'}</div>
-                    </div>
-                    <div className={`text-sm font-mono font-bold ${item.stock <= 0 ? 'text-red-400' : item.stock < 5 ? 'text-yellow-400' : 'text-green-400'}`}>
-                      {item.stock ? item.stock.toFixed(item.unit === 'each' ? 0 : 2) : 0} left
-                    </div>
-                  </div>
-                ))
-              )}
+              </div>
+              <div className={`text-sm font-mono font-bold ${
+                stockValue <= 0 ? 'text-red-400' : 
+                stockValue < 5 ? 'text-yellow-400' : 'text-green-400'
+              }`}>
+                {stockLabel}
+              </div>
             </div>
-          </div>
-        )}
+          );
+        })
+      )}
+    </div>
+  </div>
+)}
+
+
+
+
+
+
+
+
+
 
         {/* OVERVIEW TAB */}
         {tab === 'overview' && (
