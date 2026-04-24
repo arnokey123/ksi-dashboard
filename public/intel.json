@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "Mauritius\u2019 new AI policy makes ethics mandatory, not optional",
-    "date": "Thu, 23 Apr 2026 12:02:44 +0000",
-    "interpretation": "This move demonstrates Mauritius' strategic focus on regulating emerging technologies, setting a precedence for other sectors to follow.",
-    "opportunity": "Kenya can capitalize on Mauritius' AI policy by creating regulatory standards that attract tech investments, driving growth in the fintech and infrastructure sectors.",
-    "risk": "Non-implementation or inconsistent enforcement of the AI policy could lead to a loss of international credibility and deter businesses from investing in Mauritius"
+    "sector": "LOGISTICS",
+    "title": "Swoop raises $7.3 million seed for African super app, food delivery first",
+    "date": "Thu, 23 Apr 2026 19:04:30 +0000",
+    "interpretation": "This raises strategic interest in the growing African super apps and food delivery market, which could provide opportunities for further investments and collaborations.",
+    "opportunity": "Investing in Swoop could provide a strong foothold in the Kenyan market and potentially lead to further expansion into other African countries.",
+    "risk": "The highly competitive nature of the African super app and food delivery market may pose a risk to Swoop's long-term viability and profitability."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 New airtime lenders are in town",
-    "date": "Thu, 23 Apr 2026 06:04:38 +0000",
-    "interpretation": "The emergence of new airtime lenders is crucial as it could indicate increased competition, driving innovation and better financial inclusion in Kenya.",
-    "opportunity": "This could be an opportunity for investment in fintech companies that offer airtime lending services, with potential for high returns given the growing demand for short-term credit in Kenya.",
-    "risk": "There is a risk of over-saturation of the market with multiple airtime lenders, potentially leading to financial instability and decreased profitability for individual companies."
+    "title": "Mauritius\u2019 new AI policy makes ethics mandatory, not optional",
+    "date": "Thu, 23 Apr 2026 12:02:44 +0000",
+    "interpretation": "This news matters strategically as it signifies the growing importance of responsible AI development, which could create opportunities for investment in fintech companies prioritizing ethics in Mauritius",
+    "opportunity": "Investment opportunity in fintech companies incorporating AI ethics in Mauritius, potentially driven by government incentives",
+    "risk": "Regulatory risks in fintech space, where non-compliance with AI ethics policy in Mauritius may result in penalties or reputational damage"
   },
   {
     "id": 3,
     "sector": "FINTECH",
-    "title": "Absa Kenya to spend $23.2 million a year in digital banking push",
-    "date": "Wed, 22 Apr 2026 16:11:07 +0000",
-    "interpretation": "This digital banking push by Absa Kenya signifies a significant investment in fintech infrastructure, enabling improved financial inclusion and increased competition for other banks in the market.",
-    "opportunity": "Investors looking to capitalize on Kenya's growing fintech sector may find opportunities to invest in Absa Kenya or partner with them to leverage their expanding digital banking capabilities.",
-    "risk": "The substantial investment may not yield expected returns if consumers are slow to adopt digital banking services, which could result in increased costs and decreased profitability for the bank."
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 New airtime lenders are in town",
+    "date": "Thu, 23 Apr 2026 06:04:38 +0000",
+    "interpretation": "The emergence of new airtime lenders could signify a trend towards fintech innovation, potentially increasing financial inclusion for Kenyans.",
+    "opportunity": "Investing in established fintech platforms that offer mobile payment and lending solutions could yield high returns due to the growing demand for digital financial services.",
+    "risk": "The new airtime lenders may exacerbate competition in the market, increasing pressure on profit margins for existing players and potentially leading to consolidation."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Kenya\u2019s M-TIBA refunds users after shutting health savings wallet",
-    "date": "Wed, 22 Apr 2026 14:03:39 +0000",
-    "interpretation": "This matter strategically, as Kenya's fintech sector has seen significant growth and this incident may impact consumer trust in mobile-based health savings wallets.",
-    "opportunity": "The incident could be a catalyst for a more regulated and robust fintech ecosystem, potentially attracting more investors and driving further innovation.",
-    "risk": "The refunding process and shutdown of M-TIBA may lead to a loss of consumer confidence in fintech services, hindering the growth of the sector."
+    "sector": "INFRASTRUCTURE",
+    "title": "Absa Kenya to spend $23.2 million a year in digital banking push",
+    "date": "Wed, 22 Apr 2026 16:11:07 +0000",
+    "interpretation": "This strategic investment by Absa Kenya signals a prioritization of digital banking infrastructure, aligning with the country's ambitions to increase financial inclusion and adapt to a rapidly digitizing economy.",
+    "opportunity": "The market may see Absa Kenya as a significant player in Kenya's fintech sector, presenting potential partnership and collaboration opportunities.",
+    "risk": "High upfront capital expenditure may pose significant risk to Absa Kenya's profitability if not accompanied by substantial revenue growth within a reasonable time frame."
   },
   {
     "id": 5,
     "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Kenya freezes Binance wallets",
-    "date": "Wed, 22 Apr 2026 06:11:33 +0000",
-    "interpretation": "Kenya freezing Binance wallets poses a strategic challenge to the development of the country's cryptocurrency and fintech sectors.",
-    "opportunity": "This action presents a potential opportunity for local fintech startups to fill the regulatory gap and provide secure, compliant, and innovative financial services to Kenyans.",
-    "risk": "The freeze on Binance wallets also poses a risk to Kenyan investors who may have their investments frozen or lost, potentially resulting in a loss of confidence in the sector."
+    "title": "Kenya\u2019s M-TIBA refunds users after shutting health savings wallet",
+    "date": "Wed, 22 Apr 2026 14:03:39 +0000",
+    "interpretation": "The incident highlights the risks associated with fintech investments, underscoring the need for robust regulatory frameworks to protect user funds.",
+    "opportunity": "An opportunity arises for M-TIBA to revamp its services, incorporating enhanced security measures and innovative features to regain user trust and market share.",
+    "risk": "This event poses a risk to the reputation and financial stability of M-TIBA, potentially deterring investors and users from future fintech ventures in Kenya."
   }
 ]
