@@ -1,10 +1,9 @@
-"use client"; // This makes it interactive
+"use client";
 
 import useSWR from 'swr';
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-// Function to fix the time to Nairobi Time
 const formatNairobiTime = (timestamp: number) => {
   const date = new Date(timestamp);
   return date.toLocaleString('en-KE', { 
@@ -15,13 +14,24 @@ const formatNairobiTime = (timestamp: number) => {
 };
 
 export default function ShopDashboard() {
-  // Fetch data every 5 seconds (Real-time polling)
-  const { data: sales, isLoading } = useSWR('/api/sales', fetcher, { 
+  const { data: sales, isLoading, mutate } = useSWR('/api/sales', fetcher, { 
     refreshInterval: 5000,
     fallbackData: [] 
   });
 
   const totalRevenue = sales.reduce((sum: number, s: any) => sum + (s.total || 0), 0);
+
+  // Function to Delete
+  const handleDelete = async (time: number) => {
+    if(!confirm("Are you sure you want to delete this sale?")) return;
+
+    try {
+      await fetch(`/api/sales?time=${time}`, { method: 'DELETE' });
+      mutate(); // Refresh list instantly
+    } catch (e) {
+      alert("Failed to delete");
+    }
+  };
 
   return (
     <div className="p-8 bg-zinc-950 min-h-screen text-zinc-100">
@@ -45,12 +55,20 @@ export default function ShopDashboard() {
         {isLoading ? (
           <div className="text-zinc-500">Loading...</div>
         ) : sales.length === 0 ? (
-          <div className="text-zinc-500">No sales synced yet. Use the Sync button in your App.</div>
+          <div className="text-zinc-500">No sales synced yet.</div>
         ) : (
           sales.map((sale: any, i: number) => (
-            <div key={i} className="bg-zinc-900 border border-zinc-800 p-4 rounded-lg">
-              <div className="flex justify-between items-center mb-2">
-                {/* FIX: Using Nairobi Timezone */}
+            <div key={i} className="bg-zinc-900 border border-zinc-800 p-4 rounded-lg relative">
+              
+              {/* DELETE BUTTON */}
+              <button 
+                onClick={() => handleDelete(sale.time)}
+                className="absolute top-2 right-2 text-zinc-600 hover:text-red-500 text-xs bg-zinc-800 rounded px-2 py-1"
+              >
+                ✕ Delete
+              </button>
+
+              <div className="flex justify-between items-center mb-2 pr-16">
                 <span className="text-zinc-400 text-xs">{formatNairobiTime(sale.time)}</span>
                 <span className="text-green-400 font-bold">KSh {sale.total}</span>
               </div>
