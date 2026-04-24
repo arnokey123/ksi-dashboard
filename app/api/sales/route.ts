@@ -1,15 +1,14 @@
-
 import { createClient } from '@supabase/supabase-js'
 import { NextResponse } from 'next/server';
 
-// 1. CONFIGURATION
-const supabaseUrl = 'https://gxozredpgczirobxyrve.supabase.co' // Keep your URL
-const supabaseKey = 'sb_publishable_VvO8Coqcn3HnL9p6DSE-YQ_mYhtENYa' // Keep your Key
+// CONFIG
+const supabaseUrl = 'https://gxozredpgczirobxyrve.supabase.co'
+const supabaseKey = 'sb_publishable_VvO8Coqcn3HnL9p6DSE-YQ_mYhtENYa'
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 function corsResponse(response: NextResponse) {
   response.headers.set('Access-Control-Allow-Origin', '*');
-  response.headers.set('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
+  response.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   return response;
 }
@@ -18,68 +17,79 @@ export async function OPTIONS() {
   return corsResponse(new NextResponse(null, { status: 204 }));
 }
 
-// 2. LOGIC: Sync Sales (Ignores Duplicates)
+// GET: Fetch all sales (Returning ID is crucial for management)
+export async function GET() {
+  const { data, error } = await supabase
+    .from('sales')
+    .select('id, data, created_at')
+    .order('created_at', { ascending: false });
+
+  if (error) return corsResponse(NextResponse.json([], { status: 500 }));
+  
+  // Return ID along with data
+  const mappedData = data.map((d: any) => ({ id: d.id, ...d.data }));
+  return corsResponse(NextResponse.json(mappedData));
+}
+
+// POST: Sync (Upsert)
 export async function POST(request: Request) {
   try {
     const body = await request.json();
     const { sales } = body;
-
-    // Prepare data: Extract time for unique checking
-    const inserts = sales.map((s: any) => ({
-      data: s,
-      sale_time: s.time // Link the time column
-    }));
-
-    // UPSERT: Update if exists, Insert if new. Ignores duplicates!
-    const { error } = await supabase
-      .from('sales')
-      .upsert(inserts, { onConflict: 'sale_time' }); 
-
-    if (error) {
-      console.error("Supabase Error:", error);
-      return corsResponse(NextResponse.json({ error: error.message }, { status: 500 }));
-    }
-
+    const inserts = sales.map((s: any) => ({ data: s, sale_time: s.time }));
+    const { error } = await supabase.from('sales').upsert(inserts, { onConflict: 'sale_time' });
+    if (error) throw error;
     return corsResponse(NextResponse.json({ success: true }));
-    
   } catch (error) {
     return corsResponse(NextResponse.json({ error: 'Server error' }, { status: 500 }));
   }
 }
 
-// 3. LOGIC: Delete a Sale
+// PUT: Edit a specific sale
+export async function PUT(request: Request) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const id = searchParams.get('id');
+    const body = await request.json();
+    const { newData } = body; // Expect { newData: { title: "...", items: [...] } }
+
+    if (!id) return corsResponse(NextResponse.json({ error: 'ID required' }, { status: 400 }));
+
+    const { error } = await supabase
+      .from('sales')
+      .update({ data: newData })
+      .eq('id', id);
+
+    if (error) throw error;
+    return corsResponse(NextResponse.json({ success: true }));
+  } catch (error) {
+    return corsResponse(NextResponse.json({ error: 'Update failed' }, { status: 500 }));
+  }
+}
+
+// DELETE: Delete a specific sale
 export async function DELETE(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
-    const time = searchParams.get('time'); // Get the time ID from URL
+    const id = searchParams.get('id');
 
-    if (!time) return corsResponse(NextResponse.json({ error: 'Time ID required' }, { status: 400 }));
+    if (!id) return corsResponse(NextResponse.json({ error: 'ID required' }, { status: 400 }));
 
     const { error } = await supabase
       .from('sales')
       .delete()
-      .eq('sale_time', time);
+      .eq('id', id);
 
     if (error) throw error;
-
     return corsResponse(NextResponse.json({ success: true }));
   } catch (error) {
     return corsResponse(NextResponse.json({ error: 'Delete failed' }, { status: 500 }));
   }
 }
 
-// 4. LOGIC: Get Sales
-export async function GET() {
-  try {
-    const { data, error } = await supabase
-      .from('sales')
-      .select('data, created_at')
-      .order('created_at', { ascending: false });
 
-    if (error) throw error;
-    const flatData = data.map((d: any) => d.data);
-    return corsResponse(NextResponse.json(flatData));
-  } catch (error) {
-    return corsResponse(NextResponse.json([], { status: 500 }));
-  }
-}
+
+  
+
+
+
