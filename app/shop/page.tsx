@@ -11,6 +11,7 @@ const formatNairobiTime = (timestamp: number) => {
   return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' });
 };
 
+// 1. TIME FILTER LOGIC
 const filterByTime = (sales: any[], range: string) => {
   const now = new Date();
   const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
@@ -27,6 +28,7 @@ const filterByTime = (sales: any[], range: string) => {
   });
 };
 
+// Safe total calculation
 const getSaleTotal = (s: any) => {
   if (s.total && !isNaN(Number(s.total))) return Number(s.total);
   if (s.items && Array.isArray(s.items)) return s.items.reduce((sum: number, it: any) => sum + (Number(it.price) || 0), 0);
@@ -72,16 +74,50 @@ function StatCard({ title, value, suffix = "" }: { title: string, value: number,
 
 export default function ShopDashboard() {
   const [tab, setTab] = useState('overview');
-  const [timeRange, setTimeRange] = useState('week');
+  
+  // Filters State
+  const [timeRange, setTimeRange] = useState('all');
+  const [paymentFilter, setPaymentFilter] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
+  
+  // Pagination State
   const [page, setPage] = useState(1);
   const itemsPerPage = 10;
 
-  const { data: sales, isLoading: salesLoading, mutate: mutateSales } = useSWR('/api/sales', fetcher, { refreshInterval: 5000, fallbackData: [] });
-  const { data: inventory, mutate: mutateInventory } = useSWR('/api/inventory', fetcher, { refreshInterval: 10000, fallbackData: [] });
+  const { data: sales, isLoading, mutate } = useSWR('/api/sales', fetcher, { refreshInterval: 5000, fallbackData: [] });
+  const { data: inventory } = useSWR('/api/inventory', fetcher, { refreshInterval: 10000, fallbackData: [] });
 
-  const filteredSales = useMemo(() => filterByTime(sales, timeRange), [sales, timeRange]);
+  // --- FILTERING PIPELINE ---
+  const filteredSales = useMemo(() => {
+    let result = sales;
+
+    // 1. Filter by Time
+    result = filterByTime(result, timeRange);
+
+    // 2. Filter by Payment Method
+    if (paymentFilter !== 'all') {
+      result = result.filter((s: any) => s.payment === paymentFilter);
+    }
+
+    // 3. Filter by Search Query (Text Search)
+    if (searchQuery.trim() !== '') {
+      const query = searchQuery.toLowerCase();
+      result = result.filter((s: any) => {
+        const titleMatch = s.items?.some((it: any) => it.name?.toLowerCase().includes(query));
+        const idMatch = s.payment?.toLowerCase().includes(query);
+        return titleMatch || idMatch;
+      });
+    }
+
+    return result;
+  }, [sales, timeRange, paymentFilter, searchQuery]);
+
+  // --- PAGINATION LOGIC ---
   const totalPages = Math.ceil(filteredSales.length / itemsPerPage);
   const paginatedSales = filteredSales.slice((page - 1) * itemsPerPage, page * itemsPerPage);
+
+  // Reset page when filters change
+  useMemo(() => { setPage(1); }, [timeRange, paymentFilter, searchQuery]);
 
   const totalRevenue = filteredSales.reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
   const avgOrder = filteredSales.length ? (totalRevenue / filteredSales.length) : 0;
@@ -90,7 +126,7 @@ export default function ShopDashboard() {
     if(!confirm("Delete this sale?")) return;
     try {
       await fetch(`/api/sales?time=${time}`, { method: 'DELETE' });
-      mutateSales();
+      mutate();
     } catch (e) { alert("Error"); }
   };
 
@@ -117,14 +153,46 @@ export default function ShopDashboard() {
           ))}
         </div>
 
-        {/* TIME FILTER */}
-        {tab !== 'inventory' && (
-          <div className="p-2 flex gap-1 overflow-x-auto">
-            {[ { id: 'day', label: 'Today' }, { id: 'week', label: 'Week' }, { id: 'month', label: 'Month' }, { id: 'year', label: 'Year' }, { id: 'all', label: 'All Time' }].map((t) => (
-              <button key={t.id} onClick={() => { setTimeRange(t.id); setPage(1); }} className={`px-3 py-1 rounded text-xs font-bold whitespace-nowrap transition-colors ${timeRange === t.id ? 'bg-blue-600 text-white' : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'}`}>
-                {t.label}
-              </button>
-            ))}
+        {/* FILTERS BAR */}
+        {tab === 'transactions' && (
+          <div className="p-2 flex flex-col gap-2 bg-zinc-900/50">
+            {/* Search Input */}
+            <input 
+              type="text" 
+              placeholder="Search items..." 
+              className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-blue-500"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            
+            <div className="flex gap-1 overflow-x-auto">
+              {/* Time Filters */}
+              {[
+                { id: 'all', label: 'All' }, 
+                { id: 'day', label: 'Today' }, 
+                { id: 'week', label: 'Week' }, 
+                { id: 'month', label: 'Month' }, 
+                { id: 'year', label: 'Year' }
+              ].map((t) => (
+                <button key={t.id} onClick={() => setTimeRange(t.id)} className={`px-3 py-1 rounded text-xs font-bold whitespace-nowrap transition-colors ${timeRange === t.id ? 'bg-blue-600 text-white' : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'}`}>
+                  {t.label}
+                </button>
+              ))}
+              
+              <div className="border-l border-zinc-700 mx-1 h-6"></div>
+              
+              {/* Payment Filters */}
+              {[
+                { id: 'all', label: 'All Pay' }, 
+                { id: 'cash', label: 'Cash' }, 
+                { id: 'mpesa', label: 'M-Pesa' }, 
+                { id: 'credit', label: 'Credit' }
+              ].map((t) => (
+                <button key={t.id} onClick={() => setPaymentFilter(t.id)} className={`px-3 py-1 rounded text-xs font-bold whitespace-nowrap transition-colors ${paymentFilter === t.id ? 'bg-orange-600 text-white' : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'}`}>
+                  {t.label}
+                </button>
+              ))}
+            </div>
           </div>
         )}
       </div>
@@ -132,73 +200,25 @@ export default function ShopDashboard() {
       {/* CONTENT */}
       <div className="p-4 space-y-4">
         
-
-
-
-
-
-
-
-
-
-
-{/* INVENTORY TAB */}
-{tab === 'inventory' && (
-  <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
-    <div className="p-4 border-b border-zinc-800 flex justify-between items-center">
-      <h3 className="text-zinc-400 text-sm font-bold uppercase">Stock Levels</h3>
-      <span className="text-xs text-zinc-500">{inventory.length} Items</span>
-    </div>
-    <div className="divide-y divide-zinc-800">
-      {inventory.length === 0 ? (
-        <div className="p-10 text-center text-zinc-600">No inventory found.</div>
-      ) : (
-        inventory.map((item: any, i: number) => {
-          // SMART LABELLING LOGIC
-          let stockLabel = "";
-          let stockValue = item.stock || 0;
-          
-          if (item.unit === 'kg') {
-            stockLabel = `${stockValue.toFixed(2)} kg`;
-          } else if (item.unit === 'ml') {
-            stockLabel = `${stockValue.toFixed(2)} L`; // Display as Liters
-          } else {
-            stockLabel = `${Math.round(stockValue)} left`;
-          }
-
-          return (
-            <div key={i} className="p-3 flex justify-between items-center">
-              <div>
-                <div className="text-sm text-white font-medium">{item.name}</div>
-                <div className="text-xs text-zinc-500">
-                  KSh {item.price?.toFixed(0)} 
-                  <span className="text-zinc-600 ml-1">
-                    / {item.unit === 'ml' ? 'Liter' : item.unit || 'ea'}
-                  </span>
+        {/* INVENTORY TAB */}
+        {tab === 'inventory' && (
+          <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
+            <div className="p-4 border-b border-zinc-800"><h3 className="text-zinc-400 text-sm font-bold uppercase">Stock Levels</h3></div>
+            <div className="divide-y divide-zinc-800">
+              {inventory.length === 0 ? <div className="p-10 text-center text-zinc-600">No inventory found.</div> : inventory.map((item: any, i: number) => (
+                <div key={i} className="p-3 flex justify-between items-center">
+                  <div>
+                    <div className="text-sm text-white font-medium">{item.name}</div>
+                    <div className="text-xs text-zinc-500">KSh {item.price} / {item.unit || 'ea'}</div>
+                  </div>
+                  <div className={`text-sm font-mono font-bold ${item.stock <= 0 ? 'text-red-400' : item.stock < 5 ? 'text-yellow-400' : 'text-green-400'}`}>
+                    {item.stock ? item.stock.toFixed(item.unit === 'each' ? 0 : 2) : 0} left
+                  </div>
                 </div>
-              </div>
-              <div className={`text-sm font-mono font-bold ${
-                stockValue <= 0 ? 'text-red-400' : 
-                stockValue < 5 ? 'text-yellow-400' : 'text-green-400'
-              }`}>
-                {stockLabel}
-              </div>
+              ))}
             </div>
-          );
-        })
-      )}
-    </div>
-  </div>
-)}
-
-
-
-
-
-
-
-
-
+          </div>
+        )}
 
         {/* OVERVIEW TAB */}
         {tab === 'overview' && (
@@ -230,10 +250,13 @@ export default function ShopDashboard() {
         {/* TRANSACTIONS TAB */}
         {tab === 'transactions' && (
           <>
+            <div className="text-xs text-zinc-500 px-1">
+              Showing {paginatedSales.length} of {filteredSales.length} sales
+            </div>
             <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
               <div className="divide-y divide-zinc-800">
                 {paginatedSales.length === 0 ? (
-                  <div className="p-10 text-center text-zinc-600">No sales found</div>
+                  <div className="p-10 text-center text-zinc-600">No sales found matching filters.</div>
                 ) : (
                   paginatedSales.map((sale: any, i: number) => (
                     <div key={i} className="p-3 hover:bg-zinc-800/30 flex justify-between items-center group">
