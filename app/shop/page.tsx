@@ -8,7 +8,12 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 // --- HELPERS ---
 const formatNairobiTime = (timestamp: number) => {
   const date = new Date(timestamp);
-  return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' });
+  return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' );
+};
+
+const formatShortDate = (timestamp: number) => {
+  const date = new Date(timestamp);
+  return date.toLocaleDateString('en-KE', { timeZone: 'Africa/Nairobi', day: 'numeric', month: 'short', year: 'numeric' );
 };
 
 const filterByTime = (sales: any[], range: string) => {
@@ -73,7 +78,7 @@ function StatCard({ title, value, suffix = "" }: { title: string, value: number,
 export default function ShopDashboard() {
   const [tab, setTab] = useState('overview');
   
-  // Sales Filters
+  // Filters
   const [timeRange, setTimeRange] = useState('all');
   const [paymentFilter, setPaymentFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
@@ -96,7 +101,8 @@ export default function ShopDashboard() {
       const query = searchQuery.toLowerCase();
       result = result.filter((s: any) => 
         s.items?.some((it: any) => it.name?.toLowerCase().includes(query)) || 
-        s.payment?.toLowerCase().includes(query)
+        s.payment?.toLowerCase().includes(query) ||
+        s.debtor?.toLowerCase().includes(query) // Search by debtor name too
       );
     }
     return result;
@@ -149,12 +155,12 @@ export default function ShopDashboard() {
           ))}
         </div>
 
-        {/* SALES FILTERS */}
+        {/* FILTERS */}
         {tab === 'transactions' && (
           <div className="p-2 flex flex-col gap-2 bg-zinc-900/50">
             <input 
               type="text" 
-              placeholder="Search items..." 
+              placeholder="Search items or debtor..." 
               className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-blue-500"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -179,7 +185,6 @@ export default function ShopDashboard() {
           </div>
         )}
 
-        {/* INVENTORY FILTERS */}
         {tab === 'inventory' && (
           <div className="p-2 flex gap-2 bg-zinc-900/50">
             <input 
@@ -261,14 +266,19 @@ export default function ShopDashboard() {
                   <div key={i} className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden group relative">
                     {/* Main Card Header */}
                     <div className="p-3 border-b border-zinc-800 flex justify-between items-center bg-zinc-800/30">
-                      <div className="flex items-center gap-2">
+                      <div className="flex flex-col gap-0.5">
                         <span className="text-[10px] text-zinc-400">{formatNairobiTime(sale.time)}</span>
-                        <span className="text-[10px] uppercase font-bold text-blue-400">{sale.payment}</span>
+                        {/* PAYMENT BADGES */}
+                        {sale.payment === 'credit-settled' ? (
+                          <span className="text-[10px] uppercase font-bold text-purple-400">✓ DEBT SETTLED</span>
+                        ) : (
+                          <span className="text-[10px] uppercase font-bold text-blue-400">{sale.payment}</span>
+                        )}
                       </div>
                       <span className="text-base font-bold text-green-400">KSh {getSaleTotal(sale)}</span>
                     </div>
 
-                    {/* Items List - Expanded View */}
+                    {/* ITEMS LIST */}
                     <div className="p-2 space-y-1">
                       {sale.items?.map((it: any, idx: number) => (
                         <div key={idx} className="flex justify-between items-center text-xs p-2 bg-zinc-800/20 rounded">
@@ -280,6 +290,34 @@ export default function ShopDashboard() {
                         </div>
                       ))}
                     </div>
+
+                    {/* DEBTOR / CREDIT INFO SECTION */}
+                    {sale.payment === 'credit' && sale.debtor && (
+                      <div className="px-3 pb-2 pt-0 border-t border-zinc-800 mt-1">
+                        <div className="text-[10px] text-zinc-400 flex items-center gap-1 pt-2">
+                          <span>📝 Debtor:</span> 
+                          <span className="font-bold text-red-400">{sale.debtor}</span>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* SETTLED CREDIT INFO SECTION */}
+                    {sale.payment === 'credit-settled' && sale.debtor && (
+                      <div className="px-3 pb-2 pt-0 border-t border-zinc-800 mt-1">
+                        <div className="flex flex-col gap-1 pt-2">
+                          <div className="text-[10px] text-zinc-400 flex items-center gap-1">
+                            <span>👤 Paid by:</span> 
+                            <span className="font-bold text-purple-400">{sale.debtor}</span>
+                          </div>
+                          {sale.originalTime && (
+                            <div className="text-[10px] text-zinc-500 flex items-center gap-1">
+                              <span>📅 Credit taken on:</span> 
+                              <span className="text-zinc-400">{formatShortDate(sale.originalTime)}</span>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    )}
 
                     {/* Delete Button */}
                     <button 
