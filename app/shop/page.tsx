@@ -11,7 +11,6 @@ const formatNairobiTime = (timestamp: number) => {
   return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' });
 };
 
-// 1. TIME FILTER LOGIC
 const filterByTime = (sales: any[], range: string) => {
   const now = new Date();
   const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
@@ -28,7 +27,6 @@ const filterByTime = (sales: any[], range: string) => {
   });
 };
 
-// Safe total calculation
 const getSaleTotal = (s: any) => {
   if (s.total && !isNaN(Number(s.total))) return Number(s.total);
   if (s.items && Array.isArray(s.items)) return s.items.reduce((sum: number, it: any) => sum + (Number(it.price) || 0), 0);
@@ -75,59 +73,57 @@ function StatCard({ title, value, suffix = "" }: { title: string, value: number,
 export default function ShopDashboard() {
   const [tab, setTab] = useState('overview');
   
-  // Filters State
+  // Sales Filters
   const [timeRange, setTimeRange] = useState('all');
   const [paymentFilter, setPaymentFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
-  
-  // Pagination State
   const [page, setPage] = useState(1);
   const itemsPerPage = 10;
+
+  // Inventory Filters
+  const [invSearch, setInvSearch] = useState('');
+  const [lowStockFilter, setLowStockFilter] = useState(false);
 
   const { data: sales, isLoading, mutate } = useSWR('/api/sales', fetcher, { refreshInterval: 5000, fallbackData: [] });
   const { data: inventory } = useSWR('/api/inventory', fetcher, { refreshInterval: 10000, fallbackData: [] });
 
-  // --- FILTERING PIPELINE ---
+  // --- SALES FILTERING ---
   const filteredSales = useMemo(() => {
     let result = sales;
-
-    // 1. Filter by Time
     result = filterByTime(result, timeRange);
-
-    // 2. Filter by Payment Method
-    if (paymentFilter !== 'all') {
-      result = result.filter((s: any) => s.payment === paymentFilter);
-    }
-
-    // 3. Filter by Search Query (Text Search)
+    if (paymentFilter !== 'all') result = result.filter((s: any) => s.payment === paymentFilter);
     if (searchQuery.trim() !== '') {
       const query = searchQuery.toLowerCase();
-      result = result.filter((s: any) => {
-        const titleMatch = s.items?.some((it: any) => it.name?.toLowerCase().includes(query));
-        const idMatch = s.payment?.toLowerCase().includes(query);
-        return titleMatch || idMatch;
-      });
+      result = result.filter((s: any) => 
+        s.items?.some((it: any) => it.name?.toLowerCase().includes(query)) || 
+        s.payment?.toLowerCase().includes(query)
+      );
     }
-
     return result;
   }, [sales, timeRange, paymentFilter, searchQuery]);
 
-  // --- PAGINATION LOGIC ---
   const totalPages = Math.ceil(filteredSales.length / itemsPerPage);
   const paginatedSales = filteredSales.slice((page - 1) * itemsPerPage, page * itemsPerPage);
-
-  // Reset page when filters change
   useMemo(() => { setPage(1); }, [timeRange, paymentFilter, searchQuery]);
+
+  // --- INVENTORY FILTERING ---
+  const filteredInventory = useMemo(() => {
+    let result = inventory;
+    if (invSearch.trim() !== '') {
+      result = result.filter((it: any) => it.name?.toLowerCase().includes(invSearch.toLowerCase()));
+    }
+    if (lowStockFilter) {
+      result = result.filter((it: any) => (it.stock || 0) < 5);
+    }
+    return result;
+  }, [inventory, invSearch, lowStockFilter]);
 
   const totalRevenue = filteredSales.reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
   const avgOrder = filteredSales.length ? (totalRevenue / filteredSales.length) : 0;
   
   const handleDelete = async (time: number) => {
     if(!confirm("Delete this sale?")) return;
-    try {
-      await fetch(`/api/sales?time=${time}`, { method: 'DELETE' });
-      mutate();
-    } catch (e) { alert("Error"); }
+    try { await fetch(`/api/sales?time=${time}`, { method: 'DELETE' }); mutate(); } catch (e) { alert("Error"); }
   };
 
   return (
@@ -153,10 +149,9 @@ export default function ShopDashboard() {
           ))}
         </div>
 
-        {/* FILTERS BAR */}
+        {/* SALES FILTERS */}
         {tab === 'transactions' && (
           <div className="p-2 flex flex-col gap-2 bg-zinc-900/50">
-            {/* Search Input */}
             <input 
               type="text" 
               placeholder="Search items..." 
@@ -164,35 +159,42 @@ export default function ShopDashboard() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            
             <div className="flex gap-1 overflow-x-auto">
-              {/* Time Filters */}
               {[
-                { id: 'all', label: 'All' }, 
-                { id: 'day', label: 'Today' }, 
-                { id: 'week', label: 'Week' }, 
-                { id: 'month', label: 'Month' }, 
-                { id: 'year', label: 'Year' }
+                { id: 'all', label: 'All' }, { id: 'day', label: 'Today' }, { id: 'week', label: 'Week' }, { id: 'month', label: 'Month' }, { id: 'year', label: 'Year' }
               ].map((t) => (
                 <button key={t.id} onClick={() => setTimeRange(t.id)} className={`px-3 py-1 rounded text-xs font-bold whitespace-nowrap transition-colors ${timeRange === t.id ? 'bg-blue-600 text-white' : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'}`}>
                   {t.label}
                 </button>
               ))}
-              
               <div className="border-l border-zinc-700 mx-1 h-6"></div>
-              
-              {/* Payment Filters */}
               {[
-                { id: 'all', label: 'All Pay' }, 
-                { id: 'cash', label: 'Cash' }, 
-                { id: 'mpesa', label: 'M-Pesa' }, 
-                { id: 'credit', label: 'Credit' }
+                { id: 'all', label: 'All Pay' }, { id: 'cash', label: 'Cash' }, { id: 'mpesa', label: 'M-Pesa' }, { id: 'credit', label: 'Credit' }
               ].map((t) => (
                 <button key={t.id} onClick={() => setPaymentFilter(t.id)} className={`px-3 py-1 rounded text-xs font-bold whitespace-nowrap transition-colors ${paymentFilter === t.id ? 'bg-orange-600 text-white' : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'}`}>
                   {t.label}
                 </button>
               ))}
             </div>
+          </div>
+        )}
+
+        {/* INVENTORY FILTERS */}
+        {tab === 'inventory' && (
+          <div className="p-2 flex gap-2 bg-zinc-900/50">
+            <input 
+              type="text" 
+              placeholder="Search inventory..." 
+              className="flex-1 bg-zinc-800 border border-zinc-700 rounded px-3 py-1.5 text-xs focus:outline-none"
+              value={invSearch}
+              onChange={(e) => setInvSearch(e.target.value)}
+            />
+            <button 
+              onClick={() => setLowStockFilter(!lowStockFilter)}
+              className={`px-3 py-1.5 rounded text-xs font-bold whitespace-nowrap transition-colors ${lowStockFilter ? 'bg-red-600 text-white' : 'bg-zinc-800 text-zinc-400'}`}
+            >
+              Low Stock
+            </button>
           </div>
         )}
       </div>
@@ -205,7 +207,7 @@ export default function ShopDashboard() {
           <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
             <div className="p-4 border-b border-zinc-800"><h3 className="text-zinc-400 text-sm font-bold uppercase">Stock Levels</h3></div>
             <div className="divide-y divide-zinc-800">
-              {inventory.length === 0 ? <div className="p-10 text-center text-zinc-600">No inventory found.</div> : inventory.map((item: any, i: number) => (
+              {filteredInventory.length === 0 ? <div className="p-10 text-center text-zinc-600">No items found.</div> : filteredInventory.map((item: any, i: number) => (
                 <div key={i} className="p-3 flex justify-between items-center">
                   <div>
                     <div className="text-sm text-white font-medium">{item.name}</div>
@@ -250,30 +252,47 @@ export default function ShopDashboard() {
         {/* TRANSACTIONS TAB */}
         {tab === 'transactions' && (
           <>
-            <div className="text-xs text-zinc-500 px-1">
-              Showing {paginatedSales.length} of {filteredSales.length} sales
-            </div>
-            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
-              <div className="divide-y divide-zinc-800">
-                {paginatedSales.length === 0 ? (
-                  <div className="p-10 text-center text-zinc-600">No sales found matching filters.</div>
-                ) : (
-                  paginatedSales.map((sale: any, i: number) => (
-                    <div key={i} className="p-3 hover:bg-zinc-800/30 flex justify-between items-center group">
-                      <div className="flex-1">
-                        <div className="flex justify-between mb-1">
-                          <span className="text-xs text-zinc-400">{formatNairobiTime(sale.time)}</span>
-                          <span className="text-sm font-bold text-green-400">KSh {getSaleTotal(sale)}</span>
-                        </div>
-                        <div className="text-sm text-zinc-200 truncate">{sale.items?.map((it: any) => `${it.name} (${it.qty})`).join(', ')}</div>
-                        <div className="text-[10px] text-blue-400 mt-0.5 uppercase">{sale.payment}</div>
+            <div className="text-xs text-zinc-500 px-1">Showing {paginatedSales.length} of {filteredSales.length} sales</div>
+            <div className="space-y-3">
+              {paginatedSales.length === 0 ? (
+                <div className="p-10 text-center text-zinc-600 bg-zinc-900 rounded-xl">No sales found.</div>
+              ) : (
+                paginatedSales.map((sale: any, i: number) => (
+                  <div key={i} className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden group relative">
+                    {/* Main Card Header */}
+                    <div className="p-3 border-b border-zinc-800 flex justify-between items-center bg-zinc-800/30">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[10px] text-zinc-400">{formatNairobiTime(sale.time)}</span>
+                        <span className="text-[10px] uppercase font-bold text-blue-400">{sale.payment}</span>
                       </div>
-                      <button onClick={() => handleDelete(sale.time)} className="ml-2 text-zinc-700 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity p-2">🗑</button>
+                      <span className="text-base font-bold text-green-400">KSh {getSaleTotal(sale)}</span>
                     </div>
-                  ))
-                )}
-              </div>
+
+                    {/* Items List - Expanded View */}
+                    <div className="p-2 space-y-1">
+                      {sale.items?.map((it: any, idx: number) => (
+                        <div key={idx} className="flex justify-between items-center text-xs p-2 bg-zinc-800/20 rounded">
+                          <div className="flex items-center gap-2">
+                            <span className="text-zinc-300">{it.name}</span>
+                            <span className="text-zinc-600">x{it.qty}</span>
+                          </div>
+                          <span className="text-zinc-400 font-mono">KSh {it.price}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Delete Button */}
+                    <button 
+                      onClick={() => handleDelete(sale.time)}
+                      className="absolute top-2 right-2 text-zinc-700 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity text-xs bg-zinc-900 px-2 py-1 rounded border border-zinc-700"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                ))
+              )}
             </div>
+
             {totalPages > 1 && (
               <div className="flex justify-center items-center gap-2 mt-4">
                 <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className="px-3 py-1 text-xs bg-zinc-800 rounded disabled:opacity-50"> Prev </button>
