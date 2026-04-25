@@ -8,7 +8,7 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 // --- HELPERS ---
 const formatNairobiTime = (timestamp: number) => {
   const date = new Date(timestamp);
-  return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' );
+  return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' }); // FIXED
 };
 
 const formatShortDate = (timestamp: number) => {
