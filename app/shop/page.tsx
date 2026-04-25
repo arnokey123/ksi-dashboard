@@ -13,7 +13,7 @@ const formatNairobiTime = (timestamp: number) => {
 
 const formatShortDate = (timestamp: number) => {
   const date = new Date(timestamp);
-  return date.toLocaleDateString('en-KE', { timeZone: 'Africa/Nairobi', day: 'numeric', month: 'short', year: 'numeric' );
+  return date.toLocaleDateString('en-KE', { timeZone: 'Africa/Nairobi', day: 'numeric', month: 'short', year: 'numeric' });
 };
 
 const filterByTime = (sales: any[], range: string) => {
