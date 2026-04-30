@@ -254,10 +254,36 @@ export default function ShopDashboard() {
           </>
         )}
 
+
+
+
+
+
+
+
+
+
+
         {/* TRANSACTIONS TAB */}
         {tab === 'transactions' && (
           <>
-            <div className="text-xs text-zinc-500 px-1">Showing {paginatedSales.length} of {filteredSales.length} sales</div>
+            {/* HEADER ROW WITH CLEAR BUTTON */}
+            <div className="flex justify-between items-center mb-2 px-1">
+                <span className="text-xs text-zinc-500">Showing {paginatedSales.length} of {filteredSales.length} sales</span>
+                
+                {/* CLEAR ALL BUTTON */}
+                <button 
+                   onClick={async () => {
+                     if(!confirm("DELETE ALL SALES? This cannot be undone.")) return;
+                     await fetch('/api/sales?time=all', { method: 'DELETE' });
+                     mutate();
+                   }}
+                   className="text-xs bg-red-900/30 text-red-400 border border-red-800 px-3 py-1 rounded hover:bg-red-900/50"
+                >
+                   🗑 Clear All Records
+                </button>
+            </div>
+
             <div className="space-y-3">
               {paginatedSales.length === 0 ? (
                 <div className="p-10 text-center text-zinc-600 bg-zinc-900 rounded-xl">No sales found.</div>
@@ -295,7 +321,7 @@ export default function ShopDashboard() {
                     {sale.payment === 'credit' && sale.debtor && (
                       <div className="px-3 pb-2 pt-0 border-t border-zinc-800 mt-1">
                         <div className="text-[10px] text-zinc-400 flex items-center gap-1 pt-2">
-                          <span>📝 Debtor:</span> 
+                          <span>📝 Debtor:</span>
                           <span className="font-bold text-red-400">{sale.debtor}</span>
                         </div>
                       </div>
@@ -306,12 +332,12 @@ export default function ShopDashboard() {
                       <div className="px-3 pb-2 pt-0 border-t border-zinc-800 mt-1">
                         <div className="flex flex-col gap-1 pt-2">
                           <div className="text-[10px] text-zinc-400 flex items-center gap-1">
-                            <span>👤 Paid by:</span> 
+                            <span>👤 Paid by:</span>
                             <span className="font-bold text-purple-400">{sale.debtor}</span>
                           </div>
                           {sale.originalTime && (
                             <div className="text-[10px] text-zinc-500 flex items-center gap-1">
-                              <span>📅 Credit taken on:</span> 
+                              <span>📅 Credit taken on:</span>
                               <span className="text-zinc-400">{formatShortDate(sale.originalTime)}</span>
                             </div>
                           )}
@@ -319,16 +345,24 @@ export default function ShopDashboard() {
                       </div>
                     )}
 
-                    {/* Delete Button */}
-                    <button 
+                    {/* Delete Button (Fixed class) */}
+                    <button
                       onClick={() => handleDelete(sale.time)}
-                      className="absolute top-2 right-2 text-zinc-700 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity text-xs bg-zinc-900 px-2 py-1 rounded border border-zinc-700"
+                      className="absolute top-2 right-2 text-zinc-700 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity p-2 text-xs bg-zinc-800 rounded"
                     >
-                      Delete
+                      🗑
                     </button>
                   </div>
                 ))
               )}
+            </div>
+          </>
+        )}
+
+
+
+
+
             </div>
 
             {totalPages > 1 && (
@@ -340,6 +374,13 @@ export default function ShopDashboard() {
             )}
           </>
         )}
+
+
+
+
+
+
+
       </div>
     </div>
   );

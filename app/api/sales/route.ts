@@ -67,27 +67,36 @@ export async function PUT(request: Request) {
   }
 }
 
-// DELETE: Delete a specific sale
+
+
+
+
+
+// ... existing imports and config ...
+
 export async function DELETE(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
-    const id = searchParams.get('id');
+    const time = searchParams.get('time');
 
-    if (!id) return corsResponse(NextResponse.json({ error: 'ID required' }, { status: 400 }));
+    // If 'time' is 'all', delete everything
+    if (time === 'all') {
+      const { error } = await supabase.from('sales').delete().neq('id', 0); // Delete all
+      if (error) throw error;
+      return corsResponse(NextResponse.json({ success: true }));
+    }
 
-    const { error } = await supabase
-      .from('sales')
-      .delete()
-      .eq('id', id);
-
+    // Otherwise delete specific sale
+    if (!time) return corsResponse(NextResponse.json({ error: 'Time ID required' }, { status: 400 }));
+    
+    const { error } = await supabase.from('sales').delete().eq('sale_time', time);
     if (error) throw error;
+
     return corsResponse(NextResponse.json({ success: true }));
   } catch (error) {
     return corsResponse(NextResponse.json({ error: 'Delete failed' }, { status: 500 }));
   }
 }
-
-
 
   
 
