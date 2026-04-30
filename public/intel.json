@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "Tutto Passa, TechCabal debut podcast unpacking risk, capital, building in Africa",
-    "date": "Wed, 29 Apr 2026 07:17:57 +0000",
-    "interpretation": "The emergence of TechCabal's podcast on risk and capital in Africa highlights Africa's growing infrastructure development needs and the increasing importance of informed investment decisions.",
-    "opportunity": "There is an opportunity for infrastructure investment in Africa, especially in countries with stable growth trajectories and supportive business environments.",
-    "risk": "The podcast's focus on risk and capital highlights potential investment risks, such as project risk, regulatory risk, and liquidity risk, which investors need to carefully assess before making investment decisions."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 \u2018MoMo, we need to talk\u2019",
+    "date": "Thu, 30 Apr 2026 06:06:18 +0000",
+    "interpretation": "This news headline suggests a significant issue or development in the mobile payment sector in Kenya, which may impact the stability and security of financial transactions.",
+    "opportunity": "The issue with MoMo (a popular mobile payment service) may create a strategic opportunity for competitors to fill the gap, potentially leading to increased market competition and innovation in fintech.",
+    "risk": "A security breach or malfunction in MoMo's services may pose a significant risk to the financial data of millions of Kenyan users, potentially damaging the reputation and trustworthiness of the fintech sector."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Crypto vacancies at Kenya\u2019s Central Bank",
-    "date": "Wed, 29 Apr 2026 06:08:37 +0000",
-    "interpretation": "The Central Bank of Kenya's interest in hiring Crypto experts may signal a shift towards integrating digital currencies into the country's financial systems, which could boost Kenya's fintech sector and position it as a regional leader.",
-    "opportunity": "Establishing a strong cryptocurrency framework could attract foreign investment and stimulate economic growth in Kenya.",
-    "risk": "Implementing a cryptocurrency framework without adequate regulations could expose Kenyan citizens and businesses to financial risks and scams."
+    "sector": "INFRASTRUCTURE",
+    "title": "At AVCA summit, investors push pragmatic approach as Africa\u2019s exits surge",
+    "date": "Wed, 29 Apr 2026 17:03:06 +0000",
+    "interpretation": "Africa's surging exits indicate that the continent's infrastructure investments are becoming more attractive to global investors, driving economic growth and development.",
+    "opportunity": "Investors are taking a pragmatic approach to investing in Africa's infrastructure, presenting an opportunity for long-term growth in the sector.",
+    "risk": "The surge in exits may also indicate that some infrastructure deals are being overvalued, putting investors' capital at risk."
   },
   {
     "id": 3,
-    "sector": "MANUFACTURING",
-    "title": "OPPO Find X9 Ultra vs Find X8 Ultra: Which should you buy?",
-    "date": "Tue, 28 Apr 2026 15:36:30 +0000",
-    "interpretation": "This comparative analysis of Oppo's flagship phones indicates significant investment in Kenyan manufacturing, highlighting potential opportunities for sector growth.",
-    "opportunity": "Investment in the tech manufacturing sector, particularly in smartphone production, could yield strong returns in Kenya due to growing demand and local market opportunities.",
-    "risk": "Intense global competition in the smartphone market and potential supply chain disruptions could hinder manufacturing sector growth and impact investment returns."
+    "sector": "INFRASTRUCTURE",
+    "title": "Amazon\u2019s satellite internet unit Kuiper seeks Kenya licence after Nigeria approval",
+    "date": "Wed, 29 Apr 2026 15:46:44 +0000",
+    "interpretation": "Amazon's entry into the Kenyan satellite internet market could lead to enhanced connectivity and digitalization for both businesses and individuals, potentially boosting the country's economic development.",
+    "opportunity": "Kuiper's Kenya license could create a new opportunity for investments in the infrastructure sector, particularly in underserved areas.",
+    "risk": "The approval of Kuiper's satellite internet services could create a new risk for local telcos and internet service providers in Kenya, potentially leading to market disruption and decreased competition."
   },
   {
     "id": 4,
-    "sector": "HEALTHCARE",
-    "title": "This AI doctor answers the hardest questions women ask",
-    "date": "Tue, 28 Apr 2026 12:31:25 +0000",
-    "interpretation": "The integration of AI in healthcare could revolutionize patient care and lead to improved health outcomes, making it a strategic priority for countries like Kenya.",
-    "opportunity": "The development of AI-powered healthcare solutions presents an opportunity for investments in Kenya's healthcare sector, driving economic growth and improving the quality of life for citizens.",
-    "risk": "Risks associated with data privacy and confidentiality may arise with the implementation of AI-powered healthcare solutions, requiring careful consideration and regulation to ensure public trust."
+    "sector": "FINTECH",
+    "title": "Inside the spam call machine behind Nigeria\u2019s digital lending boom",
+    "date": "Wed, 29 Apr 2026 14:37:34 +0000",
+    "interpretation": "This news highlights the unsavory side of Nigeria's digital lending boom, raising concerns about the legitimacy and sustainability of these fintech firms, which could potentially impact investors' portfolios and regulatory frameworks.",
+    "opportunity": "The growth of Nigeria's digital lending market presents a significant opportunity for investors to tap into the vast and underbanked population, but with a focus on sustainable and compliant business models.",
+    "risk": "The prevalence of spam calls from these fintech firms raises the risk of regulatory scrutiny, reputational damage, and potential financial losses for consumers and investors alike."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "Ethiopia-based Dodai raises $13 million to expand battery-swapping EV network",
-    "date": "Tue, 28 Apr 2026 09:53:10 +0000",
-    "interpretation": "This investment highlights the growing demand for electric vehicle charging infrastructure, emphasizing the need for companies like Dodai to expand battery-swapping networks.",
-    "opportunity": "E-MOBILITY companies with a focus on battery-swapping networks may experience significant growth with governments and corporations increasingly adopting electric vehicles.",
-    "risk": "A regulatory shift or decline in demand for electric vehicles could impact Dodai's business model and affect the returns on this investment."
+    "sector": "INFRASTRUCTURE",
+    "title": "Nigeria moves to mandate organisations to disclose cyber attacks amid rising threats",
+    "date": "Wed, 29 Apr 2026 12:05:09 +0000",
+    "interpretation": "This development is strategically important as it highlights the growing need for organizations, including financial services, to prioritize cybersecurity measures to avoid potential damage to infrastructure and customer data.",
+    "opportunity": "This move by Nigeria provides a valuable opportunity for cybersecurity solution providers to offer their expertise and technology to organizations seeking to comply with the mandate and protect their systems.",
+    "risk": "The mandatory disclosure of cyber attacks may increase the risk of financial institutions losing customer trust and facing potential economic repercussions if their systems are compromised, which could impact Kenya's financial sector as well."
   }
 ]
