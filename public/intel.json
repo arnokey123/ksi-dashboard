@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 \u2018MoMo, we need to talk\u2019",
-    "date": "Thu, 30 Apr 2026 06:06:18 +0000",
-    "interpretation": "This news headline suggests a significant issue or development in the mobile payment sector in Kenya, which may impact the stability and security of financial transactions.",
-    "opportunity": "The issue with MoMo (a popular mobile payment service) may create a strategic opportunity for competitors to fill the gap, potentially leading to increased market competition and innovation in fintech.",
-    "risk": "A security breach or malfunction in MoMo's services may pose a significant risk to the financial data of millions of Kenyan users, potentially damaging the reputation and trustworthiness of the fintech sector."
+    "sector": "INFRASTRUCTURE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Home Affairs\u2019 AI problem",
+    "date": "Fri, 01 May 2026 06:10:07 +0000",
+    "interpretation": "This matter highlights potential inefficiencies in Home Affairs' systems that could be costly to address, impacting Kenya's overall infrastructure development.",
+    "opportunity": "Investing in modernizing Home Affairs' infrastructure could unlock significant cost savings and improvement in service delivery, creating a compelling opportunity for investors.",
+    "risk": "Ignoring the issue could lead to more severe problems, including data breaches, decreased public trust, and financial losses, representing a significant risk to the government and taxpayers."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "At AVCA summit, investors push pragmatic approach as Africa\u2019s exits surge",
-    "date": "Wed, 29 Apr 2026 17:03:06 +0000",
-    "interpretation": "Africa's surging exits indicate that the continent's infrastructure investments are becoming more attractive to global investors, driving economic growth and development.",
-    "opportunity": "Investors are taking a pragmatic approach to investing in Africa's infrastructure, presenting an opportunity for long-term growth in the sector.",
-    "risk": "The surge in exits may also indicate that some infrastructure deals are being overvalued, putting investors' capital at risk."
+    "sector": "FINTECH",
+    "title": "YC-backed fintech Grey registers as payment service provider in Canada",
+    "date": "Thu, 30 Apr 2026 15:13:18 +0000",
+    "interpretation": "Grey's registration as a payment service provider in Canada is a significant expansion of its operations and signals growing confidence in the global fintech market.",
+    "opportunity": "This development presents an opportunity for Grey to leverage its experience and resources in Africa to capture a share of the growing Canadian fintech market.",
+    "risk": "The registration of Grey as a payment service provider in Canada also exposes the company to potential regulatory risks and competition from established Canadian fintech players."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "Amazon\u2019s satellite internet unit Kuiper seeks Kenya licence after Nigeria approval",
-    "date": "Wed, 29 Apr 2026 15:46:44 +0000",
-    "interpretation": "Amazon's entry into the Kenyan satellite internet market could lead to enhanced connectivity and digitalization for both businesses and individuals, potentially boosting the country's economic development.",
-    "opportunity": "Kuiper's Kenya license could create a new opportunity for investments in the infrastructure sector, particularly in underserved areas.",
-    "risk": "The approval of Kuiper's satellite internet services could create a new risk for local telcos and internet service providers in Kenya, potentially leading to market disruption and decreased competition."
+    "sector": "HEALTHCARE",
+    "title": "He survived a misdiagnosis. Then he built an AI platform for clinical decisions.",
+    "date": "Thu, 30 Apr 2026 14:08:17 +0000",
+    "interpretation": "This matters strategically because it highlights the potential for AI to revolutionize clinical decision-making in Kenya's healthcare sector, driving improved patient outcomes and increased efficiency.",
+    "opportunity": "There is an opportunity for Kenyan healthcare start-ups to develop and partner with AI platforms for clinical decision-making, addressing a pressing sector need and potentially securing significant market share.",
+    "risk": "The risk exists that widespread adoption of AI in healthcare may exacerbate existing disparities in access to quality care for marginalized communities in Kenya, requiring careful attention to ensure equitable distribution of benefits."
   },
   {
     "id": 4,
     "sector": "FINTECH",
-    "title": "Inside the spam call machine behind Nigeria\u2019s digital lending boom",
-    "date": "Wed, 29 Apr 2026 14:37:34 +0000",
-    "interpretation": "This news highlights the unsavory side of Nigeria's digital lending boom, raising concerns about the legitimacy and sustainability of these fintech firms, which could potentially impact investors' portfolios and regulatory frameworks.",
-    "opportunity": "The growth of Nigeria's digital lending market presents a significant opportunity for investors to tap into the vast and underbanked population, but with a focus on sustainable and compliant business models.",
-    "risk": "The prevalence of spam calls from these fintech firms raises the risk of regulatory scrutiny, reputational damage, and potential financial losses for consumers and investors alike."
+    "title": "Chams profit rises 188% as cybersecurity revenue triples",
+    "date": "Thu, 30 Apr 2026 13:58:01 +0000",
+    "interpretation": "This surge in profit and cybersecurity revenue highlights Chams' strategic pivot towards a more specialized fintech focus, positioning the company for future growth in e-security solutions.",
+    "opportunity": "Investors may benefit from a potential uptick in Chams' stock price due to the growing demand for cyber-security services in the fintech sector.",
+    "risk": "The company may be vulnerable to potential cybersecurity threats and compliance issues if its systems are not robust enough to keep pace with the increasing security demands."
   },
   {
     "id": 5,
     "sector": "INFRASTRUCTURE",
-    "title": "Nigeria moves to mandate organisations to disclose cyber attacks amid rising threats",
-    "date": "Wed, 29 Apr 2026 12:05:09 +0000",
-    "interpretation": "This development is strategically important as it highlights the growing need for organizations, including financial services, to prioritize cybersecurity measures to avoid potential damage to infrastructure and customer data.",
-    "opportunity": "This move by Nigeria provides a valuable opportunity for cybersecurity solution providers to offer their expertise and technology to organizations seeking to comply with the mandate and protect their systems.",
-    "risk": "The mandatory disclosure of cyber attacks may increase the risk of financial institutions losing customer trust and facing potential economic repercussions if their systems are compromised, which could impact Kenya's financial sector as well."
+    "title": "MTN Nigeria says rising fuel costs could wipe $102 million off profits",
+    "date": "Thu, 30 Apr 2026 09:37:32 +0000",
+    "interpretation": "This news highlights the impact of rising fuel costs on businesses, emphasizing the need for companies to diversify their cost structures and consider alternative energy sources to mitigate risks.",
+    "opportunity": "Investors can position themselves for future opportunities in the renewable energy sector as businesses like MTN Nigeria look for alternative solutions to rising fuel costs.",
+    "risk": "Companies with significant reliance on imported fuel may face financial instability, making them potential short-selling targets for investors."
   }
 ]
