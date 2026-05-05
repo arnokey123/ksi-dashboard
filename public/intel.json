@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "\u201cIt\u2019s been a story of a lot of pivots\u201d: Day 1-1000 of Insight7",
-    "date": "Sat, 02 May 2026 12:37:52 +0000",
-    "interpretation": "This pivot narrative suggests significant adaptability and resilience in the fintech space, implying ongoing innovation and competition.",
-    "opportunity": "Investors may capitalize on the fintech industry's ability to pivot and adapt, potentially identifying emerging trends and opportunities.",
-    "risk": "Unpredictable pivots may also indicate high operational risks, potentially leading to financial instability and investment losses."
+    "sector": "AGRICULTURE",
+    "title": "Kenya\u2019s best coffee was always for export. This founder kept it.",
+    "date": "Tue, 05 May 2026 07:11:50 +0000",
+    "interpretation": "This news highlights a strategic shift in Kenya's coffee market, where domestic consumption is being prioritized over export, opening up opportunities for local economic growth.",
+    "opportunity": "The Kenyan government and local coffee producers can now capitalize on domestic demand, creating jobs, increasing local production, and promoting the coffee industry as a key contributor to the country's GDP.",
+    "risk": "The shift in focus from export to domestic consumption may impact the country's foreign exchange earnings, potentially affecting the economy in the long term."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "Four graduates are building an AI video-dubbing tool for African filmmakers",
-    "date": "Sat, 02 May 2026 12:06:59 +0000",
-    "interpretation": "The emergence of a local AI video-dubbing tool could revolutionize the African film industry by providing cost-effective and efficient localization services, enhancing the market reach of local filmmakers.",
-    "opportunity": "The demand for African content is on the rise, and a domestic AI-powered video-dubbing tool presents an opportunity for local entrepreneurs to capitalize on this trend and create a significant export market.",
-    "risk": "The success of the tool relies heavily on its ability to compete with established international players, and local regulatory frameworks that might hinder the adoption of AI technology pose a significant risk to the venture's growth."
+    "title": "Coinbase taps Egyptian-founded Kemet for institutional crypto derivatives expansion",
+    "date": "Tue, 05 May 2026 07:08:05 +0000",
+    "interpretation": "This strategic partnership between Coinbase and Kemet indicates a deepening of fintech involvement in Kenya's and Egypt's growing financial markets.",
+    "opportunity": "The potential opportunity for Coinbase's expansion into institutional crypto derivatives market could attract more investment into the African fintech sector.",
+    "risk": "The partnership may expose investors to cryptocurrency market volatility, which could have negative implications for the involved institutions."
   },
   {
     "id": 3,
     "sector": "INFRASTRUCTURE",
-    "title": "Nigeria\u2019s data consumption hits record 4 million terabytes in a quarter",
-    "date": "Fri, 01 May 2026 12:59:59 +0000",
-    "interpretation": "The increase in data consumption reflects Nigeria's growing digital economy, which presents opportunities for infrastructure development and investment",
-    "opportunity": "Investing in Nigeria's digital infrastructure, such as fiber optic cables and data centers, could yield significant returns given the country's booming data needs",
-    "risk": "Nigeria's infrastructure challenges, including power outages and inadequate telecommunications networks, could hinder the growth of its digital economy"
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 MultiChoice, multiproblems",
+    "date": "Tue, 05 May 2026 06:16:06 +0000",
+    "interpretation": "This news highlights the operational challenges faced by MultiChoice, a major player in Kenya's media and entertainment sector, which may indicate broader issues with Kenya's infrastructure.",
+    "opportunity": "The potential for disruption in the media and entertainment sector presents an opportunity for new entrants to capture market share and establish themselves in the Kenyan market.",
+    "risk": "The operational challenges faced by MultiChoice may indicate a risk of business decline or market exit, which could have broader implications for Kenya's media and entertainment ecosystem."
   },
   {
     "id": 4,
-    "sector": "MANUFACTURING",
-    "title": "Framework laptops worth buying in 2026",
-    "date": "Fri, 01 May 2026 11:20:09 +0000",
-    "interpretation": "The news highlights the growing demand for laptops, which indicates a strategic opportunity for Kenyan manufacturers to increase production and exports, potentially boosting the country's economy.",
-    "opportunity": "An opportunity exists to invest in Kenyan manufacturers that are capable of producing laptops, potentially yielding returns and contributing to the country's industrial development.",
-    "risk": "The risk exists that global competition and changing market trends may lead to decreased demand for Framework laptops, negatively impacting the financial performance of Kenyan manufacturers."
+    "sector": "INFRASTRUCTURE",
+    "title": "Why more exits don\u2019t mean more liquidity for Africa\u2019s tech ecosystem",
+    "date": "Mon, 04 May 2026 18:24:46 +0000",
+    "interpretation": "This matter strategically as it highlights the need for investment in Africa's tech ecosystem's underlying infrastructure to facilitate smooth exits and liquidity.",
+    "opportunity": "This article presents an opportunity to invest in Africa's tech ecosystem infrastructure, which could have a multiplier effect on the entire sector.",
+    "risk": "The risk of investing in Africa's tech ecosystem infrastructure is high due to the complexities of navigating regulatory environments and managing liquidity."
   },
   {
     "id": 5,
     "sector": "INFRASTRUCTURE",
-    "title": "Talstack partners BII, Ventures Platform to teach ESG to African startups",
-    "date": "Fri, 01 May 2026 10:45:33 +0000",
-    "interpretation": "This partnership matters strategically as it signifies growing investor interest in mainstreaming ESG practices among African startups, which could lead to long-term investment gains",
-    "opportunity": "Investors with a focus on ESG may benefit from this trend, and partnering with local ecosystem players could lead to attractive entry points.",
-    "risk": "The success of this initiative depends on the effectiveness of Talstack's and its partners' capacity to integrate ESG principles in a way that resonates with African startups' needs."
+    "title": "MTN Nigeria says it saved $5.89 million on gas as diesel dominates energy mix",
+    "date": "Mon, 04 May 2026 17:56:47 +0000",
+    "interpretation": "This news highlights the increasing importance of energy efficiency and diversification in reducing operational costs for companies in Nigeria, which can have a positive impact on the local infrastructure sector's resilience to global energy price fluctuations.",
+    "opportunity": "The adoption of gas as a primary energy source could provide an opportunity for infrastructure companies to invest in gas exploration and supply chains in Nigeria.",
+    "risk": "Dependence on diesel or gas for energy could pose a risk to companies if there are significant changes in global energy prices or disruptions in energy supply chains."
   }
 ]
