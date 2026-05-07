@@ -59,7 +59,7 @@ export default function ShopDashboard() {
   const [page, setPage] = useState(1);
   const itemsPerPage = 10;
 
-  // --- NEW FILTER STATES ---
+  // --- FILTER STATES ---
   const [startDate, setStartDate] = useState<string>('');
   const [endDate, setEndDate] = useState<string>('');
   const [paymentFilter, setPaymentFilter] = useState<string>('all');
@@ -277,7 +277,25 @@ export default function ShopDashboard() {
                           <span className="text-sm font-bold text-green-400">KSh {getSaleTotal(sale)}</span>
                         </div>
                         <div className="text-sm text-zinc-200 truncate">{sale.items?.map((it: any) => `${it.name} (${it.qty})`).join(', ')}</div>
-                        <div className="text-[10px] text-blue-400 mt-0.5 uppercase">{sale.payment}</div>
+                        
+                        {/* UPDATED PAYMENT/DABTOR DISPLAY */}
+                        <div className="text-[10px] mt-0.5 uppercase flex items-center gap-1">
+                          <span className={`
+                            px-1.5 py-0.5 rounded text-white 
+                            ${sale.payment === 'cash' ? 'bg-green-600' : 
+                              sale.payment === 'mpesa' ? 'bg-blue-600' : 
+                              sale.payment === 'credit' ? 'bg-red-600' : 'bg-zinc-600'}
+                          `}>
+                            {sale.payment}
+                          </span>
+                          
+                          {sale.payment === 'credit' && sale.debtor && (
+                            <span className="text-zinc-400 font-normal normal-case">
+                              • {sale.debtor}
+                            </span>
+                          )}
+                        </div>
+
                       </div>
                       <button onClick={() => handleDelete(sale.time)} className="ml-2 text-zinc-700 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity p-2">🗑</button>
                     </div>
