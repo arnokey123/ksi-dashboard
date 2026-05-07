@@ -59,7 +59,7 @@ function StatCard({ title, value, suffix = "", color = "text-white" }: { title: 
 export default function ShopDashboard() {
   const [tab, setTab] = useState('overview');
   const [page, setPage] = useState(1);
-  const itemsPerPage = 15; // Increased slightly for list view
+  const itemsPerPage = 15;
 
   // --- FILTER STATES ---
   const [startDate, setStartDate] = useState<string>('');
@@ -80,7 +80,7 @@ export default function ShopDashboard() {
     });
   }, [sales, startDate, endDate, paymentFilter]);
 
-  // --- FLATTEN ITEMS FOR LIST VIEW (Each item = 1 row) ---
+  // --- FLATTEN ITEMS FOR LIST VIEW ---
   const flatItems = useMemo(() => {
     const items: any[] = [];
     filteredSales.forEach((sale: any) => {
@@ -90,7 +90,7 @@ export default function ShopDashboard() {
           time: sale.time,
           payment: sale.payment,
           debtor: sale.debtor,
-          sale_id: sale.time // Grouping ID
+          sale_id: sale.time
         });
       });
     });
@@ -101,12 +101,12 @@ export default function ShopDashboard() {
   const totalCash = filteredSales.filter((s: any) => s.payment === 'cash').reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
   const totalMpesa = filteredSales.filter((s: any) => s.payment === 'mpesa').reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
   const totalCredit = filteredSales.filter((s: any) => s.payment === 'credit').reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
-  const totalLiquid = totalCash + totalMpesa;
+  const totalRevenue = totalCash + totalMpesa + totalCredit;
 
   const totalPages = Math.ceil(flatItems.length / itemsPerPage);
   const paginatedItems = flatItems.slice((page - 1) * itemsPerPage, page * itemsPerPage);
 
-  const avgOrder = filteredSales.length ? ((totalCash + totalMpesa + totalCredit) / filteredSales.length) : 0;
+  const avgOrder = filteredSales.length ? (totalRevenue / filteredSales.length) : 0;
 
   const handleDelete = async (time: number) => {
     if(!confirm("Delete this sale?")) return;
@@ -181,16 +181,13 @@ export default function ShopDashboard() {
         {/* OVERVIEW TAB */}
         {tab === 'overview' && (
           <>
-            {/* UPDATED STATS: Cash, M-Pesa, Credit, Liquid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-              <StatCard title="Cash Total" value={totalCash} suffix="KSh" color="text-green-400" />
-              <StatCard title="M-Pesa Total" value={totalMpesa} suffix="KSh" color="text-blue-400" />
-              <StatCard title="Credit Total" value={totalCredit} suffix="KSh" color="text-red-400" />
-              <StatCard title="Cash + M-Pesa" value={totalLiquid} suffix="KSh" color="text-emerald-400" />
+              <StatCard title="Revenue" value={totalRevenue} suffix="KSh" color="text-orange-400" />
+              <StatCard title="Sales" value={filteredSales.length} color="text-white" />
+              <StatCard title="Avg Order" value={avgOrder.toFixed(0)} suffix="KSh" color="text-white" />
+              <StatCard title="Items" value={inventory.length} color="text-white" />
             </div>
-            
             <WeeklyChart sales={filteredSales} />
-            
             <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-5">
               <h3 className="text-zinc-400 text-sm font-bold uppercase mb-3">Top Selling Items</h3>
               <div className="space-y-2">
@@ -272,6 +269,26 @@ export default function ShopDashboard() {
               </div>
             </div>
 
+            {/* NEW: SUMMARY BOX */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              <div className="bg-orange-900/20 border border-orange-800 rounded-xl p-3">
+                <div className="text-orange-400 text-xs font-bold">Total Revenue</div>
+                <div className="text-xl font-bold text-orange-500">KSh {totalRevenue.toLocaleString()}</div>
+              </div>
+              <div className="bg-green-900/20 border border-green-800 rounded-xl p-3">
+                <div className="text-green-400 text-xs font-bold">Cash Total</div>
+                <div className="text-xl font-bold text-green-500">KSh {totalCash.toLocaleString()}</div>
+              </div>
+              <div className="bg-blue-900/20 border border-blue-800 rounded-xl p-3">
+                <div className="text-blue-400 text-xs font-bold">M-Pesa Total</div>
+                <div className="text-xl font-bold text-blue-500">KSh {totalMpesa.toLocaleString()}</div>
+              </div>
+              <div className="bg-red-900/20 border border-red-800 rounded-xl p-3">
+                <div className="text-red-400 text-xs font-bold">Credit Total</div>
+                <div className="text-xl font-bold text-red-500">KSh {totalCredit.toLocaleString()}</div>
+              </div>
+            </div>
+
             {/* SALES LIST - FLATTENED ITEMS */}
             <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
               <div className="divide-y divide-zinc-800">
@@ -282,47 +299,16 @@ export default function ShopDashboard() {
                     <div key={i} className="p-3 hover:bg-zinc-800/30 flex justify-between items-center">
                       <div className="flex-1">
                         <div className="flex justify-between mb-1">
-                          {/* Date + Item Name */}
-                          <span className="text-xs text-zinc-400">
-                            {formatNairobiTime(item.time)}
-                          </span>
-                          {/* Price for this specific item */}
-                          <span className="text-sm font-bold text-green-400">
-                            KSh {item.price ? (item.price * item.qty).toLocaleString() : '0'}
-                          </span>
+                          <span className="text-xs text-zinc-400">{formatNairobiTime(item.time)}</span>
+                          <span className="text-sm font-bold text-green-400">KSh {item.price ? (item.price * item.qty).toLocaleString() : '0'}</span>
                         </div>
-                        
-                        {/* Item Name + Qty */}
-                        <div className="text-sm text-zinc-100 font-medium">
-                          {item.name} <span className="text-zinc-500">× {item.qty}</span>
-                        </div>
-
-                        {/* Payment Method + Debtor */}
+                        <div className="text-sm text-zinc-100 font-medium">{item.name} <span className="text-zinc-500">× {item.qty}</span></div>
                         <div className="text-[10px] mt-0.5 uppercase flex items-center gap-1">
-                          <span className={`
-                            px-1.5 py-0.5 rounded text-white 
-                            ${item.payment === 'cash' ? 'bg-green-600' : 
-                              item.payment === 'mpesa' ? 'bg-blue-600' : 
-                              item.payment === 'credit' ? 'bg-red-600' : 'bg-zinc-600'}
-                          `}>
-                            {item.payment}
-                          </span>
-                          
-                          {item.payment === 'credit' && item.debtor && (
-                            <span className="text-zinc-400 font-normal normal-case">
-                              • {item.debtor}
-                            </span>
-                          )}
+                          <span className={`px-1.5 py-0.5 rounded text-white ${item.payment === 'cash' ? 'bg-green-600' : item.payment === 'mpesa' ? 'bg-blue-600' : item.payment === 'credit' ? 'bg-red-600' : 'bg-zinc-600'}`}>{item.payment}</span>
+                          {item.payment === 'credit' && item.debtor && <span className="text-zinc-400 font-normal normal-case">• {item.debtor}</span>}
                         </div>
                       </div>
-                      
-                      {/* Delete Button (deletes the whole sale) */}
-                      <button 
-                        onClick={() => handleDelete(item.sale_id)}
-                        className="ml-2 text-zinc-700 hover:text-red-500 transition-opacity p-2 opacity-50 hover:opacity-100"
-                      >
-                        🗑
-                      </button>
+                      <button onClick={() => handleDelete(item.sale_id)} className="ml-2 text-zinc-700 hover:text-red-500 transition-opacity p-2 opacity-50 hover:opacity-100">🗑</button>
                     </div>
                   ))
                 )}
