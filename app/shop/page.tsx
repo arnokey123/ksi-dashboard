@@ -12,8 +12,14 @@ const formatNairobiTime = (timestamp: number) => {
 };
 
 const getSaleTotal = (s: any) => {
+  // 1. If 'total' is at the sale level (Most reliable)
   if (s.total && !isNaN(Number(s.total))) return Number(s.total);
-  if (s.items && Array.isArray(s.items)) return s.items.reduce((sum: number, it: any) => sum + (Number(it.price) || 0), 0);
+  
+  // 2. Fallback: Sum of item prices 
+  // NOTE: item.price must be the TOTAL price (Unit Price * Qty)
+  if (s.items && Array.isArray(s.items)) {
+    return s.items.reduce((sum: number, it: any) => sum + (Number(it.price) || 0), 0);
+  }
   return 0;
 };
 
@@ -90,7 +96,7 @@ export default function ShopDashboard() {
           time: sale.time,
           payment: sale.payment,
           debtor: sale.debtor,
-          sale_id: sale.time
+          sale_id: sale.time // Grouping ID for deletion
         });
       });
     });
@@ -269,7 +275,7 @@ export default function ShopDashboard() {
               </div>
             </div>
 
-            {/* NEW: SUMMARY BOX */}
+            {/* SUMMARY BOX */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               <div className="bg-orange-900/20 border border-orange-800 rounded-xl p-3">
                 <div className="text-orange-400 text-xs font-bold">Total Revenue</div>
@@ -300,7 +306,8 @@ export default function ShopDashboard() {
                       <div className="flex-1">
                         <div className="flex justify-between mb-1">
                           <span className="text-xs text-zinc-400">{formatNairobiTime(item.time)}</span>
-                          <span className="text-sm font-bold text-green-400">KSh {item.price ? (item.price * item.qty).toLocaleString() : '0'}</span>
+                          {/* FIX: Display item.price directly (It is already the Total) */}
+                          <span className="text-sm font-bold text-green-400">KSh {item.price?.toLocaleString() || '0'}</span>
                         </div>
                         <div className="text-sm text-zinc-100 font-medium">{item.name} <span className="text-zinc-500">× {item.qty}</span></div>
                         <div className="text-[10px] mt-0.5 uppercase flex items-center gap-1">
