@@ -11,15 +11,12 @@ const formatNairobiTime = (timestamp: number) => {
   return date.toLocaleString('en-KE', { timeZone: 'Africa/Nairobi', dateStyle: 'medium', timeStyle: 'short' });
 };
 
+// Updated to handle data robustly
 const getSaleTotal = (s: any) => {
-  // 1. If 'total' is at the sale level (Most reliable)
+  // Prefer the main total if available
   if (s.total && !isNaN(Number(s.total))) return Number(s.total);
-  
-  // 2. Fallback: Sum of item prices 
-  // NOTE: item.price must be the TOTAL price (Unit Price * Qty)
-  if (s.items && Array.isArray(s.items)) {
-    return s.items.reduce((sum: number, it: any) => sum + (Number(it.price) || 0), 0);
-  }
+  // Fallback: Sum of item prices (item.price is already total for the line)
+  if (s.items && Array.isArray(s.items)) return s.items.reduce((sum: number, it: any) => sum + (Number(it.price) || 0), 0);
   return 0;
 };
 
@@ -96,7 +93,7 @@ export default function ShopDashboard() {
           time: sale.time,
           payment: sale.payment,
           debtor: sale.debtor,
-          sale_id: sale.time // Grouping ID for deletion
+          sale_id: sale.time
         });
       });
     });
@@ -104,6 +101,7 @@ export default function ShopDashboard() {
   }, [filteredSales]);
 
   // --- CALCULATIONS ---
+  // Calculate totals based on filtered sales
   const totalCash = filteredSales.filter((s: any) => s.payment === 'cash').reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
   const totalMpesa = filteredSales.filter((s: any) => s.payment === 'mpesa').reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
   const totalCredit = filteredSales.filter((s: any) => s.payment === 'credit').reduce((sum: number, s: any) => sum + getSaleTotal(s), 0);
@@ -306,10 +304,15 @@ export default function ShopDashboard() {
                       <div className="flex-1">
                         <div className="flex justify-between mb-1">
                           <span className="text-xs text-zinc-400">{formatNairobiTime(item.time)}</span>
-                          {/* FIX: Display item.price directly (It is already the Total) */}
-                          <span className="text-sm font-bold text-green-400">KSh {item.price?.toLocaleString() || '0'}</span>
+                          {/* FIX: item.price is ALREADY the total. Do not multiply by qty. */}
+                          <span className="text-sm font-bold text-green-400">
+                            KSh {item.price ? Number(item.price).toLocaleString() : '0'}
+                          </span>
                         </div>
-                        <div className="text-sm text-zinc-100 font-medium">{item.name} <span className="text-zinc-500">× {item.qty}</span></div>
+                        {/* Item Name + Qty */}
+                        <div className="text-sm text-zinc-100 font-medium">
+                          {item.name} <span className="text-zinc-500">× {item.qty}</span>
+                        </div>
                         <div className="text-[10px] mt-0.5 uppercase flex items-center gap-1">
                           <span className={`px-1.5 py-0.5 rounded text-white ${item.payment === 'cash' ? 'bg-green-600' : item.payment === 'mpesa' ? 'bg-blue-600' : item.payment === 'credit' ? 'bg-red-600' : 'bg-zinc-600'}`}>{item.payment}</span>
                           {item.payment === 'credit' && item.debtor && <span className="text-zinc-400 font-normal normal-case">• {item.debtor}</span>}
