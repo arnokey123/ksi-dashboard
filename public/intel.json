@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "LOGISTICS",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Glovo serves up Nairobi",
-    "date": "Mon, 11 May 2026 06:11:45 +0000",
-    "interpretation": "The news highlights Glovo's growing presence in Nairobi, which matters strategically as it underscores the platform's expanding reach and potential for increased market share in the African logistics market.",
-    "opportunity": "This signals an opportunity for investors to potentially invest in Glovo or related logistics companies in the African market, potentially yielding high returns on investment.",
-    "risk": "Rising competition in the logistics sector in Kenya and Africa at large may pose risks for Glovo's growth, requiring careful monitoring of market trends and competitor activity."
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Delivery Hero sell-down",
+    "date": "Tue, 12 May 2026 05:59:27 +0000",
+    "interpretation": "A sell-down by Delivery Hero, a food delivery company, matters strategically as it could impact the growth trajectory of companies in Kenya's online food delivery market.",
+    "opportunity": "Delivery Hero's sell-down could present an opportunity for local players to acquire a stake in the company, expanding their share in the Kenyan market.",
+    "risk": "A loss of investment or business partnership with Delivery Hero could lead to instability in Kenya's logistics sector."
   },
   {
     "id": 2,
     "sector": "INFRASTRUCTURE",
-    "title": "Nigeria now Airtel Africa\u2019s second-largest market by revenue per subscriber",
-    "date": "Fri, 08 May 2026 11:25:20 +0000",
-    "interpretation": "This shift in market share highlights Airtel Africa's increasing presence and revenue potential within the continent's rapidly expanding telecommunications infrastructure sector.",
-    "opportunity": "The growing demand for mobile telecommunications services in West Africa presents an opportunity for Airtel Africa to expand its customer base and increase revenue.",
-    "risk": ""
+    "title": "Apple releases iOS 26.5: Here is everything that changed on your iPhone",
+    "date": "Mon, 11 May 2026 19:20:25 +0000",
+    "interpretation": "The release of iOS 26.5 is a significant update that can potentially improve the infrastructure and user experience of iPhone users, thereby promoting the adoption of mobile technology across various sectors.",
+    "opportunity": "This update could provide a significant opportunity for businesses in sectors such as FINTECH to develop iOS-compatible applications, increasing their reach and user base.",
+    "risk": "The introduction of new features in iOS 26.5 may also pose a risk of cybersecurity vulnerabilities, which could harm the mobile ecosystem and associated infrastructure."
   },
   {
     "id": 3,
     "sector": "FINTECH",
-    "title": "Opera-backed stablecoin app MiniPay rides Africa demand to 15 million wallets",
-    "date": "Fri, 08 May 2026 10:45:01 +0000",
-    "interpretation": "This news highlights the growing adoption of digital payments in Africa, indicating a significant shift towards cashless transactions.",
-    "opportunity": "Investing in African fintech startups that provide innovative payment solutions could yield significant returns due to the vast and growing demand for such services.",
-    "risk": "The volatility of the cryptocurrency market, in which stablecoins are pegged, poses a significant risk to the long-term sustainability of the MiniPay app and the sector as a whole."
+    "title": "ABAN says Africa\u2019s startup funding recovery is \u201cmore grounded\u201d than previous peaks",
+    "date": "Mon, 11 May 2026 17:20:16 +0000",
+    "interpretation": "This recovery in startup funding indicates a more sustainable growth trajectory for Africa's fintech sector, potentially leading to increased financial inclusion and digital payments adoption.",
+    "opportunity": "Investors may view this as a strategic opportunity to tap into the growing African fintech market, with a potential for higher returns due to the sector's increasing stability.",
+    "risk": "A prolonged downturn in global economic conditions could impact Africa's startup funding, potentially reversing the recovery and affecting the fintech sector's growth prospects."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "WayaWaya founder Teddy Ogallo lived a sheltered life, then had to rebuild everything",
-    "date": "Fri, 08 May 2026 08:50:40 +0000",
-    "interpretation": "This matters strategically because WayaWaya's founder Teddy Ogallo's experiences of rebuilding highlight the resilience required for fintech start-ups in the Kenyan market.",
-    "opportunity": "The story of WayaWaya's founder could inspire entrepreneurs to innovate in the fintech space, potentially leading to new start-ups or investments in the sector.",
-    "risk": "The challenges WayaWaya faced may indicate difficulties in the fintech market, posing a risk to potential investors or entrepreneurs considering entry into the sector."
+    "sector": "INFRASTRUCTURE",
+    "title": "Three of Nigeria\u2019s biggest banks lost $1.56 million to fraud in 2025",
+    "date": "Mon, 11 May 2026 13:42:17 +0000",
+    "interpretation": "This matter strategically because the vulnerability of Nigeria's financial infrastructure to fraud could have wider regional implications for investment security and regulatory frameworks.",
+    "opportunity": "There may be a lucrative opportunity to invest in cutting-edge security technologies that can bolster the financial infrastructure in Africa's financial hubs.",
+    "risk": "Investors face a heightened risk of similar security breaches and losses in Kenya's financial sector, potentially damaging sector growth and investor confidence."
   },
   {
     "id": 5,
     "sector": "FINTECH",
-    "title": "Paga enters crypto through partnership with blockchain network Sui",
-    "date": "Fri, 08 May 2026 07:53:00 +0000",
-    "interpretation": "This partnership signifies Paga's strategic diversification into the digital asset space, enhancing its offerings and potentially increasing customer engagement.",
-    "opportunity": "Paga's entry into crypto could attract new customers, increase transaction volumes, and expand its revenue streams.",
-    "risk": "Integration with Sui's blockchain network may pose scalability and technical risks, impacting Paga's operational efficiency and customer experience."
+    "title": "MTN Rwanda returns to profit as data and fintech drive Q1 growth",
+    "date": "Mon, 11 May 2026 11:27:22 +0000",
+    "interpretation": "MTN Rwanda's return to profit driven by data and fintech growth signifies the increasing importance of digital financial services in Rwanda's economy.",
+    "opportunity": "The growth of fintech in Rwanda presents an opportunity for investment in innovative digital financial products and services.",
+    "risk": "Reliance on data and fintech for growth exposes MTN Rwanda to regulatory and cybersecurity risks associated with the financial technology sector."
   }
 ]
