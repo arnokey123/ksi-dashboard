@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "LOGISTICS",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Delivery Hero sell-down",
-    "date": "Tue, 12 May 2026 05:59:27 +0000",
-    "interpretation": "A sell-down by Delivery Hero, a food delivery company, matters strategically as it could impact the growth trajectory of companies in Kenya's online food delivery market.",
-    "opportunity": "Delivery Hero's sell-down could present an opportunity for local players to acquire a stake in the company, expanding their share in the Kenyan market.",
-    "risk": "A loss of investment or business partnership with Delivery Hero could lead to instability in Kenya's logistics sector."
+    "sector": "FINTECH",
+    "title": "Next Wave: Kenya has conquered mobile money. Now it must fix the system underneath",
+    "date": "Wed, 13 May 2026 07:19:52 +0000",
+    "interpretation": "The article highlights the strategic importance of refining Kenya's mobile money infrastructure to maintain its competitive edge and expand further.",
+    "opportunity": "Kenya's existing mobile money success creates a conducive environment for innovative fintech solutions to emerge and capitalize on the growing demand.",
+    "risk": "The system's vulnerabilities and potential operational issues pose a significant risk to the country's fintech reputation and user trust."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "Apple releases iOS 26.5: Here is everything that changed on your iPhone",
-    "date": "Mon, 11 May 2026 19:20:25 +0000",
-    "interpretation": "The release of iOS 26.5 is a significant update that can potentially improve the infrastructure and user experience of iPhone users, thereby promoting the adoption of mobile technology across various sectors.",
-    "opportunity": "This update could provide a significant opportunity for businesses in sectors such as FINTECH to develop iOS-compatible applications, increasing their reach and user base.",
-    "risk": "The introduction of new features in iOS 26.5 may also pose a risk of cybersecurity vulnerabilities, which could harm the mobile ecosystem and associated infrastructure."
+    "sector": "LOGISTICS",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Jiji goes to Bangladesh",
+    "date": "Wed, 13 May 2026 06:10:38 +0000",
+    "interpretation": "The expansion of Jiji into Bangladesh highlights growing e-commerce demand in the region, which could have strategic implications for the global logistics industry.",
+    "opportunity": "This move potentially presents an opportunity for investors to capitalize on the growth of e-commerce in Bangladesh and the broader Asia-Pacific region.",
+    "risk": "Jiji's expansion into a new market increases operational and regulatory risks, which may impact the company's growth and profitability."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "ABAN says Africa\u2019s startup funding recovery is \u201cmore grounded\u201d than previous peaks",
-    "date": "Mon, 11 May 2026 17:20:16 +0000",
-    "interpretation": "This recovery in startup funding indicates a more sustainable growth trajectory for Africa's fintech sector, potentially leading to increased financial inclusion and digital payments adoption.",
-    "opportunity": "Investors may view this as a strategic opportunity to tap into the growing African fintech market, with a potential for higher returns due to the sector's increasing stability.",
-    "risk": "A prolonged downturn in global economic conditions could impact Africa's startup funding, potentially reversing the recovery and affecting the fintech sector's growth prospects."
+    "sector": "INFRASTRUCTURE",
+    "title": "Everything Google announced at the Android Show: I/O Edition 2026",
+    "date": "Tue, 12 May 2026 20:52:56 +0000",
+    "interpretation": "Google's announcements on Android I/O 2026 imply significant investments in artificial intelligence and mobile technology, which could shape the future of Kenya's digital infrastructure.",
+    "opportunity": "This provides an opportunity for Kenya to develop innovative digital solutions leveraging Google's new technologies, enhancing the country's position in the global digital economy.",
+    "risk": "The increased reliance on Google's ecosystem for Kenya's digital infrastructure might raise risks related to data sovereignty and dependence on foreign technology."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Three of Nigeria\u2019s biggest banks lost $1.56 million to fraud in 2025",
-    "date": "Mon, 11 May 2026 13:42:17 +0000",
-    "interpretation": "This matter strategically because the vulnerability of Nigeria's financial infrastructure to fraud could have wider regional implications for investment security and regulatory frameworks.",
-    "opportunity": "There may be a lucrative opportunity to invest in cutting-edge security technologies that can bolster the financial infrastructure in Africa's financial hubs.",
-    "risk": "Investors face a heightened risk of similar security breaches and losses in Kenya's financial sector, potentially damaging sector growth and investor confidence."
+    "sector": "FINTECH",
+    "title": "OmniRetail, M-KOPA, Sabi, TymeBank make FT\u2019s Africa fastest-growing companies list",
+    "date": "Tue, 12 May 2026 16:51:44 +0000",
+    "interpretation": "The presence of M-KOPA and TymeBank on the list underscores the growing importance of fintech in the Kenyan economy and its potential for investment.",
+    "opportunity": "An opportunity exists to invest in Kenyan fintech companies that are leveraging digital services to reach underserved populations.",
+    "risk": "There is a risk that rapid growth in the fintech sector may lead to increased regulatory requirements or increased competition, negatively impacting investment returns."
   },
   {
     "id": 5,
-    "sector": "FINTECH",
-    "title": "MTN Rwanda returns to profit as data and fintech drive Q1 growth",
-    "date": "Mon, 11 May 2026 11:27:22 +0000",
-    "interpretation": "MTN Rwanda's return to profit driven by data and fintech growth signifies the increasing importance of digital financial services in Rwanda's economy.",
-    "opportunity": "The growth of fintech in Rwanda presents an opportunity for investment in innovative digital financial products and services.",
-    "risk": "Reliance on data and fintech for growth exposes MTN Rwanda to regulatory and cybersecurity risks associated with the financial technology sector."
+    "sector": "INFRASTRUCTURE",
+    "title": "AI is becoming part of everyday journalism in Nigerian newsrooms, report says",
+    "date": "Tue, 12 May 2026 13:47:26 +0000",
+    "interpretation": "The adoption of AI in Nigerian newsrooms highlights the potential for technological advancements to transform and upgrade the country's media infrastructure, which may have broader implications for Kenya's digital infrastructure development.",
+    "opportunity": "This may represent an opportunity for Kenyan companies to partner with Nigerian media outlets or invest in African AI-driven media infrastructure, fostering regional growth and innovation.",
+    "risk": "The increased reliance on AI in journalism could also potentially threaten jobs and skills in the Kenyan media industry, emphasizing the need for ongoing digital literacy and re-skilling initiatives."
   }
 ]
