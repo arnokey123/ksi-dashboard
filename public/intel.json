@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "Next Wave: Kenya has conquered mobile money. Now it must fix the system underneath",
-    "date": "Wed, 13 May 2026 07:19:52 +0000",
-    "interpretation": "The article highlights the strategic importance of refining Kenya's mobile money infrastructure to maintain its competitive edge and expand further.",
-    "opportunity": "Kenya's existing mobile money success creates a conducive environment for innovative fintech solutions to emerge and capitalize on the growing demand.",
-    "risk": "The system's vulnerabilities and potential operational issues pose a significant risk to the country's fintech reputation and user trust."
+    "sector": "INFRASTRUCTURE",
+    "title": "South African artists earned $30.69 million on Spotify in 2025. Most of it came from abroad.",
+    "date": "Wed, 13 May 2026 18:39:40 +0000",
+    "interpretation": "This matters strategically because the growth of Spotify's global presence highlights the importance of investing in robust digital infrastructure to support Kenya's creative industries.",
+    "opportunity": "There is an opportunity for Kenya to capitalize on the global growth of music streaming services and establish itself as a hub for African artistic content.",
+    "risk": "The dependence on international audiences and revenue streams poses a risk for Kenyan artists, highlighting the need for diversification and local market development."
   },
   {
     "id": 2,
-    "sector": "LOGISTICS",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Jiji goes to Bangladesh",
-    "date": "Wed, 13 May 2026 06:10:38 +0000",
-    "interpretation": "The expansion of Jiji into Bangladesh highlights growing e-commerce demand in the region, which could have strategic implications for the global logistics industry.",
-    "opportunity": "This move potentially presents an opportunity for investors to capitalize on the growth of e-commerce in Bangladesh and the broader Asia-Pacific region.",
-    "risk": "Jiji's expansion into a new market increases operational and regulatory risks, which may impact the company's growth and profitability."
+    "sector": "FINTECH",
+    "title": "Grey joins Moonshot 2026 as headline sponsor",
+    "date": "Wed, 13 May 2026 15:07:28 +0000",
+    "interpretation": "This partnership highlights Grey's strategic focus on supporting innovative and forward-thinking companies that could drive meaningful disruptions in the FINTECH sector.",
+    "opportunity": "This could be an opportunity for investors to explore other companies in the FINTECH sector that are similarly innovative and potentially poised for growth.",
+    "risk": "The partnership may increase competition in the FINTECH sector, posing a risk to other companies seeking to differentiate themselves in the market."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "Everything Google announced at the Android Show: I/O Edition 2026",
-    "date": "Tue, 12 May 2026 20:52:56 +0000",
-    "interpretation": "Google's announcements on Android I/O 2026 imply significant investments in artificial intelligence and mobile technology, which could shape the future of Kenya's digital infrastructure.",
-    "opportunity": "This provides an opportunity for Kenya to develop innovative digital solutions leveraging Google's new technologies, enhancing the country's position in the global digital economy.",
-    "risk": "The increased reliance on Google's ecosystem for Kenya's digital infrastructure might raise risks related to data sovereignty and dependence on foreign technology."
+    "sector": "FINTECH",
+    "title": "Techstars-backed fintech Chimoney shuts down, to refund customer balances",
+    "date": "Wed, 13 May 2026 12:36:48 +0000",
+    "interpretation": "The failure of Chimoney highlights the risks and challenges faced by fintech startups in Kenya, potentially impacting investor sentiment and future investment decisions.",
+    "opportunity": "The fintech sector in Kenya offers opportunities for investors to support and fund more stable and viable fintech companies, potentially leading to higher returns and greater market share.",
+    "risk": "The shutdown of Chimoney raises concerns about the potential for other fintech companies in Kenya to also fail, leading to losses for investors and damaging the country's fintech ecosystem."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "OmniRetail, M-KOPA, Sabi, TymeBank make FT\u2019s Africa fastest-growing companies list",
-    "date": "Tue, 12 May 2026 16:51:44 +0000",
-    "interpretation": "The presence of M-KOPA and TymeBank on the list underscores the growing importance of fintech in the Kenyan economy and its potential for investment.",
-    "opportunity": "An opportunity exists to invest in Kenyan fintech companies that are leveraging digital services to reach underserved populations.",
-    "risk": "There is a risk that rapid growth in the fintech sector may lead to increased regulatory requirements or increased competition, negatively impacting investment returns."
+    "sector": "MANUFACTURING",
+    "title": "Sony Xperia 1 VIII just launched: Here\u2019s everything you need to know",
+    "date": "Wed, 13 May 2026 11:20:04 +0000",
+    "interpretation": "The launch of the new Sony Xperia 1 VIII smartphone does not have a direct strategic impact on the Kenyan economy, but it may influence consumer spending on electronics",
+    "opportunity": "There is an opportunity for local tech companies to design and manufacture smartphones that cater to Kenyan consumers, potentially creating jobs and driving local economic growth",
+    "risk": "The launch of a new flagship smartphone may distract consumers from other high-tech products, such as laptops, smartwatches, or fitness trackers, potentially affecting sales in other segments"
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "AI is becoming part of everyday journalism in Nigerian newsrooms, report says",
-    "date": "Tue, 12 May 2026 13:47:26 +0000",
-    "interpretation": "The adoption of AI in Nigerian newsrooms highlights the potential for technological advancements to transform and upgrade the country's media infrastructure, which may have broader implications for Kenya's digital infrastructure development.",
-    "opportunity": "This may represent an opportunity for Kenyan companies to partner with Nigerian media outlets or invest in African AI-driven media infrastructure, fostering regional growth and innovation.",
-    "risk": "The increased reliance on AI in journalism could also potentially threaten jobs and skills in the Kenyan media industry, emphasizing the need for ongoing digital literacy and re-skilling initiatives."
+    "sector": "CLEAN ENERGY",
+    "title": "Africa\u2019s AI sovereignty problem is really an energy problem",
+    "date": "Wed, 13 May 2026 11:15:24 +0000",
+    "interpretation": "Africa's AI development faces a strategic challenge due to reliance on energy-intensive data centers that hinder energy efficiency and increase carbon footprint.",
+    "opportunity": "Investing in African renewable energy projects and innovative AI solutions that rely on edge computing can provide a competitive edge in AI sovereignty.",
+    "risk": "High energy costs and carbon emissions arising from data center operations pose a significant risk to Africa's energy security and AI development ambitions."
   }
 ]
