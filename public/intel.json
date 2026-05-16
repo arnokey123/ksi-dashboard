@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "South African artists earned $30.69 million on Spotify in 2025. Most of it came from abroad.",
-    "date": "Wed, 13 May 2026 18:39:40 +0000",
-    "interpretation": "This matters strategically because the growth of Spotify's global presence highlights the importance of investing in robust digital infrastructure to support Kenya's creative industries.",
-    "opportunity": "There is an opportunity for Kenya to capitalize on the global growth of music streaming services and establish itself as a hub for African artistic content.",
-    "risk": "The dependence on international audiences and revenue streams poses a risk for Kenyan artists, highlighting the need for diversification and local market development."
+    "sector": "CLEAN ENERGY",
+    "title": "Africa has seen oil shocks before. Why 2026 could be the turning point for clean energy",
+    "date": "Fri, 15 May 2026 12:44:58 +0000",
+    "interpretation": "This news highlights the significant shift in the global energy landscape, emphasizing the growing importance of clean energy in Africa, and its strategic implications for economies like Kenya.",
+    "opportunity": "Investors may see 2026 as an opportune time to tap into Africa's emerging clean energy sector, driven by increasing demand for renewable energy sources.",
+    "risk": "Rising oil prices could have a short-term impact on economies in Africa, highlighting the need for diversified energy sources and potential investment risks in the clean energy sector."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Grey joins Moonshot 2026 as headline sponsor",
-    "date": "Wed, 13 May 2026 15:07:28 +0000",
-    "interpretation": "This partnership highlights Grey's strategic focus on supporting innovative and forward-thinking companies that could drive meaningful disruptions in the FINTECH sector.",
-    "opportunity": "This could be an opportunity for investors to explore other companies in the FINTECH sector that are similarly innovative and potentially poised for growth.",
-    "risk": "The partnership may increase competition in the FINTECH sector, posing a risk to other companies seeking to differentiate themselves in the market."
+    "sector": "MANUFACTURING",
+    "title": "The Kenyan Boeing engineer who chose trucks over prestige",
+    "date": "Fri, 15 May 2026 12:38:36 +0000",
+    "interpretation": "This news story highlights a key opportunity for the Kenyan manufacturing sector by showcasing local talent and potential for innovation outside traditional prestige industries.",
+    "opportunity": "The story suggests an untapped talent pool in the manufacturing sector, offering potential for partnerships, talent acquisition, and innovation.",
+    "risk": "Lack of investment in the manufacturing sector could lead to a brain drain and limited economic diversification in the country."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Techstars-backed fintech Chimoney shuts down, to refund customer balances",
-    "date": "Wed, 13 May 2026 12:36:48 +0000",
-    "interpretation": "The failure of Chimoney highlights the risks and challenges faced by fintech startups in Kenya, potentially impacting investor sentiment and future investment decisions.",
-    "opportunity": "The fintech sector in Kenya offers opportunities for investors to support and fund more stable and viable fintech companies, potentially leading to higher returns and greater market share.",
-    "risk": "The shutdown of Chimoney raises concerns about the potential for other fintech companies in Kenya to also fail, leading to losses for investors and damaging the country's fintech ecosystem."
+    "sector": "MANUFACTURING",
+    "title": "Samsung phones that lost software support in May 2026",
+    "date": "Fri, 15 May 2026 08:28:49 +0000",
+    "interpretation": "This matter strategically because losing software support for Samsung phones is a risk to consumers who heavily rely on their devices for critical operations and a loss of confidence in the Samsung brand in Kenya's manufacturing landscape.",
+    "opportunity": "As many Samsung phone users may seek alternative devices, there is an opportunity for competitors such as Tecno, Infinix, or OnePlus to tap into the Kenyan market, potentially expanding their presence in the country.",
+    "risk": "For Kenyan consumers, losing software support for Samsung phones poses a risk of cybersecurity breaches and system downtimes, which may lead to losses and financial burdens"
   },
   {
     "id": 4,
-    "sector": "MANUFACTURING",
-    "title": "Sony Xperia 1 VIII just launched: Here\u2019s everything you need to know",
-    "date": "Wed, 13 May 2026 11:20:04 +0000",
-    "interpretation": "The launch of the new Sony Xperia 1 VIII smartphone does not have a direct strategic impact on the Kenyan economy, but it may influence consumer spending on electronics",
-    "opportunity": "There is an opportunity for local tech companies to design and manufacture smartphones that cater to Kenyan consumers, potentially creating jobs and driving local economic growth",
-    "risk": "The launch of a new flagship smartphone may distract consumers from other high-tech products, such as laptops, smartwatches, or fitness trackers, potentially affecting sales in other segments"
+    "sector": "LOGISTICS",
+    "title": "Trazo built a food delivery business in smaller cities. Now it wants to enter Lagos.",
+    "date": "Fri, 15 May 2026 07:42:48 +0000",
+    "interpretation": "Trazo's expansion into Lagos can potentially increase market share and diversify their food delivery business, offering strategic implications for the sector in West Africa.",
+    "opportunity": "This expansion provides an opportunity to tap into Lagos' large market and growing middle class, potentially leading to significant revenue growth for Trazo.",
+    "risk": "Entering a new and competitive market such as Lagos carries a risk of operational challenges, increased competition, and regulatory hurdles."
   },
   {
     "id": 5,
-    "sector": "CLEAN ENERGY",
-    "title": "Africa\u2019s AI sovereignty problem is really an energy problem",
-    "date": "Wed, 13 May 2026 11:15:24 +0000",
-    "interpretation": "Africa's AI development faces a strategic challenge due to reliance on energy-intensive data centers that hinder energy efficiency and increase carbon footprint.",
-    "opportunity": "Investing in African renewable energy projects and innovative AI solutions that rely on edge computing can provide a competitive edge in AI sovereignty.",
-    "risk": "High energy costs and carbon emissions arising from data center operations pose a significant risk to Africa's energy security and AI development ambitions."
+    "sector": "INFRASTRUCTURE",
+    "title": "AGL taps REasy to launch China-Cameroon shipping service for SMEs",
+    "date": "Fri, 15 May 2026 07:37:23 +0000",
+    "interpretation": "This partnership between AGL and REasy signifies a significant infrastructure investment in Cameroon, potentially expanding trade opportunities between China and Africa.",
+    "opportunity": "The launch of a shipping service dedicated to Small and Medium-sized Enterprises (SMEs) could create new revenue streams and enhance trade efficiency for regional businesses.",
+    "risk": "The increased logistics activity in Cameroon may pose risks to existing trade routes, potentially disrupting regional supply chains."
   }
 ]
