@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js'
 import { NextResponse } from 'next/server';
 
 // CONFIGURATION (Paste your keys here)
-const supabaseUrl = 'https://YOUR_PROJECT_ID.supabase.co'
-const supabaseKey = 'sb_publishable_YOUR_KEY_HERE'
+const supabaseUrl = 'https://gxozredpgczirobxyrve.supabase.co'
+const supabaseKey = 'sb_publishable_VvO8Coqcn3HnL9p6DSE-YQ_mYhtENYa'
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 function corsResponse(response: NextResponse) {
