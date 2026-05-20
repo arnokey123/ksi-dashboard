@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "LOGISTICS",
-    "title": "Chicken Inn owner handles 6,000 daily deliveries as orders surge in Kenya",
-    "date": "Tue, 19 May 2026 08:02:30 +0000",
-    "interpretation": "The surge in orders at Chicken Inn highlights the growing demand for delivery services in Kenya, underscoring the importance of efficient logistics infrastructure.",
-    "opportunity": "The rapidly growing demand for delivery services presents an opportunity for existing and new players to enter the Kenyan logistics market, capitalizing on the trend.",
-    "risk": "The increased demand for delivery services may also pose a risk of congestion, delays, and higher costs, impacting the profitability of players in the market."
+    "sector": "FINTECH",
+    "title": "Stablecoin payments infrastructure startup Checker raises $8 million for Africa, Asia expansion",
+    "date": "Wed, 20 May 2026 07:33:03 +0000",
+    "interpretation": "This funding will enable Checker to expand its digital payment services across Africa and Asia, potentially increasing financial inclusion and disrupting traditional payment systems.",
+    "opportunity": "There is an opportunity to invest in Checker and benefit from the growth of stablecoin payments infrastructure in emerging markets.",
+    "risk": "There may be a risk associated with regulatory uncertainty and adoption rates of digital payments in Africa and Asia."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Kenya has a new tax chief",
-    "date": "Tue, 19 May 2026 06:25:26 +0000",
-    "interpretation": "This shift in leadership matters strategically as the new tax chief will likely have significant influence on the regulatory environment for various sectors in Kenya.",
-    "opportunity": "The change in tax leadership creates an opportunity for investments in sectors that are heavily impacted by regulations related to revenue collection, such as real estate and construction",
-    "risk": "Increased scrutiny and compliance costs may discourage foreign investment in Kenya's infrastructure sector, presenting a significant risk for companies in this space"
+    "sector": "E-MOBILITY",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 It takes ten to Yango",
+    "date": "Wed, 20 May 2026 06:28:16 +0000",
+    "interpretation": "This matters strategically as the growing popularity of ride-hailing services in Kenya may indicate an increasing demand for e-mobility solutions.",
+    "opportunity": "This news highlights a potential partnership or investment opportunity between ride-hailing companies and e-mobility startups in Kenya.",
+    "risk": "The rapid growth of ride-hailing services may pose a risk to traditional public transportation companies, highlighting a potential need for adaptation or investment in e-mobility infrastructure."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "Kenya appoints Adan Mohamed as tax chief amid revenue pressure",
-    "date": "Mon, 18 May 2026 18:03:03 +0000",
-    "interpretation": "The appointment of Adan Mohamed as tax chief aims to boost revenue collection, a strategic move to address pressing infrastructure development needs in Kenya.",
-    "opportunity": "The potential increase in government revenue collection could lead to increased investment in infrastructure, creating opportunities for sectors such as construction and real estate.",
-    "risk": "Any mismanagement or inefficiency in tax collection under Adan Mohamed's leadership may exacerbate revenue pressure and impact investor confidence in Kenya's infrastructure sector."
+    "sector": "E-MOBILITY",
+    "title": "Everything announced at the Google I/O 2026",
+    "date": "Tue, 19 May 2026 21:01:36 +0000",
+    "interpretation": "Google's announcements at I/O 2026 may matter strategically as they signal a significant push into autonomous and connected transportation, potentially reshaping the automotive and logistics industries in Kenya.",
+    "opportunity": "Investors with exposure to E-MOBILITY sector in Kenya may see a potential opportunity for growth as Google's announcements bring new technologies and innovative solutions to the market.",
+    "risk": "Potential disruptions caused by Google's new technologies could pose a risk to companies in E-MOBILITY sector in Kenya that are not adaptable and resilient enough to compete."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "MoneyHash hires Hwan Lee as Africa regional director in continental expansion",
-    "date": "Mon, 18 May 2026 16:46:03 +0000",
-    "interpretation": "This regional expansion signifies MoneyHash's strategic intent to increase its footprint in Africa and potentially tap into the continent's growing digital payment landscape.",
-    "opportunity": "The increasing adoption of digital payments in Kenya and other African markets creates an opportunity for MoneyHash to expand its services and capture market share.",
-    "risk": "The appointment of a regional director without prior local market knowledge may lead to missteps in navigating Africa's diverse regulatory environments."
+    "sector": "INFRASTRUCTURE",
+    "title": "He started building in military-era Nigeria. Now he builds AI HR software.",
+    "date": "Tue, 19 May 2026 16:59:58 +0000",
+    "interpretation": "This story highlights an exceptional entrepreneur overcoming historical challenges, now leveraging technology to innovate in the HR sector.",
+    "opportunity": "The rise of AI in HR software presents a significant opportunity to improve workplace efficiency and talent management in Africa.",
+    "risk": "Investment in emerging AI technology poses a risk due to high development costs and potential disruption from market saturation."
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "As DFI money dries up, AFC is doubling down on African VC with $100 million",
-    "date": "Mon, 18 May 2026 16:13:33 +0000",
-    "interpretation": "This move signifies a strategic shift by the African Finance Corporation in prioritizing investment in African Venture Capital in the face of dwindling Development Finance Institution (DFI) funding, which has significant implications for infrastructure development in the continent.",
-    "opportunity": "An influx of $100 million in VC funding for African infrastructure projects can unlock substantial growth and development opportunities in key sectors, paving the way for increased economic diversification and competitiveness.",
-    "risk": "The risk of concentration in a few large investments, combined with market volatility and potential economic headwinds, poses a significant risk to the AFC's $100 million VC fund, which could impact its returns and overall financial stability."
+    "sector": "FINTECH",
+    "title": "Why Kenyan digital bank Cloud9 acquired Mtickets in $773,000 deal",
+    "date": "Tue, 19 May 2026 16:33:06 +0000",
+    "interpretation": "This strategic acquisition by Cloud9 underscores its commitment to expanding its digital offerings and deepening its footprint in Kenya's growing fintech landscape.",
+    "opportunity": "The deal presents a significant opportunity for Cloud9 to enhance its customer base and revenue streams through the integration of Mtickets's ticketing services.",
+    "risk": "The acquisition may also expose Cloud9 to heightened regulatory scrutiny and operational risks associated with expanding its product offerings and customer base."
   }
 ]
