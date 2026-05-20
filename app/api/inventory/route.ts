@@ -1,9 +1,9 @@
 import { createClient } from '@supabase/supabase-js'
 import { NextResponse } from 'next/server';
 
-// CONFIG (Use your existing keys)
-const supabaseUrl = 'https://gxozredpgczirobxyrve.supabase.co'
-const supabaseKey = 'sb_publishable_VvO8Coqcn3HnL9p6DSE-YQ_mYhtENYa'
+// CONFIGURATION (Paste your keys here)
+const supabaseUrl = 'https://YOUR_PROJECT_ID.supabase.co'
+const supabaseKey = 'sb_publishable_YOUR_KEY_HERE'
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 function corsResponse(response: NextResponse) {
@@ -17,32 +17,51 @@ export async function OPTIONS() {
   return corsResponse(new NextResponse(null, { status: 204 }));
 }
 
-// GET: Fetch Inventory
-export async function GET() {
-  const { data, error } = await supabase
-    .from('inventory')
-    .select('*')
-    .order('name');
-
-  if (error) return corsResponse(NextResponse.json([], { status: 500 }));
-  return corsResponse(NextResponse.json(data));
-}
-
-// POST: Sync/Update Inventory
 export async function POST(request: Request) {
   try {
     const body = await request.json();
     const { items } = body;
 
-    // Upsert: Update if exists, insert if new. 
-    // We match by 'name' because names are unique in your app.
+    if (!items || !Array.isArray(items)) {
+      return corsResponse(NextResponse.json({ error: 'Invalid data format' }, { status: 400 }));
+    }
+
+    // Prepare items for database
+    const inserts = items.map((it: any) => ({
+      name: it.name,
+      price: it.price,
+      stock: it.stock,
+      unit: it.unit
+    }));
+
+    // Upsert: Update if name exists, Insert if new
     const { error } = await supabase
       .from('inventory')
-      .upsert(items, { onConflict: 'name' }); 
+      .upsert(inserts, { onConflict: 'name' });
+
+    if (error) {
+      console.error("Supabase Inventory Error:", error);
+      return corsResponse(NextResponse.json({ error: error.message }, { status: 500 }));
+    }
+
+    return corsResponse(NextResponse.json({ success: true }));
+    
+  } catch (error) {
+    console.error("Server Error:", error);
+    return corsResponse(NextResponse.json({ error: 'Server error' }, { status: 500 }));
+  }
+}
+
+export async function GET() {
+  try {
+    const { data, error } = await supabase
+      .from('inventory')
+      .select('*')
+      .order('name');
 
     if (error) throw error;
-    return corsResponse(NextResponse.json({ success: true }));
+    return corsResponse(NextResponse.json(data));
   } catch (error) {
-    return corsResponse(NextResponse.json({ error: 'Failed to sync inventory' }, { status: 500 }));
+    return corsResponse(NextResponse.json([], { status: 500 }));
   }
 }
