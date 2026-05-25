@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "E-MOBILITY",
-    "title": "Here are the\u00a0 phones getting the Android 17 update",
-    "date": "Sat, 23 May 2026 18:13:34 +0000",
-    "interpretation": "The Android 17 update to certain phone models highlights the growing demand for electronic devices and advancements in mobile technology, which is strategically crucial for the development of emerging industries in e-mobility",
-    "opportunity": "Investing in e-mobility companies that develop innovative mobile solutions and services could lead to significant growth opportunities",
-    "risk": "The increased demand for electronic devices may lead to supply chain disruptions and higher production costs, posing a risk to companies involved in the e-mobility sector"
+    "sector": "FINTECH",
+    "title": "Foreign VC exits in Kenya face 15% tax under proposed law",
+    "date": "Mon, 25 May 2026 07:09:10 +0000",
+    "interpretation": "The proposed tax law poses a strategic risk to Kenya's fintech sector, potentially deterring foreign venture capital investments and hindering the country's fintech growth.",
+    "opportunity": "The potential 15% tax exemption for domestic VCs could incentivize local investors to invest in Kenya's fintech sector, providing an opportunity for domestic growth.",
+    "risk": "The proposed tax law may drive out foreign VC investments, limiting access to critical funding for Kenya's fintech startups and hindering the country's tech growth."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "Safaricom updates My OneApp to support Airtel, roaming users",
-    "date": "Sat, 23 May 2026 09:00:45 +0000",
-    "interpretation": "This update highlights Safaricom's strategic move towards interoperability, enhancing the user experience and deepening Kenya's telecommunications infrastructure.",
-    "opportunity": "An opportunity exists to explore partnerships and collaborations across different telecommunications service providers in Kenya, driven by increased interoperability and user demand.",
-    "risk": "Risk of increased competition and potential disruption to Safaricom's market share arises from its move to support Airtel roaming users, as other telecoms may follow suit."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Layoffs at Branch",
+    "date": "Mon, 25 May 2026 06:30:14 +0000",
+    "interpretation": "The layoff at Branch highlights the challenges facing African fintech companies, particularly those with significant operational expenses, which may impact their growth potential in a tough economic environment.",
+    "opportunity": "This development creates an entry point for other Kenyan fintech startups with more efficient operations to acquire potential clients from Branch and establish a stronger market presence.",
+    "risk": "A domino effect of layoffs across the Kenyan fintech industry could occur, leading to talent shortage and further disruption of the industry's growth trajectory."
   },
   {
     "id": 3,
-    "sector": "HEALTHCARE",
-    "title": "Africa\u2019s tech boom has a healthcare debt",
-    "date": "Fri, 22 May 2026 15:59:58 +0000",
-    "interpretation": "Africa's tech boom has a healthcare debt, implying a growing need for innovative healthcare solutions and infrastructure to keep pace with technological advancements.",
-    "opportunity": "Investing in healthcare technology startups could provide high returns as the African healthcare sector seeks to leverage technology to bridge the healthcare debt.",
-    "risk": "Poor regulation and limited healthcare infrastructure in some African countries pose significant risks to investments in the healthcare technology sector."
+    "sector": "E-MOBILITY",
+    "title": "Here are the\u00a0 phones getting the Android 17 update",
+    "date": "Sat, 23 May 2026 18:13:34 +0000",
+    "interpretation": "This news matters strategically as it showcases innovation and progress in smartphone technology, which can have a positive impact on the adoption of e-mobility solutions in Kenya.",
+    "opportunity": "The roll-out of Android 17 may create an opportunity for e-mobility startups and tech companies in Kenya to develop more efficient and user-friendly apps for electric vehicle owners.",
+    "risk": "There is a risk that the focus on new smartphone updates may divert attention and investment away from the development of critical e-mobility infrastructure in Kenya, such as charging stations and public transport systems."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Customer care numbers for banks and fintechs in Nigeria (2026)",
-    "date": "Fri, 22 May 2026 11:14:34 +0000",
-    "interpretation": "This news matters strategically as it highlights the growing importance of customer care in the Nigerian fintech industry, which can have implications for similar fintech companies across Africa.",
-    "opportunity": "The publication of customer care numbers for fintechs in Nigeria presents an opportunity for these companies to differentiate themselves and enhance their customer experience, potentially leading to increased customer loyalty and retention.",
-    "risk": "This news also signals a risk of increased competition for fintech companies that may struggle to maintain optimal customer care standards, potentially eroding their market share and reputation."
+    "sector": "INFRASTRUCTURE",
+    "title": "Safaricom updates My OneApp to support Airtel, roaming users",
+    "date": "Sat, 23 May 2026 09:00:45 +0000",
+    "interpretation": "This update enables a potential reduction in roaming charges, which could increase revenue for Safaricom through data and call services.",
+    "opportunity": "The integration with Airtel's network presents an opportunity for Safaricom to expand its user base and improve customer experience.",
+    "risk": "Increased competition from Airtel may lead to lower roaming tariffs and decreased revenue for Safaricom in the long term."
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "Nigeria launches Meta-backed AI chatbot for government information access",
-    "date": "Fri, 22 May 2026 10:49:41 +0000",
-    "interpretation": "This development has strategic implications for Nigeria's governance, enabling more efficient access to information and potentially increasing transparency and accountability.",
-    "opportunity": "The launch of the AI chatbot presents an opportunity for Nigeria to improve its digital infrastructure and potentially attract more foreign investments.",
-    "risk": "The risk of data mismanagement, cybersecurity breaches, and unequal access to information for certain populations cannot be ignored."
+    "sector": "HEALTHCARE",
+    "title": "Africa\u2019s tech boom has a healthcare debt",
+    "date": "Fri, 22 May 2026 15:59:58 +0000",
+    "interpretation": "This news highlights the strategic importance of addressing Africa's growing healthcare sector, which is struggling to keep pace with the continent's rapid technological advancements.",
+    "opportunity": "Investing in healthcare technology solutions could provide significant returns as the sector continues to grow and modernize across Africa.",
+    "risk": "Failure to address the healthcare debt in Africa's tech boom could lead to a strain on healthcare resources, posing significant economic and social risks for the continent."
   }
 ]
