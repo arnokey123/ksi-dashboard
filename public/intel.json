@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "FINTECH",
-    "title": "Foreign VC exits in Kenya face 15% tax under proposed law",
-    "date": "Mon, 25 May 2026 07:09:10 +0000",
-    "interpretation": "The proposed tax law poses a strategic risk to Kenya's fintech sector, potentially deterring foreign venture capital investments and hindering the country's fintech growth.",
-    "opportunity": "The potential 15% tax exemption for domestic VCs could incentivize local investors to invest in Kenya's fintech sector, providing an opportunity for domestic growth.",
-    "risk": "The proposed tax law may drive out foreign VC investments, limiting access to critical funding for Kenya's fintech startups and hindering the country's tech growth."
+    "title": "How dLocal\u2019s planned AZA Finance acquisition became a $23.7 million asset deal",
+    "date": "Tue, 26 May 2026 07:55:00 +0000",
+    "interpretation": "The AZA Finance acquisition highlights the growth and consolidation trends in Africa's fintech sector, with strategic implications for investment and market share.",
+    "opportunity": "This deal presents an opportunity for investors to capitalize on the rapidly expanding fintech market in Africa, particularly in countries with growing digital payments and e-commerce industries.",
+    "risk": "The acquisition also presents a risk of market disruption and competition for established players in Kenya's fintech sector, requiring strategic adjustments to remain competitive."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Layoffs at Branch",
-    "date": "Mon, 25 May 2026 06:30:14 +0000",
-    "interpretation": "The layoff at Branch highlights the challenges facing African fintech companies, particularly those with significant operational expenses, which may impact their growth potential in a tough economic environment.",
-    "opportunity": "This development creates an entry point for other Kenyan fintech startups with more efficient operations to acquire potential clients from Branch and establish a stronger market presence.",
-    "risk": "A domino effect of layoffs across the Kenyan fintech industry could occur, leading to talent shortage and further disruption of the industry's growth trajectory."
+    "sector": "INFRASTRUCTURE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 No free exits in Kenya",
+    "date": "Tue, 26 May 2026 06:13:21 +0000",
+    "interpretation": "The regulation around free exits in Kenya matters strategically because it implies a formalized framework for investment exits, boosting investor confidence.",
+    "opportunity": "Investors seeking to exit their investments in Kenya should consider structuring their deals according to the new regulations for a smoother exit.",
+    "risk": "The stringent requirements around free exits may pose a risk for investors who are not familiar with the new regulations or those whose investments do not meet the set criteria."
   },
   {
     "id": 3,
-    "sector": "E-MOBILITY",
-    "title": "Here are the\u00a0 phones getting the Android 17 update",
-    "date": "Sat, 23 May 2026 18:13:34 +0000",
-    "interpretation": "This news matters strategically as it showcases innovation and progress in smartphone technology, which can have a positive impact on the adoption of e-mobility solutions in Kenya.",
-    "opportunity": "The roll-out of Android 17 may create an opportunity for e-mobility startups and tech companies in Kenya to develop more efficient and user-friendly apps for electric vehicle owners.",
-    "risk": "There is a risk that the focus on new smartphone updates may divert attention and investment away from the development of critical e-mobility infrastructure in Kenya, such as charging stations and public transport systems."
+    "sector": "INFRASTRUCTURE",
+    "title": "iOS 26.5 is out: Everything iPhone users need to know",
+    "date": "Mon, 25 May 2026 18:20:22 +0000",
+    "interpretation": "The release of iOS 26.5 may have a strategic impact on Kenya's growing infrastructure sector as it could open up new opportunities for mobile payments and financial services.",
+    "opportunity": "Kenyan fintech companies can leverage iOS 26.5 features to enhance their mobile payment systems, expanding financial inclusion across the country.",
+    "risk": "Competition from international fintech companies with seamless iOS integration may increase competition in the Kenyan market, posing a risk to local fintech firms."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Safaricom updates My OneApp to support Airtel, roaming users",
-    "date": "Sat, 23 May 2026 09:00:45 +0000",
-    "interpretation": "This update enables a potential reduction in roaming charges, which could increase revenue for Safaricom through data and call services.",
-    "opportunity": "The integration with Airtel's network presents an opportunity for Safaricom to expand its user base and improve customer experience.",
-    "risk": "Increased competition from Airtel may lead to lower roaming tariffs and decreased revenue for Safaricom in the long term."
+    "sector": "FINTECH",
+    "title": "Airtel, Globacom resume airtime lending after court blocks FCCPC rules",
+    "date": "Mon, 25 May 2026 16:43:54 +0000",
+    "interpretation": "The court's decision to block FCCPC rules enables Airtel and Globacom to continue offering airtime lending services, maintaining their competitive advantage in Kenya's fintech market.",
+    "opportunity": "This development presents an opportunity for Airtel and Globacom to expand their mobile money services, increasing financial inclusion in Kenya.",
+    "risk": "The lack of regulatory oversight may lead to consumer protection issues, increasing the risk of reputational damage for Airtel and Globacom."
   },
   {
     "id": 5,
-    "sector": "HEALTHCARE",
-    "title": "Africa\u2019s tech boom has a healthcare debt",
-    "date": "Fri, 22 May 2026 15:59:58 +0000",
-    "interpretation": "This news highlights the strategic importance of addressing Africa's growing healthcare sector, which is struggling to keep pace with the continent's rapid technological advancements.",
-    "opportunity": "Investing in healthcare technology solutions could provide significant returns as the sector continues to grow and modernize across Africa.",
-    "risk": "Failure to address the healthcare debt in Africa's tech boom could lead to a strain on healthcare resources, posing significant economic and social risks for the continent."
+    "sector": "INFRASTRUCTURE",
+    "title": "Launch Africa\u2019s playbook for managing one of Africa\u2019s biggest VC portfolios",
+    "date": "Mon, 25 May 2026 16:33:48 +0000",
+    "interpretation": "This news highlights the need for Africa to develop a strategic framework for managing its growing VC portfolios, which can lead to better infrastructure development and economic growth across the continent.",
+    "opportunity": "The launch of a playbook for managing VC portfolios presents an opportunity for Kenya to attract more foreign investment and develop its own domestic VC ecosystem.",
+    "risk": "There is a risk of mismanagement or inefficient allocation of funds if the playbook is not effectively implemented, which could undermine its objectives and result in poor returns on investment."
   }
 ]
