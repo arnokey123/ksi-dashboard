@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "How dLocal\u2019s planned AZA Finance acquisition became a $23.7 million asset deal",
-    "date": "Tue, 26 May 2026 07:55:00 +0000",
-    "interpretation": "The AZA Finance acquisition highlights the growth and consolidation trends in Africa's fintech sector, with strategic implications for investment and market share.",
-    "opportunity": "This deal presents an opportunity for investors to capitalize on the rapidly expanding fintech market in Africa, particularly in countries with growing digital payments and e-commerce industries.",
-    "risk": "The acquisition also presents a risk of market disruption and competition for established players in Kenya's fintech sector, requiring strategic adjustments to remain competitive."
+    "sector": "INFRASTRUCTURE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 SA delays AI policy to 2027",
+    "date": "Wed, 27 May 2026 06:28:29 +0000",
+    "interpretation": "The delay in the AI policy in South Africa implies a potential lag in digital infrastructure development, which could affect Kenya's competitive advantage in the region.",
+    "opportunity": "Investors in AI-driven infrastructure, such as data centers and cloud services, may find opportunities in Kenya due to its faster adoption pace in Africa.",
+    "risk": "The delay in AI policy adoption in South Africa may also imply a higher risk of regulatory bottlenecks and cybersecurity challenges for Kenya's emerging tech sector."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 No free exits in Kenya",
-    "date": "Tue, 26 May 2026 06:13:21 +0000",
-    "interpretation": "The regulation around free exits in Kenya matters strategically because it implies a formalized framework for investment exits, boosting investor confidence.",
-    "opportunity": "Investors seeking to exit their investments in Kenya should consider structuring their deals according to the new regulations for a smoother exit.",
-    "risk": "The stringent requirements around free exits may pose a risk for investors who are not familiar with the new regulations or those whose investments do not meet the set criteria."
+    "sector": "FINTECH",
+    "title": "Ghana\u2019s central bank suspends proposed MTN mobile money transfer fee",
+    "date": "Tue, 26 May 2026 19:26:22 +0000",
+    "interpretation": "The suspension of the MTN mobile money transfer fee by Ghana's central bank matters strategically as it sets a precedent for potential regulatory scrutiny of fintech fees in other African countries.",
+    "opportunity": "The proposed suspension of mobile money transfer fees may create a window of opportunity for Kenyan fintech companies to explore similar fee models, potentially replicating Ghana's success.",
+    "risk": "The regulatory environment for fintech fees in Kenya may become more challenging if Ghana's central bank's decision leads to increased scrutiny from financial regulators in our country."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "iOS 26.5 is out: Everything iPhone users need to know",
-    "date": "Mon, 25 May 2026 18:20:22 +0000",
-    "interpretation": "The release of iOS 26.5 may have a strategic impact on Kenya's growing infrastructure sector as it could open up new opportunities for mobile payments and financial services.",
-    "opportunity": "Kenyan fintech companies can leverage iOS 26.5 features to enhance their mobile payment systems, expanding financial inclusion across the country.",
-    "risk": "Competition from international fintech companies with seamless iOS integration may increase competition in the Kenyan market, posing a risk to local fintech firms."
+    "sector": "FINTECH",
+    "title": "Stablecoins are hard to spend. This startup wants to make it easy.",
+    "date": "Tue, 26 May 2026 17:06:21 +0000",
+    "interpretation": "This development could increase adoption of stablecoins as a form of digital payment in Kenya, enhancing financial inclusion.",
+    "opportunity": "Investments in stablecoin-related startups could lead to significant returns due to growing demand for digital payment solutions.",
+    "risk": "Regulatory risks associated with stablecoins could negatively impact investments in this sector."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Airtel, Globacom resume airtime lending after court blocks FCCPC rules",
-    "date": "Mon, 25 May 2026 16:43:54 +0000",
-    "interpretation": "The court's decision to block FCCPC rules enables Airtel and Globacom to continue offering airtime lending services, maintaining their competitive advantage in Kenya's fintech market.",
-    "opportunity": "This development presents an opportunity for Airtel and Globacom to expand their mobile money services, increasing financial inclusion in Kenya.",
-    "risk": "The lack of regulatory oversight may lead to consumer protection issues, increasing the risk of reputational damage for Airtel and Globacom."
+    "sector": "INFRASTRUCTURE",
+    "title": "Africa risks losing billions to satellite internet operators, report says",
+    "date": "Tue, 26 May 2026 14:10:57 +0000",
+    "interpretation": "The report highlights a potential threat to Africa's digital development and economic growth as satellite internet operators may bypass traditional terrestrial infrastructure networks, undermining local investments and initiatives.",
+    "opportunity": "Investing in terrestrial internet infrastructure and developing partnerships with local operators could mitigate the risks associated with satellite internet providers and ensure a more inclusive and sustainable digital future for Africa.",
+    "risk": "Africa's lack of preparedness and regulatory frameworks to address satellite internet operations may result in significant financial losses and undermine the country's infrastructure development ambitions."
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "Launch Africa\u2019s playbook for managing one of Africa\u2019s biggest VC portfolios",
-    "date": "Mon, 25 May 2026 16:33:48 +0000",
-    "interpretation": "This news highlights the need for Africa to develop a strategic framework for managing its growing VC portfolios, which can lead to better infrastructure development and economic growth across the continent.",
-    "opportunity": "The launch of a playbook for managing VC portfolios presents an opportunity for Kenya to attract more foreign investment and develop its own domestic VC ecosystem.",
-    "risk": "There is a risk of mismanagement or inefficient allocation of funds if the playbook is not effectively implemented, which could undermine its objectives and result in poor returns on investment."
+    "sector": "FINTECH",
+    "title": "AfricInvest partner George Odo on lessons African founders never receive",
+    "date": "Tue, 26 May 2026 13:40:16 +0000",
+    "interpretation": "This article provides strategic insights on African founders' entrepreneurial journeys, shedding light on untapped opportunities and challenges within the fintech sector.",
+    "opportunity": "African founders may be able to leverage their expertise in unstructured markets and lack of competition to create scalable fintech solutions that can be replicated globally.",
+    "risk": "Fintech ventures are often high-risk, high-reward investments, and the lack of experienced founders in the African market may lead to high failure rates, making venture capital decisions even more challenging."
   }
 ]
