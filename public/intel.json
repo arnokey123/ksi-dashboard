@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 SA delays AI policy to 2027",
-    "date": "Wed, 27 May 2026 06:28:29 +0000",
-    "interpretation": "The delay in the AI policy in South Africa implies a potential lag in digital infrastructure development, which could affect Kenya's competitive advantage in the region.",
-    "opportunity": "Investors in AI-driven infrastructure, such as data centers and cloud services, may find opportunities in Kenya due to its faster adoption pace in Africa.",
-    "risk": "The delay in AI policy adoption in South Africa may also imply a higher risk of regulatory bottlenecks and cybersecurity challenges for Kenya's emerging tech sector."
+    "sector": "E-MOBILITY",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Spiro acquires Coexlion",
+    "date": "Thu, 28 May 2026 06:01:23 +0000",
+    "interpretation": "Spiro's acquisition of Coexlion matters strategically because it may be a move to strengthen its position in the electric aviation industry.",
+    "opportunity": "This could be a signal that the market is ripe for e-mobility investments, particularly in air travel solutions.",
+    "risk": "The risk of market volatility in the e-mobility sector, particularly the electric aviation industry, could impact Spiro's future performance."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Ghana\u2019s central bank suspends proposed MTN mobile money transfer fee",
-    "date": "Tue, 26 May 2026 19:26:22 +0000",
-    "interpretation": "The suspension of the MTN mobile money transfer fee by Ghana's central bank matters strategically as it sets a precedent for potential regulatory scrutiny of fintech fees in other African countries.",
-    "opportunity": "The proposed suspension of mobile money transfer fees may create a window of opportunity for Kenyan fintech companies to explore similar fee models, potentially replicating Ghana's success.",
-    "risk": "The regulatory environment for fintech fees in Kenya may become more challenging if Ghana's central bank's decision leads to increased scrutiny from financial regulators in our country."
+    "sector": "LOGISTICS",
+    "title": "Why Glovo thinks Africa could become the world\u2019s biggest quick commerce market",
+    "date": "Wed, 27 May 2026 15:22:43 +0000",
+    "interpretation": "This matters strategically because Glovo's optimistic view of Africa's quick commerce market could lead to significant investment and growth in the region's e-commerce and logistics sectors.",
+    "opportunity": "There is an opportunity for investors to capitalize on the rapid growth of Africa's quick commerce market and invest in logistics and e-commerce companies that can cater to this emerging demand.",
+    "risk": "There is a risk that Africa's quick commerce market may not meet Glovo's optimistic projections due to regulatory challenges, infrastructure constraints, and competition from established players."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Stablecoins are hard to spend. This startup wants to make it easy.",
-    "date": "Tue, 26 May 2026 17:06:21 +0000",
-    "interpretation": "This development could increase adoption of stablecoins as a form of digital payment in Kenya, enhancing financial inclusion.",
-    "opportunity": "Investments in stablecoin-related startups could lead to significant returns due to growing demand for digital payment solutions.",
-    "risk": "Regulatory risks associated with stablecoins could negatively impact investments in this sector."
+    "sector": "AGRICULTURE",
+    "title": "The next fintech race is infrastructure. Paga wants in",
+    "date": "Wed, 27 May 2026 13:40:16 +0000",
+    "interpretation": "Paga's move into infrastructure fintech indicates a strategic shift in the financial technology sector, highlighting the importance of digital infrastructure in enabling financial services.",
+    "opportunity": "This signals an opportunity for investors to consider bets on fintech companies that are focused on building digital infrastructure, potentially offering high returns due to growing demand.",
+    "risk": "The increasing focus on fintech infrastructure also increases the risk of regulatory scrutiny and oversaturation in the market, which could negatively impact Paga's business model and other players in the sector."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Africa risks losing billions to satellite internet operators, report says",
-    "date": "Tue, 26 May 2026 14:10:57 +0000",
-    "interpretation": "The report highlights a potential threat to Africa's digital development and economic growth as satellite internet operators may bypass traditional terrestrial infrastructure networks, undermining local investments and initiatives.",
-    "opportunity": "Investing in terrestrial internet infrastructure and developing partnerships with local operators could mitigate the risks associated with satellite internet providers and ensure a more inclusive and sustainable digital future for Africa.",
-    "risk": "Africa's lack of preparedness and regulatory frameworks to address satellite internet operations may result in significant financial losses and undermine the country's infrastructure development ambitions."
+    "sector": "LOGISTICS",
+    "title": "Wasoko cofounder Daniel Yu launches $100 million Africa Jobs Fund",
+    "date": "Wed, 27 May 2026 12:30:11 +0000",
+    "interpretation": "The launch of the Africa Jobs Fund by Wasoko's cofounder, Daniel Yu, indicates a strategic effort to support job creation and economic growth in Africa's logistics sector.",
+    "opportunity": "This initiative presents an opportunity for investors and businesses alike to participate in Africa's booming logistics industry and contribute to the creation of jobs and economic development.",
+    "risk": "The success of the Africa Jobs Fund is contingent upon various factors, including market conditions, funding allocation, and the ability to effectively create jobs and stimulate economic growth in Africa's logistics sector."
   },
   {
     "id": 5,
-    "sector": "FINTECH",
-    "title": "AfricInvest partner George Odo on lessons African founders never receive",
-    "date": "Tue, 26 May 2026 13:40:16 +0000",
-    "interpretation": "This article provides strategic insights on African founders' entrepreneurial journeys, shedding light on untapped opportunities and challenges within the fintech sector.",
-    "opportunity": "African founders may be able to leverage their expertise in unstructured markets and lack of competition to create scalable fintech solutions that can be replicated globally.",
-    "risk": "Fintech ventures are often high-risk, high-reward investments, and the lack of experienced founders in the African market may lead to high failure rates, making venture capital decisions even more challenging."
+    "sector": "E-MOBILITY",
+    "title": "South Africa-listed 4Sight Holdings eyes Africa AI push after strong growth",
+    "date": "Wed, 27 May 2026 12:24:46 +0000",
+    "interpretation": "South Africa-listed 4Sight Holdings' push into AI technology signifies a potential strategic expansion into the burgeoning tech infrastructure in Africa, which could have far-reaching implications for the continent's digital landscape.",
+    "opportunity": "This move by 4Sight Holdings may create a window of opportunity for other investors to tap into the African market's growing demand for AI adoption, particularly in sectors like finance and healthcare.",
+    "risk": "There are potential risks associated with investing in AI technologies in Africa, including regulatory uncertainties, skill shortages, and cybersecurity threats that could impact 4Sight Holdings' growth and profitability."
   }
 ]
