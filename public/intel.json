@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Brass gets Stacked",
-    "date": "Tue, 02 Jun 2026 06:22:20 +0000",
-    "interpretation": "Brass getting stacked may be related to a significant development in digital payments or financial technology, which could disrupt traditional banking methods in Kenya.",
-    "opportunity": "Investing in Kenyan fintech companies that utilize mobile payments and digital wallets could yield higher returns due to increasing adoption.",
-    "risk": "Regulatory oversight for fintech companies may hinder growth and expose investments to potential losses."
+    "sector": "INFRASTRUCTURE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Canal+ goes to the JSE",
+    "date": "Wed, 03 Jun 2026 06:13:48 +0000",
+    "interpretation": "This move by Canal+ to the JSE signifies growing interest from global media and entertainment companies in expanding their African presence through strategic listings.",
+    "opportunity": "A potential increase in investment from Canal+ could boost the Kenyan and African media and entertainment sectors, opening up new growth opportunities.",
+    "risk": "The listing may also increase competition for local media and entertainment businesses in Kenya, posing a threat to their market share."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "Flutterwave promotes 25% of its global workforce in talent retention move",
-    "date": "Mon, 01 Jun 2026 14:10:19 +0000",
-    "interpretation": "This move signifies Flutterwave's commitment to talent retention and its focus on maintaining a high-performing workforce as it expands its global operations.",
-    "opportunity": "The promotion of 25% of its global workforce creates an opportunity for Flutterwave to retain key talent and maintain its competitive edge in the fintech industry.",
-    "risk": "However, the company may face increased financial burdens and logistical challenges associated with rapid promotions, which could impact its long-term growth prospects."
+    "title": "Uganda\u2019s central bank caps cash withdrawals in digital payments push",
+    "date": "Tue, 02 Jun 2026 17:11:40 +0000",
+    "interpretation": "This policy shift by Uganda's central bank is a strategic move to push digital payments adoption, aligning with Kenya's own goals of promoting fintech growth in East Africa.",
+    "opportunity": "Opportunity for cross-border fintech collaboration and market expansion between Kenya and Uganda.",
+    "risk": "Risk of potential economic disruption and public backlash if the policy fails to effectively phase out traditional cash-based transactions."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Oui Capital\u2019s Pius Bankong on evaluating founders through an operator\u2019s lens",
-    "date": "Mon, 01 Jun 2026 13:48:41 +0000",
-    "interpretation": "Evaluating founders through an operator's lens can be crucial in identifying strategic partnerships or investments in Kenya's burgeoning fintech industry",
-    "opportunity": "This approach may lead to the discovery of undervalued fintech startups with significant growth potential",
-    "risk": "Relying solely on an operator's lens may overlook critical issues such as market viability or regulatory compliance"
+    "sector": "INFRASTRUCTURE",
+    "title": "The Next wave: We seem to miss the point about African tech conferences",
+    "date": "Tue, 02 Jun 2026 16:10:20 +0000",
+    "interpretation": "The article highlights the importance of African tech conferences in fostering innovation and collaboration, which matters strategically as it can drive the development of Kenya's infrastructure sector.",
+    "opportunity": "The article presents an opportunity for Kenya to showcase its innovation hubs and tech start-ups, potentially attracting investments and partnerships in the infrastructure sector.",
+    "risk": "The article risks overlooking the challenges and limitations of hosting and participating in large-scale tech conferences, which can strain local resources and infrastructure."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Nigerian business banking startup Brass merges operations into Paystack MFB",
-    "date": "Mon, 01 Jun 2026 12:03:03 +0000",
-    "interpretation": "This merger signals growing demand for comprehensive fintech solutions in Nigeria, presenting an opportunity for Paystack MFB to expand its market reach and enhance financial inclusivity.",
-    "opportunity": "Paystack MFB may capitalize on the newly consolidated business banking operations to drive growth in digital payment services, expanding its customer base and revenue streams.",
-    "risk": "The integration process may pose operational risks and require significant investments, potentially diverting resources from other key initiatives and impacting the startup's scalability."
+    "sector": "INFRASTRUCTURE",
+    "title": "South Africa unveils plan to commercialise $1.8 billion research spending",
+    "date": "Tue, 02 Jun 2026 14:55:31 +0000",
+    "interpretation": "This development suggests that South Africa is prioritizing research-driven infrastructure development to stimulate economic growth and competitiveness.",
+    "opportunity": "A potential opportunity to invest in South African infrastructure projects that leverage cutting-edge research and development.",
+    "risk": "There is a risk that the commercialization of research spending may divert resources away from essential public services, exacerbating South Africa's existing social and economic challenges."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "Spiro raises $215 million as race for Africa\u2019s EV market heats up",
-    "date": "Mon, 01 Jun 2026 11:16:51 +0000",
-    "interpretation": "This significant funding highlights the growing investment interest in Africa's emerging EV market, presenting opportunities for strategic players to capitalize on the sector's growth prospects.",
-    "opportunity": "Investors should consider allocating funds to companies involved in EV manufacturing, charging infrastructure development, and battery technology in Africa.",
-    "risk": "A rapid increase in investment in e-mobility sector also poses risks related to battery waste management and cybersecurity, which investors and policymakers need to address strategically."
+    "sector": "FINTECH",
+    "title": "The companies turning Africa\u2019s stock markets into Bitcoin investment gateways",
+    "date": "Tue, 02 Jun 2026 09:28:16 +0000",
+    "interpretation": "This development highlights the strategic importance of fintech in Kenya, allowing for easier integration of cryptocurrencies into traditional investment platforms.",
+    "opportunity": "Investors may now find it more convenient to invest in Bitcoin and other cryptocurrencies, potentially increasing liquidity and diversifying investment portfolios.",
+    "risk": "The growing adoption of cryptocurrencies through traditional investment platforms heightens the risk of market volatility and regulatory challenges."
   }
 ]
