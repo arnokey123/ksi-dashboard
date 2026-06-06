@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "E-MOBILITY",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Yadea joins Kenya\u2019s e-bike race",
-    "date": "Fri, 05 Jun 2026 08:16:06 +0000",
-    "interpretation": "Yadea's entry into Kenya's e-bike market signifies a strategic expansion of e-mobility options for residents, potentially increasing adoption rates and driving growth in the sector.",
-    "opportunity": "Investors may see an opportunity to tap into the rapidly growing e-mobility market in Kenya, which could yield significant returns as the sector continues to expand.",
-    "risk": "The entry of Yadea into the e-bike market may pose a competitive risk to existing players, potentially disrupting market dynamics and impacting their share prices."
+    "sector": "INFRASTRUCTURE",
+    "title": "Eric Asuma on childhood, ambition, and refusing to sell Kenyan Wall Street",
+    "date": "Fri, 05 Jun 2026 14:10:13 +0000",
+    "interpretation": "This news highlights Eric Asuma's determination to build and maintain a domestic financial ecosystem, which is crucial for Kenya's infrastructure development.",
+    "opportunity": "Potential for growth and innovation in Kenya's domestic financial sector, with Eric Asuma at the forefront of driving change.",
+    "risk": "Risks of regulatory hurdles and competition from established international financial institutions could hinder Eric Asuma's vision for 'Kenyan Wall Street'."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "Flutterwave targets multi-rail stablecoin payments with Tempo partnership",
-    "date": "Fri, 05 Jun 2026 07:28:57 +0000",
-    "interpretation": "The partnership between Flutterwave and Tempo signifies a strategic expansion of Flutterwave's capabilities in facilitating multi-rail stablecoin payments, which presents a significant opportunity in the Kenyan fintech market.",
-    "opportunity": "Potential for Flutterwave to increase its market share in East Africa through stable and secure payment solutions.",
-    "risk": "Dependence on new and emerging technologies could pose technical and regulatory risks for Flutterwave."
+    "title": "Nigeria\u2019s Daya taps Aptos to power Africa-Middle East stablecoin payments",
+    "date": "Fri, 05 Jun 2026 11:19:17 +0000",
+    "interpretation": "This strategic move by Daya could potentially increase the adoption of stablecoin payments across Africa and the Middle East.",
+    "opportunity": "The integration of Aptos technology may create new opportunities for fintech companies to tap into emerging markets.",
+    "risk": "The success of this initiative is uncertain, and regulatory hurdles or market competition could hinder its adoption."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Interswitch joins race for Africa\u2019s banking technology market with Temenos deal",
-    "date": "Thu, 04 Jun 2026 14:57:05 +0000",
-    "interpretation": "This deal positions Interswitch for significant market growth and increased competitiveness in Africa's banking technology market.",
-    "opportunity": "Potential for Interswitch to expand its customer base and revenue streams through Temenos' banking software integration.",
-    "risk": "Possible integration challenges and financial implications associated with acquiring and implementing Temenos' banking technology."
+    "sector": "E-MOBILITY",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Yadea joins Kenya\u2019s e-bike race",
+    "date": "Fri, 05 Jun 2026 08:16:06 +0000",
+    "interpretation": "Yadea's entry into Kenya's e-bike market highlights growing demand for eco-friendly transportation alternatives, driving strategic investment in the sector.",
+    "opportunity": "Investments in e-mobility companies can capitalize on Kenya's increasing adoption of environmentally sustainable transportation options.",
+    "risk": "Entry of Yadea, a Chinese e-bike manufacturer, into the Kenyan market heightens competition for established local players, potentially leading to market share erosion."
   },
   {
     "id": 4,
     "sector": "FINTECH",
-    "title": "Nedbank taps AI-powered lending to reach underserved South Africans",
-    "date": "Thu, 04 Jun 2026 14:10:48 +0000",
-    "interpretation": "Nedbank tapping into AI-powered lending is significant, as it expands the bank's digital footprint and improves access to financial services for underserved South African communities.",
-    "opportunity": "There is a high potential for Nedbank's AI-powered lending to attract new customers and increase market share, as it addresses a critical need for affordable and accessible financial services.",
-    "risk": "One notable risk is the bank's reliance on AI technology, as failures or biases in the system could lead to inaccurate lending decisions and damage the bank's reputation."
+    "title": "Flutterwave targets multi-rail stablecoin payments with Tempo partnership",
+    "date": "Fri, 05 Jun 2026 07:28:57 +0000",
+    "interpretation": "Flutterwave's partnership with Tempo is a strategic move to further integrate digital payment systems across Africa, increasing financial inclusion and reducing transaction costs.",
+    "opportunity": "This partnership presents an opportunity for Flutterwave to expand its offerings and capture a larger market share in Africa's growing fintech sector.",
+    "risk": "There is a risk that competitors may respond by forming similar partnerships, diluting Flutterwave's market advantage and increasing competition in the space."
   },
   {
     "id": 5,
     "sector": "FINTECH",
-    "title": "How AI is breaking banking\u2019s old employment model",
-    "date": "Thu, 04 Jun 2026 09:04:55 +0000",
-    "interpretation": "The shift in employment models in the banking sector due to AI adoption is a strategic imperative for FinTech companies to adapt and innovate.",
-    "opportunity": "There is a growing opportunity for FinTech companies to develop and implement AI-driven solutions that streamline banking employment, improving efficiency and customer experience.",
-    "risk": "The adoption of AI-driven banking employment models poses a risk of job displacement for traditional banking staff, potentially leading to significant disruption in the East African banking sector."
+    "title": "Interswitch joins race for Africa\u2019s banking technology market with Temenos deal",
+    "date": "Thu, 04 Jun 2026 14:57:05 +0000",
+    "interpretation": "This deal solidifies Interswitch's position in the African fintech market by expanding its capabilities with Temenos' banking technology solutions, which can lead to increased market presence and growth opportunities.",
+    "opportunity": "Interswitch can capitalize on the growing demand for digital banking solutions in Africa, potentially expanding its customer base and revenue streams through strategic partnerships and innovative product offerings.",
+    "risk": "Relying heavily on the success of the Temenos deal may pose risks, including potential integration challenges, increased competition, or the impact of regulatory changes on the banking technology market."
   }
 ]
