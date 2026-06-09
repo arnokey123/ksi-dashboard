@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "MANUFACTURING",
-    "title": "Kenyan companies cut jobs after 15-month hiring streak amid weaker demand",
-    "date": "Mon, 08 Jun 2026 08:43:53 +0000",
-    "interpretation": "The slowdown in hiring by Kenyan companies signals a potential shift in the labor market and economic sentiment, which may be exacerbated by global economic headwinds and regional uncertainty.",
-    "opportunity": "Investors may capitalize on the undervaluation of manufacturing stocks, particularly those with strong balance sheets and diversified revenue streams, as the sector is poised for a potential rebound.",
-    "risk": "A prolonged hiring freeze or increased layoffs could exacerbate Kenya's unemployment crisis and negatively impact consumer confidence, thereby dampening economic growth."
+    "sector": "FINTECH",
+    "title": "Nigeria\u2019s CreditChek raises $600,000 to expand credit data infrastructure into East Africa",
+    "date": "Tue, 09 Jun 2026 08:00:07 +0000",
+    "interpretation": "This expansion into East Africa strengthens Nigeria's position in the continent's fintech market, increasing access to credit information and promoting financial inclusion.",
+    "opportunity": "Investors may see this as an opportunity to support the growth of fintech in Africa, potentially generating significant returns as the market expands.",
+    "risk": "Risks may arise from the competitive fintech landscape in East Africa, where established players could potentially disrupt CreditChek's market share."
   },
   {
     "id": 2,
     "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 AfricInvest ships out of Centaures",
-    "date": "Mon, 08 Jun 2026 06:27:21 +0000",
-    "interpretation": "The exit of AfricInvest from Centaures may signal a shift in investment priorities in Kenya's private equity landscape, affecting future infrastructure development.",
-    "opportunity": "Investors can capitalize on potential undervaluation of Centaures' assets following AfricInvest's exit to enter the market at a discounted rate.",
-    "risk": "The exit of a prominent investor like AfricInvest could negatively impact Centaures' operational stability and future growth prospects."
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 MTN wants to be your One TV",
+    "date": "Tue, 09 Jun 2026 07:54:55 +0000",
+    "interpretation": "MTN's expansion into a One TV platform could significantly impact Kenya's digital infrastructure, influencing the way users access television content",
+    "opportunity": "The growing demand for digital television services in Kenya presents an opportunity for MTN to increase its market share and expand its customer base",
+    "risk": "MTN's entry into the One TV market may face regulatory scrutiny, posing a risk to the company's expansion plans"
   },
   {
     "id": 3,
-    "sector": "E-MOBILITY",
-    "title": "The Next Wave: Why $215 million went to Spiro",
-    "date": "Mon, 08 Jun 2026 05:22:45 +0000",
-    "interpretation": "This investment highlights the growing interest in digital payments and financial inclusion in Kenya, which can have a significant impact on the country's financial sector development.",
-    "opportunity": "Companies providing digital payment solutions and services may see increased demand and investment opportunities in the Kenyan market.",
-    "risk": "Investing in fintech may come with high risks of regulatory changes or disruptions in the payment system, which can affect investment returns."
+    "sector": "CLEAN ENERGY",
+    "title": "Spiro taps\u00a0former Indofast Energy chief as group CEO after $215 million raise",
+    "date": "Tue, 09 Jun 2026 07:11:25 +0000",
+    "interpretation": "This appointment highlights Spiro's strategic shift in leadership and capital raise, increasing its potential for growth and expansion in the clean energy sector.",
+    "opportunity": "The $215 million raise and leadership appointment signal a significant opportunity for Spiro to expand its clean energy operations and potentially enter new markets.",
+    "risk": "The appointment and capital raise may also increase operational and capital risks for Spiro, particularly if the newly raised funds are not managed efficiently or if the group CEO fails to deliver expected growth."
   },
   {
     "id": 4,
-    "sector": "E-MOBILITY",
-    "title": "What to expect at Apple\u2019s WWDC 2026 keynote on Monday",
-    "date": "Sat, 06 Jun 2026 15:48:40 +0000",
-    "interpretation": "This news matters strategically as WWDC 2026 may unveil new Apple products and features that potentially integrate with or promote e-mobility, such as enhanced car connectivity or improved battery life.",
-    "opportunity": "Investors may have an opportunity to capture Apple's expected revenue growth from its integration with the growing e-mobility sector.",
-    "risk": "Investors may face market volatility if Apple fails to meet market expectations for e-mobility-related announcements at WWDC 2026."
+    "sector": "INFRASTRUCTURE",
+    "title": "From Siri AI to iOS27: Everything Apple announced at WWDC 2026",
+    "date": "Mon, 08 Jun 2026 20:44:01 +0000",
+    "interpretation": "This announcement highlights Apple's focus on integrating its AI capabilities, potentially paving the way for more streamlined and efficient digital infrastructure in Kenya and beyond.",
+    "opportunity": "There may be opportunities for Kenyan investment in AI-enabled infrastructure, which could see increased demand for reliable digital solutions.",
+    "risk": "The integration of AI features into Apple's iOS may pose a risk to local competitors in the tech industry, potentially impacting Kenya's tech sector competitiveness."
   },
   {
     "id": 5,
     "sector": "INFRASTRUCTURE",
-    "title": "Eric Asuma on childhood, ambition, and refusing to sell Kenyan Wall Street",
-    "date": "Fri, 05 Jun 2026 14:10:13 +0000",
-    "interpretation": "This matters strategically because Eric Asuma's refusal to sell suggests a potential for Kenyan Wall Street to become a critical infrastructure for Kenya's economy, driving growth and stability.",
-    "opportunity": "Establishing a Kenyan Wall Street-like financial district could create significant job opportunities, attract foreign investment, and enhance Kenya's economic competitiveness.",
-    "risk": "The risk of a failed or underdeveloped Kenyan Wall Street could lead to significant economic losses for investors and undermine trust in Kenya's economic institutions."
+    "title": "The CBN has a big plan for payments by 2028. 13 things worth knowing.",
+    "date": "Mon, 08 Jun 2026 17:16:27 +0000",
+    "interpretation": "This matter strategically because the CBN's plan for payments can potentially upgrade Kenya's financial infrastructure, improving efficiency and reducing transaction costs.",
+    "opportunity": "The upgrade of Kenya's financial infrastructure presents an opportunity for investment in digital payment solutions and related technologies.",
+    "risk": "There is a risk that the CBN's plan may not be fully implemented or may be hampered by technical, regulatory or security issues."
   }
 ]
