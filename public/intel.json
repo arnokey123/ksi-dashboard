@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Taking the Family public",
-    "date": "Fri, 12 Jun 2026 06:06:30 +0000",
-    "interpretation": "This news highlights the expansion and increased visibility of innovative Kenyan startups in the ecosystem, which could attract significant investment and create new opportunities for growth.",
-    "opportunity": "The article suggests that taking TechCabal (assuming it's the same entity as the founder's venture) public could set a precedent for other family-owned and operated businesses in Kenya to pursue similar listing arrangements, unlocking new capital and market exposure.",
-    "risk": "There is a risk that the increased visibility and public scrutiny associated with a public listing could negatively impact the company's operations and reputation if not managed properly."
+    "title": "One UI 8.5 missing features explained: Which Galaxy phones miss out",
+    "date": "Fri, 12 Jun 2026 17:48:03 +0000",
+    "interpretation": "The rollout of One UI 8.5 on Galaxy phones highlights the importance of consistent software updates in supporting Kenyan businesses' digital transformation in the infrastructure sector.",
+    "opportunity": "Kenya's mobile phone manufacturers could explore opportunities to upgrade their phone software offerings to match international standards.",
+    "risk": "Potential delays in rolling out the One UI 8.5 update on Galaxy phones in Kenya could impact consumer trust and mobile phone sales."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "Alliance-backed Daya wants to help businesses manage money using stablecoins",
-    "date": "Thu, 11 Jun 2026 15:42:49 +0000",
-    "interpretation": "The emergence of stablecoins as a viable option for businesses to manage money suggests a growing demand for reliable digital payment solutions, which could lead to increased adoption of fintech services in Kenya.",
-    "opportunity": "The introduction of stablecoins could provide a new revenue stream for fintech companies in Kenya, especially those operating in the digital payment services sector.",
-    "risk": "Rapid adoption of stablecoins without adequate regulatory oversight may expose businesses and individuals to increased risk of money laundering and financial instability."
+    "title": "Why more Lesotho migrant workers are choosing fintechs to send money home",
+    "date": "Fri, 12 Jun 2026 15:52:11 +0000",
+    "interpretation": "This matter strategically because it highlights the growing demand for digital financial services among migrant workers, which fintechs are well-positioned to capitalize on.",
+    "opportunity": "There is an opportunity to invest in or partner with fintech companies that offer cross-border payment services to migrant workers in Lesotho and beyond.",
+    "risk": "There is a risk that regulatory challenges or security concerns may hinder the growth of fintechs in the cross-border payment space."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "AI is now a geopolitical asset. African presidents are racing to catch up.",
-    "date": "Thu, 11 Jun 2026 10:17:45 +0000",
-    "interpretation": "AI has emerged as a key geopolitical asset, signaling a strategic pivot in African nations' pursuit of technological advancements and potential economic growth.",
-    "opportunity": "The Kenyan government can seize this opportunity by investing in AI infrastructure to boost its competitive edge and attract foreign investments.",
-    "risk": "African countries may fall behind in the AI race if they fail to align their investment strategies with emerging trends and technologies."
+    "sector": "E-MOBILITY",
+    "title": "Why Africa\u2019s most-funded EV startup is thinking beyond motorcycles",
+    "date": "Fri, 12 Jun 2026 13:57:15 +0000",
+    "interpretation": "This news is strategically important as it indicates a shift in focus by Africa's most-funded EV startup, potentially opening up new opportunities for growth beyond the initial motorcycle market.",
+    "opportunity": "The startup's expansion may create a new frontier for electric vehicle innovation in Africa, offering potential investments and partnerships for other companies.",
+    "risk": "The risk of expanding into new markets and products may distract the startup from its core motorcycle business, potentially impacting near-term revenue and profitability."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Kenya\u2019s Family Bank secures approval for long-awaited NSE listing",
-    "date": "Thu, 11 Jun 2026 07:54:03 +0000",
-    "interpretation": "This listing is a strategic move by Family Bank to increase its visibility and credibility within the Kenyan financial market, paving the way for future growth and investment opportunities.",
-    "opportunity": "Increased investor demand for Family Bank's shares could drive up the company's valuation and provide liquidity for existing shareholders, potentially attracting new investors and capital.",
-    "risk": "Regulatory hurdles or market volatility could impact the company's listing and valuation, exposing investors to potential losses."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Taking the Family public",
+    "date": "Fri, 12 Jun 2026 06:06:30 +0000",
+    "interpretation": "This news suggests that TechCabal, a prominent African technology media outlet, is considering an initial public offering (IPO) which could raise the profile and financial clout of African fintech companies.",
+    "opportunity": "The IPO could attract significant investment capital, allowing TechCabal to expand its fintech focus and drive innovation in the sector.",
+    "risk": "Potential volatility in the IPO process may impact TechCabal's valuation and ability to execute its strategic plans."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 MTN eyes fintech licences",
-    "date": "Thu, 11 Jun 2026 06:11:23 +0000",
-    "interpretation": "MTN's move to obtain fintech licences is a strategic signal of its intent to expand its offerings into digital financial services, potentially increasing its revenue and market share in the sector.",
-    "opportunity": "This news creates an opportunity for MTN to diversify its revenue streams, expand into new markets, and improve its competitiveness in the fintech space.",
-    "risk": "There is a risk that MTN may face increased regulatory scrutiny, competition from established fintech players, or cybersecurity threats, which could negatively impact its business and reputation."
+    "sector": "FINTECH",
+    "title": "Alliance-backed Daya wants to help businesses manage money using stablecoins",
+    "date": "Thu, 11 Jun 2026 15:42:49 +0000",
+    "interpretation": "This announcement highlights the growing adoption of financial technology to manage money effectively, which can contribute to financial inclusion and economic growth in Kenya.",
+    "opportunity": "The potential for stablecoins to improve financial efficiency and accessibility presents a significant opportunity for fintech investors and businesses in Kenya.",
+    "risk": "The adoption of stablecoins may be hindered by regulatory uncertainty and security concerns, posing a risk to businesses and investors in the fintech sector."
   }
 ]
