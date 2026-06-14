@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "One UI 8.5 missing features explained: Which Galaxy phones miss out",
-    "date": "Fri, 12 Jun 2026 17:48:03 +0000",
-    "interpretation": "The rollout of One UI 8.5 on Galaxy phones highlights the importance of consistent software updates in supporting Kenyan businesses' digital transformation in the infrastructure sector.",
-    "opportunity": "Kenya's mobile phone manufacturers could explore opportunities to upgrade their phone software offerings to match international standards.",
-    "risk": "Potential delays in rolling out the One UI 8.5 update on Galaxy phones in Kenya could impact consumer trust and mobile phone sales."
+    "sector": "MANUFACTURING",
+    "title": "Samsung phones that lost software support in June 2026",
+    "date": "Sat, 13 Jun 2026 15:40:51 +0000",
+    "interpretation": "This matter matters strategically because Samsung losing software support for its phones could lead to security vulnerabilities and a potential loss of customer trust, ultimately affecting Samsung's brand image and sales.",
+    "opportunity": "There might be a opportunity for other smartphone manufacturers to capitalize on Samsung's misstep, by offering more secure and supported devices to consumers.",
+    "risk": "Samsung's loss of software support for its old phones could also impact the sales of new phones, as customers may be wary of upgrading due to security concerns, posing a risk to the company's revenue growth."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Why more Lesotho migrant workers are choosing fintechs to send money home",
-    "date": "Fri, 12 Jun 2026 15:52:11 +0000",
-    "interpretation": "This matter strategically because it highlights the growing demand for digital financial services among migrant workers, which fintechs are well-positioned to capitalize on.",
-    "opportunity": "There is an opportunity to invest in or partner with fintech companies that offer cross-border payment services to migrant workers in Lesotho and beyond.",
-    "risk": "There is a risk that regulatory challenges or security concerns may hinder the growth of fintechs in the cross-border payment space."
+    "sector": "INFRASTRUCTURE",
+    "title": "One UI 8.5 missing features explained: Which Galaxy phones miss out",
+    "date": "Fri, 12 Jun 2026 17:48:03 +0000",
+    "interpretation": "The upgrade of Samsung's Galaxy phones, although not directly related to Kenya's infrastructure sector, indicates advancements in technology which could potentially impact the adoption and development of future smart city initiatives.",
+    "opportunity": "Investors may consider allocating a portion of their portfolio to companies involved in smart technologies, such as IoT system developers, to capitalize on the emerging trend of smart cities.",
+    "risk": "Rapid technological advancements in personal devices may lead to increased demand for related infrastructure, potentially disrupting investments in other sectors."
   },
   {
     "id": 3,
-    "sector": "E-MOBILITY",
-    "title": "Why Africa\u2019s most-funded EV startup is thinking beyond motorcycles",
-    "date": "Fri, 12 Jun 2026 13:57:15 +0000",
-    "interpretation": "This news is strategically important as it indicates a shift in focus by Africa's most-funded EV startup, potentially opening up new opportunities for growth beyond the initial motorcycle market.",
-    "opportunity": "The startup's expansion may create a new frontier for electric vehicle innovation in Africa, offering potential investments and partnerships for other companies.",
-    "risk": "The risk of expanding into new markets and products may distract the startup from its core motorcycle business, potentially impacting near-term revenue and profitability."
+    "sector": "FINTECH",
+    "title": "Why more Lesotho migrant workers are choosing fintechs to send money home",
+    "date": "Fri, 12 Jun 2026 15:52:11 +0000",
+    "interpretation": "This highlights the rising demand for financial services and digital payments among migrant workers, presenting opportunities for fintech companies to expand their services across borders.",
+    "opportunity": "The growing use of fintech services by migrant workers can provide a lucrative market for cross-border remittance services, potentially yielding significant revenue for fintech companies in Kenya with strategic partnerships or expansion plans.",
+    "risk": "Competition from established international fintechs with deeper pockets and established networks may pose a risk to domestic Kenyan fintech companies looking to tap into this emerging market, potentially limiting their growth and market share."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Taking the Family public",
-    "date": "Fri, 12 Jun 2026 06:06:30 +0000",
-    "interpretation": "This news suggests that TechCabal, a prominent African technology media outlet, is considering an initial public offering (IPO) which could raise the profile and financial clout of African fintech companies.",
-    "opportunity": "The IPO could attract significant investment capital, allowing TechCabal to expand its fintech focus and drive innovation in the sector.",
-    "risk": "Potential volatility in the IPO process may impact TechCabal's valuation and ability to execute its strategic plans."
+    "sector": "E-MOBILITY",
+    "title": "Why Africa\u2019s most-funded EV startup is thinking beyond motorcycles",
+    "date": "Fri, 12 Jun 2026 13:57:15 +0000",
+    "interpretation": "This development matters strategically as it indicates a shift towards expanding EV production beyond two-wheelers, potentially making e-mobility more accessible and competitive in Africa.",
+    "opportunity": "E-Mobility startups in Africa may experience increased investment and growth opportunities as the sector expands beyond motorcycles.",
+    "risk": "Expanding e-mobility beyond motorcycles may also create operational and logistical challenges for these startups."
   },
   {
     "id": 5,
-    "sector": "FINTECH",
-    "title": "Alliance-backed Daya wants to help businesses manage money using stablecoins",
-    "date": "Thu, 11 Jun 2026 15:42:49 +0000",
-    "interpretation": "This announcement highlights the growing adoption of financial technology to manage money effectively, which can contribute to financial inclusion and economic growth in Kenya.",
-    "opportunity": "The potential for stablecoins to improve financial efficiency and accessibility presents a significant opportunity for fintech investors and businesses in Kenya.",
-    "risk": "The adoption of stablecoins may be hindered by regulatory uncertainty and security concerns, posing a risk to businesses and investors in the fintech sector."
+    "sector": "E-MOBILITY",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Taking the Family public",
+    "date": "Fri, 12 Jun 2026 06:06:30 +0000",
+    "interpretation": "TechCabal's focus on the family going public suggests an increasing interest in tech-enabled mobility solutions in the African market.",
+    "opportunity": "This news may signal a potential exit or funding opportunity for e-mobility startups in Kenya, driven by growing demand for tech-enabled transportation.",
+    "risk": "The family going public may also lead to market saturation, pricing pressure and increased competition in the e-mobility sector, posing a risk to existing players."
   }
 ]
