@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "MANUFACTURING",
-    "title": "Samsung phones that lost software support in June 2026",
-    "date": "Sat, 13 Jun 2026 15:40:51 +0000",
-    "interpretation": "This matter matters strategically because Samsung losing software support for its phones could lead to security vulnerabilities and a potential loss of customer trust, ultimately affecting Samsung's brand image and sales.",
-    "opportunity": "There might be a opportunity for other smartphone manufacturers to capitalize on Samsung's misstep, by offering more secure and supported devices to consumers.",
-    "risk": "Samsung's loss of software support for its old phones could also impact the sales of new phones, as customers may be wary of upgrading due to security concerns, posing a risk to the company's revenue growth."
+    "sector": "HEALTHCARE",
+    "title": "How stablecoins became part of Nigeria\u2019s central bank\u2019s plan for payments",
+    "date": "Mon, 15 Jun 2026 08:21:40 +0000",
+    "interpretation": "The adoption of stablecoins in Nigeria's central bank plan signifies a strategic move towards digital payments and financial inclusion in the region.",
+    "opportunity": "This development presents a potential opportunity for fintech companies to collaborate with Nigeria's central bank and invest in stablecoin technologies.",
+    "risk": "The integration of stablecoins raises risks related to monetary policy, financial stability, and regulatory challenges."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "One UI 8.5 missing features explained: Which Galaxy phones miss out",
-    "date": "Fri, 12 Jun 2026 17:48:03 +0000",
-    "interpretation": "The upgrade of Samsung's Galaxy phones, although not directly related to Kenya's infrastructure sector, indicates advancements in technology which could potentially impact the adoption and development of future smart city initiatives.",
-    "opportunity": "Investors may consider allocating a portion of their portfolio to companies involved in smart technologies, such as IoT system developers, to capitalize on the emerging trend of smart cities.",
-    "risk": "Rapid technological advancements in personal devices may lead to increased demand for related infrastructure, potentially disrupting investments in other sectors."
+    "sector": "E-MOBILITY",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 EVs crash SA\u2019s road fund",
+    "date": "Mon, 15 Jun 2026 06:10:14 +0000",
+    "interpretation": "The trend of decreased revenue from electric vehicles (EVs) for South Africa's road fund highlights the challenges of transitioning to a new energy paradigm, which Kenya can learn from to inform its own e-mobility strategies.",
+    "opportunity": "This development presents an opportunity for Kenya to invest in renewable energy infrastructure, potentially offsetting similar challenges and creating a leading e-mobility ecosystem in Africa.",
+    "risk": "However, a decline in road fund revenue could also divert funds away from essential infrastructure development, potentially exacerbating existing transportation challenges in Kenya and stifling economic growth."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Why more Lesotho migrant workers are choosing fintechs to send money home",
-    "date": "Fri, 12 Jun 2026 15:52:11 +0000",
-    "interpretation": "This highlights the rising demand for financial services and digital payments among migrant workers, presenting opportunities for fintech companies to expand their services across borders.",
-    "opportunity": "The growing use of fintech services by migrant workers can provide a lucrative market for cross-border remittance services, potentially yielding significant revenue for fintech companies in Kenya with strategic partnerships or expansion plans.",
-    "risk": "Competition from established international fintechs with deeper pockets and established networks may pose a risk to domestic Kenyan fintech companies looking to tap into this emerging market, potentially limiting their growth and market share."
+    "sector": "MANUFACTURING",
+    "title": "Samsung phones that lost software support in June 2026",
+    "date": "Sat, 13 Jun 2026 15:40:51 +0000",
+    "interpretation": "This matters strategically because Samsung's loss of software support for old phones could impact Kenya's manufacturing sector's competitiveness and consumer demand.",
+    "opportunity": "Invest in affordable smartphone brands that can capitalize on Samsung's loss of software support in Kenya, such as Transsion Holdings or Infinix Mobility.",
+    "risk": "The loss of software support could lead to a significant decline in demand for Samsung phones in Kenya, affecting local component suppliers and dealers who heavily reliant on Samsung sales."
   },
   {
     "id": 4,
-    "sector": "E-MOBILITY",
-    "title": "Why Africa\u2019s most-funded EV startup is thinking beyond motorcycles",
-    "date": "Fri, 12 Jun 2026 13:57:15 +0000",
-    "interpretation": "This development matters strategically as it indicates a shift towards expanding EV production beyond two-wheelers, potentially making e-mobility more accessible and competitive in Africa.",
-    "opportunity": "E-Mobility startups in Africa may experience increased investment and growth opportunities as the sector expands beyond motorcycles.",
-    "risk": "Expanding e-mobility beyond motorcycles may also create operational and logistical challenges for these startups."
+    "sector": "LOGISTICS",
+    "title": "One UI 8.5 missing features explained: Which Galaxy phones miss out",
+    "date": "Fri, 12 Jun 2026 17:48:03 +0000",
+    "interpretation": "This news, although appearing unrelated to financial markets, indirectly affects consumer behavior and demand for smartphones, influencing logistics for their supply and distribution.",
+    "opportunity": "The release of new smartphone software may create opportunities for companies specializing in mobile accessories, such as phone cases and screen protectors, as users seek to upgrade their devices.",
+    "risk": "Any disruption in smartphone supply chains due to the lack of features in certain Galaxy models may pose a risk for logistics companies, potentially impacting their revenue and operations."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Taking the Family public",
-    "date": "Fri, 12 Jun 2026 06:06:30 +0000",
-    "interpretation": "TechCabal's focus on the family going public suggests an increasing interest in tech-enabled mobility solutions in the African market.",
-    "opportunity": "This news may signal a potential exit or funding opportunity for e-mobility startups in Kenya, driven by growing demand for tech-enabled transportation.",
-    "risk": "The family going public may also lead to market saturation, pricing pressure and increased competition in the e-mobility sector, posing a risk to existing players."
+    "sector": "FINTECH",
+    "title": "Why more Lesotho migrant workers are choosing fintechs to send money home",
+    "date": "Fri, 12 Jun 2026 15:52:11 +0000",
+    "interpretation": "This trend highlights the growing demand for digital financial services in Africa, driven by the need for efficient cross-border money transfers.",
+    "opportunity": "Investing in fintech platforms that cater to African migrant workers offers a lucrative opportunity for growth, driven by increasing remittance volumes and competition.",
+    "risk": "Rising regulatory pressures and increasing competition in the fintech space pose significant risks to existing market players and newcomers alike."
   }
 ]
