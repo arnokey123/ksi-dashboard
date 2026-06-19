@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Nigerians get freeTV",
-    "date": "Thu, 18 Jun 2026 06:01:31 +0000",
-    "interpretation": "Nigerians' access to free TV raises questions about data consumption, internet penetration, and subsequently, infrastructure development in the region.",
-    "opportunity": "Potential collaboration opportunities between local internet service providers and content developers to leverage the free TV initiative and improve digital infrastructure.",
-    "risk": "Over-reliance on free TV may lead to decreased uptake of paid internet services, affecting revenue streams for local internet service providers."
+    "sector": "FINTECH",
+    "title": "Why M-KOPA is using smartphone repayments to expand digital lending",
+    "date": "Fri, 19 Jun 2026 08:22:44 +0000",
+    "interpretation": "This strategic move by M-KOPA highlights the growing adoption of fintech solutions in Kenya, enabling the expansion of digital lending services to more customers.",
+    "opportunity": "The use of smartphone repayments by M-KOPA presents an opportunity for the company to tap into Kenya's growing mobile payment market and expand its customer base.",
+    "risk": "The reliance on smartphone repayments for digital lending increases the risk of defaulted payments due to mobile device-related issues or economic downturns."
   },
   {
     "id": 2,
-    "sector": "CLEAN ENERGY",
-    "title": "Why global investors keep missing Africa\u2019s biggest climate opportunity",
-    "date": "Wed, 17 Jun 2026 15:54:15 +0000",
-    "interpretation": "Kenyan companies may have a strategic advantage in clean energy as they tap into Africa's vast renewable resources, enabling them to pioneer and scale innovative solutions.",
-    "opportunity": "Global investors may miss the opportunity to invest in Kenya's thriving clean energy sector, providing a signal for local investors and forward-thinking businesses to take advantage of lucrative renewable energy projects.",
-    "risk": "Ignoring the growing demand for clean energy in Africa may pose a significant risk to investors' long-term portfolios and reputation as they miss out on the benefits of environmentally friendly investments."
+    "sector": "INFRASTRUCTURE",
+    "title": "Why Africa\u2019s workforce, not just its startups, must be AI-ready",
+    "date": "Fri, 19 Jun 2026 07:53:57 +0000",
+    "interpretation": "This matters strategically because upskilling the African workforce in AI-readiness will be crucial for the successful implementation of large-scale infrastructure projects across the continent.",
+    "opportunity": "The growing need for AI-readiness in Africa's workforce presents an opportunity for Kenya to position itself as a leader in developing and deploying AI-powered infrastructure solutions.",
+    "risk": "Rapid automation without adequate upskilling and retraining poses a significant risk to employment and social stability in Africa, particularly in the infrastructure sector."
   },
   {
     "id": 3,
     "sector": "INFRASTRUCTURE",
-    "title": "Google Pixel 9a is getting Android 17: Here\u2019s what\u2019s new",
-    "date": "Wed, 17 Jun 2026 09:24:01 +0000",
-    "interpretation": "The update of Google Pixel 9a to Android 17 demonstrates an improvement in Kenyan mobile infrastructure and ecosystem, supporting growing digital adoption in various sectors.",
-    "opportunity": "Kenyan developers and businesses can now leverage the enhanced features of Android 17 to create innovative mobile-based solutions, offering a competitive edge in the regional market.",
-    "risk": "Relying on foreign-developed software may expose Kenyan users and businesses to potential cybersecurity risks if not handled effectively."
+    "title": "Quick Fire \ud83d\udd25 with Gbolahan Adebayo",
+    "date": "Fri, 19 Jun 2026 06:25:37 +0000",
+    "interpretation": "The presence of this 'Quick Fire' indicates a focus on fast-paced infrastructure development, crucial for Kenya's growth and connectivity.",
+    "opportunity": "This could be an opportunity for investment in infrastructure development projects, potentially yielding high returns.",
+    "risk": "However, the fast-paced nature of 'Quick Fire' may also pose risks of project delays, cost overruns, and regulatory hurdles."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 A Ripple in Flutterwave",
-    "date": "Wed, 17 Jun 2026 06:00:42 +0000",
-    "interpretation": "The article suggests a negative impact on Flutterwave's operations, which could have a ripple effect on the entire fintech sector in Kenya.",
-    "opportunity": "The situation presents an opportunity for investors to reassess Flutterwave's business model and potentially invest in its competitors or other fintech startups.",
-    "risk": "The instability in Flutterwave could pose a risk to investors who have exposure to the company or the wider fintech sector in Kenya."
+    "sector": "HEALTHCARE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Somalia\u2019s accidental bank",
+    "date": "Fri, 19 Jun 2026 06:24:18 +0000",
+    "interpretation": "The article highlights the unconventional banking practices in Somalia, which matters strategically as it sheds light on potential new models of financial inclusion for unbanked populations.",
+    "opportunity": "The Somalia banking model could serve as a blue ocean opportunity for fintech companies to develop innovative, community-based banking solutions.",
+    "risk": "The lack of regulation in Somalia's banking system poses a significant risk for companies looking to replicate this model in more developed markets."
   },
   {
     "id": 5,
     "sector": "INFRASTRUCTURE",
-    "title": "Every Android 17 feature coming to your phone in 2026",
-    "date": "Tue, 16 Jun 2026 16:46:51 +0000",
-    "interpretation": "The widespread implementation of Android 17 features may lead to increased smartphone adoption and digital integration in Kenya, driving infrastructure development in the country's digital ecosystem.",
-    "opportunity": "This could lead to increased investment opportunities in digital infrastructure and services, such as e-government, digital payments, and mobile banking.",
-    "risk": "However, this trend may also lead to increased competition in the fintech sector, potentially disrupting traditional banking services and posing a risk to established players."
+    "title": "Starlink grabs headlines, but Safaricom keeps winning broadband users",
+    "date": "Thu, 18 Jun 2026 17:19:49 +0000",
+    "interpretation": "This news matters strategically because it highlights Safaricom's market dominance in Kenya's broadband market, underscoring the company's ability to retain customers amidst competition from new entrants.",
+    "opportunity": "Investors could gain from Safaricom's strong market position and potential for increased revenue as more Kenyans rely on mobile internet for daily needs.",
+    "risk": "The entry of Starlink poses a risk to Safaricom's market share as it could potentially challenge the company's pricing and service offerings, attracting price-sensitive customers."
   }
 ]
