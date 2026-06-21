@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "MANUFACTURING",
-    "title": "What to expect from Samsung Galaxy Watch 9",
-    "date": "Fri, 19 Jun 2026 14:43:45 +0000",
-    "interpretation": "This news highlights the evolution of wearable technology, indicating increasing demand for smartphones and related accessories, which impacts the manufacturing industry in Kenya.",
-    "opportunity": "Investing in local smartphone manufacturers that partner with Samsung or offer similar products could be a strategic opportunity in the Kenyan market.",
-    "risk": "The release of Samsung Galaxy Watch 9 might divert consumer attention and demand from local brands, posing a risk to their market share."
+    "sector": "E-MOBILITY",
+    "title": "Samsung Galaxy Buds to buy in 2026: Every model compared",
+    "date": "Sat, 20 Jun 2026 16:36:36 +0000",
+    "interpretation": "This news highlights the growing importance of wireless earbuds in the Kenyan consumer technology market, potentially driving demand for related e-mobility products and services.",
+    "opportunity": "Investing in companies providing  wireless earbuds or related services could offer a lucrative opportunity for growth in the Kenyan e-mobility market.",
+    "risk": "The increasing competition in the wireless earbuds market could lead to decreased profit margins for manufacturers and sellers in Kenya."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Why M-KOPA is using smartphone repayments to expand digital lending",
-    "date": "Fri, 19 Jun 2026 08:22:44 +0000",
-    "interpretation": "This matters strategically as M-KOPA is leveraging the widespread adoption of smartphones to expand digital lending, bridging the financial inclusion gap in Kenya.",
-    "opportunity": "This could lead to increased market share for M-KOPA and other fintech players in Kenya's growing digital lending space.",
-    "risk": "This also risks exacerbating existing debt problems in Kenya, highlighting the potential for increased financial burden on vulnerable populations."
+    "sector": "E-MOBILITY",
+    "title": "Digital Nomads: Alma Asinobi learned to build mobility by confronting her own immobility",
+    "date": "Sat, 20 Jun 2026 16:30:53 +0000",
+    "interpretation": "The article highlights the growing trend of remote work and digital nomadism, which could drive demand for e-mobility solutions.",
+    "opportunity": "Investing in e-mobility infrastructure and services could capitalize on the increasing mobility needs of digital nomads.",
+    "risk": "Uncertainty around visa and travel policies for digital nomads in different countries poses a risk to the adoption of e-mobility solutions."
   },
   {
     "id": 3,
-    "sector": "MANUFACTURING",
-    "title": "Why Africa\u2019s workforce, not just its startups, must be AI-ready",
-    "date": "Fri, 19 Jun 2026 07:53:57 +0000",
-    "interpretation": "The article emphasizes the importance of Africa's workforce adapting to technological advancements, particularly AI, to remain competitive in the global economy and stay relevant in sectors like manufacturing.",
-    "opportunity": "The adoption of AI in manufacturing could lead to increased productivity, efficiency, and competitiveness for Kenyan businesses, driving growth and job creation.",
-    "risk": "Kenya's manufacturing sector may struggle to adapt to AI and automation, leading to a shortage of skilled workers and a decline in competitiveness, unless targeted training initiatives are implemented."
+    "sector": "FINTECH",
+    "title": "Kenyan cross-border fintech WapiPay enters Canada with money services licence",
+    "date": "Sat, 20 Jun 2026 09:21:43 +0000",
+    "interpretation": "This matters strategically as WapiPay's entry into Canada signals a growth trajectory for Kenyan fintechs in the global market.",
+    "opportunity": "There is an opportunity for Kenyan fintechs to expand their services into international markets, increasing their revenue streams and global presence.",
+    "risk": "The risk of WapiPay facing regulatory challenges or competition in the Canadian market could hinder its growth and impact the Kenyan fintech sector as a whole."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Quick Fire \ud83d\udd25 with Gbolahan Adebayo",
-    "date": "Fri, 19 Jun 2026 06:25:37 +0000",
-    "interpretation": "The reference to the host \"Gbolahan Adebayo\" without further context suggests a discussion or analysis relevant to the Kenyan infrastructure industry, making this topic strategically important.",
-    "opportunity": "There is an opportunity for Kenya to explore potential investment opportunities in the infrastructure sector through partnerships and collaborations with experts like Gbolahan Adebayo.",
-    "risk": "There is a risk that the discussion may focus on existing infrastructure challenges in Kenya, potentially highlighting areas of concern that could impact future investments."
+    "sector": "E-MOBILITY",
+    "title": "What to expect from Samsung Galaxy Watch 9",
+    "date": "Fri, 19 Jun 2026 14:43:45 +0000",
+    "interpretation": "The launch of the Samsung Galaxy Watch 9 may drive demand for mobile payment and healthcare services on the go, which are crucial for the growth of e-mobility in East Africa, including Kenya",
+    "opportunity": "Investment in telecommunications and e-commerce companies that can accommodate the increasing demand for mobile payment and healthcare services could be a lucrative opportunity",
+    "risk": "There is a risk of increased competition in the e-commerce and healthcare services markets if other tech companies follow suit with similar wearable devices"
   },
   {
     "id": 5,
-    "sector": "HEALTHCARE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Somalia\u2019s accidental bank",
-    "date": "Fri, 19 Jun 2026 06:24:18 +0000",
-    "interpretation": "This news highlights Somalia's unregulated and potentially vulnerable financial sector, which poses a strategic risk for regional financial stability and security.",
-    "opportunity": "With a lack of formal financial infrastructure, innovative fintech solutions could be leveraged to improve Somalia's financial inclusion and stability.",
-    "risk": "The unregulated nature of Somalia's financial sector may attract illicit financial activities, including money laundering and terrorist financing."
+    "sector": "FINTECH",
+    "title": "Why M-KOPA is using smartphone repayments to expand digital lending",
+    "date": "Fri, 19 Jun 2026 08:22:44 +0000",
+    "interpretation": "This strategic move by M-KOPA highlights the growing trend of fintech companies expanding into digital lending and payments, further cementing their role in Kenya's digital economy.",
+    "opportunity": "The use of smartphone repayments suggests potential opportunities for M-KOPA to leverage technology and improve credit accessibility for underserved populations.",
+    "risk": "There is a risk that M-KOPA may face increased competition in the digital lending market, potentially diluting its market share and revenue."
   }
 ]
