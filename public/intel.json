@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "E-MOBILITY",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Spiro\u2019s capital charge",
-    "date": "Tue, 23 Jun 2026 06:05:18 +0000",
-    "interpretation": "Spiro's capital charge is a significant development that matters strategically because it may indicate a shift in the fintech landscape, potentially influencing the funding dynamics of other startups in the sector.",
-    "opportunity": "The charge may create opportunities for other fintech startups to attract funding and investors, who could be looking for alternative options amidst regulatory challenges.",
-    "risk": "The uncertainty surrounding Spiro's capital charge poses a risk to the Kenyan fintech sector, particularly if other startups are affected or if investors become more cautious, leading to a decline in funding."
+    "sector": "FINTECH",
+    "title": "Lender Baobab becomes Beltone\u2019s biggest business three months after acquisition",
+    "date": "Tue, 23 Jun 2026 14:17:51 +0000",
+    "interpretation": "This strategic integration of Baobab solidifies Beltone's position in the Kenyan fin-tech landscape with increased market share and expertise.",
+    "opportunity": "Beltone's acquisition of Baobab presents a compelling opportunity for expansion into mobile banking, digital wallet and payments services in Kenya.",
+    "risk": "Failure to integrate Baobab effectively may hinder Beltone's ability to expand its customer base and compete with other Kenyan fintech players."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "For every \u20a61 Nigerian banks lent consumers, corporates got \u20a610",
-    "date": "Mon, 22 Jun 2026 09:55:37 +0000",
-    "interpretation": "This highlights the significant disparities in lending priorities between Nigerian banks, signaling a potential mismatch in risk allocation and a lack of focus on consumer lending.",
-    "opportunity": "Investors could seize this opportunity to explore alternative fintech platforms that cater to underbanked consumers, offering more accessible and inclusive financial services.",
-    "risk": "The uneven lending distribution may expose corporates to excessive risk, potentially leading to defaults and credit crises, which could have a ripple effect on the entire Nigerian economy."
+    "sector": "E-MOBILITY",
+    "title": "Ride-hailing was just the entry point. Yango had bigger plans.",
+    "date": "Tue, 23 Jun 2026 13:12:30 +0000",
+    "interpretation": "This highlights the strategic diversification of ride-hailing companies into larger mobility ecosystems, presenting opportunities for Kenya's transport sector.",
+    "opportunity": "This signals an opportunity for investment in the Kenyan e-mobility sector to capitalize on growing demand for alternative transportation solutions.",
+    "risk": "There is a risk that Kenya's lack of comprehensive regulatory frameworks may hinder the growth of e-mobility companies like Yango."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 MTN\u2019s AI cables",
-    "date": "Mon, 22 Jun 2026 06:40:11 +0000",
-    "interpretation": "MTN's integration of AI cables may revolutionize Kenya's telecommunications infrastructure, enabling faster and more efficient data transmission.",
-    "opportunity": "Investing in MTN's AI cables could provide a strategic opportunity for growth in the Kenyan infrastructure sector, driven by increased demand for digital connectivity.",
-    "risk": "The high cost and complexity of implementing AI cables could pose a significant risk to MTN's profitability and customer adoption rates."
+    "sector": "FINTECH",
+    "title": "Yellow Card expands global stablecoin network with Swiss regulatory approval",
+    "date": "Tue, 23 Jun 2026 13:05:33 +0000",
+    "interpretation": "This matter strategically as it indicates Yellow Card's stablecoin is gaining global recognition and regulatory acceptance, enhancing its adoption and use.",
+    "opportunity": "The Swiss regulatory approval provides an opportunity for Yellow Card to expand its business in Europe, potentially tapping into a large and lucrative market.",
+    "risk": "A risk to Yellow Card's expansion in Europe is regulatory scrutiny, which could lead to compliance issues and negatively impact its business operations."
   },
   {
     "id": 4,
-    "sector": "E-MOBILITY",
-    "title": "Spiro secures another $55 million three weeks after $215 million raise",
-    "date": "Mon, 22 Jun 2026 03:00:00 +0000",
-    "interpretation": "This fundraising momentum indicates Spiro's growing market presence and ability to secure significant capital, making it a strategic player in the fintech industry.",
-    "opportunity": "Investors may consider allocating funds to Spiro given its ability to attract large investments and drive growth in the fintech sector.",
-    "risk": "The speed and frequency of Spiro's fundraises raise concerns about excessive leverage and potential vulnerability to economic downturns."
+    "sector": "INFRASTRUCTURE",
+    "title": "The missing infrastructure behind Africa\u2019s growing tourism economy",
+    "date": "Tue, 23 Jun 2026 10:58:31 +0000",
+    "interpretation": "The article highlights a crucial bottleneck in Africa's growing tourism industry, underscoring the need for investments in upgrading and developing infrastructure to support sustainable economic growth.",
+    "opportunity": "Investing in infrastructure development could unlock massive opportunities for long-term growth and returns in Africa's tourism sector.",
+    "risk": "Inadequate infrastructure in popular tourist destinations poses significant risks to the stability and profitability of investments in the sector."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "Samsung Galaxy Buds to buy in 2026: Every model compared",
-    "date": "Sat, 20 Jun 2026 16:36:36 +0000",
-    "interpretation": "This news highlights growing consumer interest in wireless earbuds, suggesting a strong market trend in the e-mobility sector, particularly in device accessories.",
-    "opportunity": "Investors may consider opportunistic investments in companies manufacturing advanced wireless earbuds, potentially benefiting from the growing demand.",
-    "risk": "The article focuses on consumer electronics, a sector where market saturation and rapid technology updates pose a risk to investors who are not nimble."
+    "sector": "INFRASTRUCTURE",
+    "title": "Paystack rolls out $2,900 support package for Nigerian small businesses",
+    "date": "Tue, 23 Jun 2026 10:06:13 +0000",
+    "interpretation": "This support package for Nigerian small businesses by Paystack is a strategic move to increase financial inclusion and deepen Fintech penetration in the African market.",
+    "opportunity": "The $2,900 support package could create a competitive advantage for Paystack in the African Fintech market, potentially leading to increased market share and revenue growth.",
+    "risk": "The significant investment in the support package poses a risk to Paystack's balance sheet and could negatively impact their profitability, especially if not properly managed."
   }
 ]
