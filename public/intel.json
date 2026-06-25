@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "Lender Baobab becomes Beltone\u2019s biggest business three months after acquisition",
-    "date": "Tue, 23 Jun 2026 14:17:51 +0000",
-    "interpretation": "This strategic integration of Baobab solidifies Beltone's position in the Kenyan fin-tech landscape with increased market share and expertise.",
-    "opportunity": "Beltone's acquisition of Baobab presents a compelling opportunity for expansion into mobile banking, digital wallet and payments services in Kenya.",
-    "risk": "Failure to integrate Baobab effectively may hinder Beltone's ability to expand its customer base and compete with other Kenyan fintech players."
+    "sector": "E-MOBILITY",
+    "title": "Ajua said it acquired Kenya\u2019s WayaWaya. WayaWaya says it never happened",
+    "date": "Thu, 25 Jun 2026 07:09:12 +0000",
+    "interpretation": "This matter strategically as it highlights the potential for misinformation and disputes in the rapidly evolving fintech landscape in Kenya, which investors should carefully monitor.",
+    "opportunity": "Potential acquisition-related synergies and increased market share may emerge if WayaWaya and Ajua resolve their dispute and move forward with a deal.",
+    "risk": "Misinformation and potential disputes over company acquisitions may increase regulatory scrutiny and create uncertainty for fintech investors in Kenya."
   },
   {
     "id": 2,
-    "sector": "E-MOBILITY",
-    "title": "Ride-hailing was just the entry point. Yango had bigger plans.",
-    "date": "Tue, 23 Jun 2026 13:12:30 +0000",
-    "interpretation": "This highlights the strategic diversification of ride-hailing companies into larger mobility ecosystems, presenting opportunities for Kenya's transport sector.",
-    "opportunity": "This signals an opportunity for investment in the Kenyan e-mobility sector to capitalize on growing demand for alternative transportation solutions.",
-    "risk": "There is a risk that Kenya's lack of comprehensive regulatory frameworks may hinder the growth of e-mobility companies like Yango."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Monzo goes Nigerian",
+    "date": "Thu, 25 Jun 2026 06:02:19 +0000",
+    "interpretation": "This move by Monzo into the Nigerian market highlights the growing interest of international fintech players in Africa's financial sector, which presents a strategic opportunity for expansion and investment.",
+    "opportunity": "Monzo's entry into the Nigerian market presents a potential opportunity for investment and partnership, particularly for other fintech companies looking to expand into Africa.",
+    "risk": "Monzo's expansion into Nigeria may also pose a risk of increasing competition in the local fintech market, potentially disrupting existing players."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Yellow Card expands global stablecoin network with Swiss regulatory approval",
-    "date": "Tue, 23 Jun 2026 13:05:33 +0000",
-    "interpretation": "This matter strategically as it indicates Yellow Card's stablecoin is gaining global recognition and regulatory acceptance, enhancing its adoption and use.",
-    "opportunity": "The Swiss regulatory approval provides an opportunity for Yellow Card to expand its business in Europe, potentially tapping into a large and lucrative market.",
-    "risk": "A risk to Yellow Card's expansion in Europe is regulatory scrutiny, which could lead to compliance issues and negatively impact its business operations."
+    "sector": "INFRASTRUCTURE",
+    "title": "Abimbola Bajomo found product management while solving a workplace problem",
+    "date": "Wed, 24 Jun 2026 14:45:25 +0000",
+    "interpretation": "This matter strategically because it highlights the potential for innovation and resourcefulness in solving everyday workplace problems, which could translate to infrastructure development solutions.",
+    "opportunity": "There is a potential opportunity for investment in innovative infrastructure solutions that leverage the same type of resourcefulness and problem-solving skills.",
+    "risk": "A risk is that the innovative solutions might be dependent on Abimbola's unique skillset and could be difficult to replicate or scale without additional support and resources."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "The missing infrastructure behind Africa\u2019s growing tourism economy",
-    "date": "Tue, 23 Jun 2026 10:58:31 +0000",
-    "interpretation": "The article highlights a crucial bottleneck in Africa's growing tourism industry, underscoring the need for investments in upgrading and developing infrastructure to support sustainable economic growth.",
-    "opportunity": "Investing in infrastructure development could unlock massive opportunities for long-term growth and returns in Africa's tourism sector.",
-    "risk": "Inadequate infrastructure in popular tourist destinations poses significant risks to the stability and profitability of investments in the sector."
+    "sector": "FINTECH",
+    "title": "Alliance-backed fintech Daya raises $2.4 million to build stablecoin payment rails",
+    "date": "Wed, 24 Jun 2026 12:28:47 +0000",
+    "interpretation": "This development highlights the growing investment and innovation in digital payments and fintech in East Africa, with significant implications for Kenya's financial sector.",
+    "opportunity": "The introduction of stablecoin payment rails presents an opportunity for Daya to revolutionize cross-border transactions and increase financial inclusion in Kenya.",
+    "risk": "Regulatory risks and potential instability in the digital payment landscape pose a significant risk to Daya's business model and user adoption."
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "Paystack rolls out $2,900 support package for Nigerian small businesses",
-    "date": "Tue, 23 Jun 2026 10:06:13 +0000",
-    "interpretation": "This support package for Nigerian small businesses by Paystack is a strategic move to increase financial inclusion and deepen Fintech penetration in the African market.",
-    "opportunity": "The $2,900 support package could create a competitive advantage for Paystack in the African Fintech market, potentially leading to increased market share and revenue growth.",
-    "risk": "The significant investment in the support package poses a risk to Paystack's balance sheet and could negatively impact their profitability, especially if not properly managed."
+    "sector": "E-MOBILITY",
+    "title": "Google Pixel 11: Release date, price, and specs for every model",
+    "date": "Wed, 24 Jun 2026 11:57:41 +0000",
+    "interpretation": "This news matters strategically because it highlights innovation in the tech industry, reflecting broader trends that can impact consumer behavior and market competition.",
+    "opportunity": "Investors in e-mobility or consumer technology could benefit from the growth of the smartphone market, particularly if Google Pixel's sales contribute to increased demand for electric phones or other eco-friendly gadgets.",
+    "risk": "The release of the Google Pixel 11 may distract consumers from existing e-mobility options, potentially cannibalizing sales from other brands in the same market niche."
   }
 ]
