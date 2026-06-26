@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "E-MOBILITY",
-    "title": "Ajua said it acquired Kenya\u2019s WayaWaya. WayaWaya says it never happened",
-    "date": "Thu, 25 Jun 2026 07:09:12 +0000",
-    "interpretation": "This matter strategically as it highlights the potential for misinformation and disputes in the rapidly evolving fintech landscape in Kenya, which investors should carefully monitor.",
-    "opportunity": "Potential acquisition-related synergies and increased market share may emerge if WayaWaya and Ajua resolve their dispute and move forward with a deal.",
-    "risk": "Misinformation and potential disputes over company acquisitions may increase regulatory scrutiny and create uncertainty for fintech investors in Kenya."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Tala cuts jobs again",
+    "date": "Fri, 26 Jun 2026 06:16:23 +0000",
+    "interpretation": "Tala's job cuts signify potential struggles in maintaining profitability in the competitive Kenyan fintech space, posing a threat to its long-term sustainability.",
+    "opportunity": "This development presents an opportunity for other fintech companies in Kenya to fill the gap in microfinance and digitized lending services.",
+    "risk": "Tala's repeated job cuts raise concerns about the viability of similar fintech businesses in Kenya, potentially deterring investor interest in the sector."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Monzo goes Nigerian",
-    "date": "Thu, 25 Jun 2026 06:02:19 +0000",
-    "interpretation": "This move by Monzo into the Nigerian market highlights the growing interest of international fintech players in Africa's financial sector, which presents a strategic opportunity for expansion and investment.",
-    "opportunity": "Monzo's entry into the Nigerian market presents a potential opportunity for investment and partnership, particularly for other fintech companies looking to expand into Africa.",
-    "risk": "Monzo's expansion into Nigeria may also pose a risk of increasing competition in the local fintech market, potentially disrupting existing players."
+    "sector": "E-MOBILITY",
+    "title": "Apple just raised prices: See which devices cost more now",
+    "date": "Thu, 25 Jun 2026 20:45:47 +0000",
+    "interpretation": "This price hike in Apple devices may have a ripple effect on the manufacturing sector in Kenya, impacting import costs and ultimately consumer prices.",
+    "opportunity": "Kenyan manufacturing companies can capitalize on this trend by diversifying their product offerings, reducing costs, and targeting the affordable tech segment, potentially increasing their market share.",
+    "risk": "The price increase in Apple devices may exacerbate economic inequality in Kenya by reducing consumer purchasing power, which could impact overall economic growth."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "Abimbola Bajomo found product management while solving a workplace problem",
-    "date": "Wed, 24 Jun 2026 14:45:25 +0000",
-    "interpretation": "This matter strategically because it highlights the potential for innovation and resourcefulness in solving everyday workplace problems, which could translate to infrastructure development solutions.",
-    "opportunity": "There is a potential opportunity for investment in innovative infrastructure solutions that leverage the same type of resourcefulness and problem-solving skills.",
-    "risk": "A risk is that the innovative solutions might be dependent on Abimbola's unique skillset and could be difficult to replicate or scale without additional support and resources."
+    "sector": "FINTECH",
+    "title": "Cardano shifts from blockchain pilots in Africa to deciding what gets built",
+    "date": "Thu, 25 Jun 2026 15:51:14 +0000",
+    "interpretation": "Cardano's pivot towards deciding what gets built in Africa highlights the growing importance of fintech infrastructure in the continent's digital transformation.",
+    "opportunity": "Kenya's fintech sector may benefit from Cardano's expertise and experience, providing potential investment opportunities for local innovators and entrepreneurs.",
+    "risk": "Regulatory uncertainty and competition from established players may impede Cardano's efforts to develop and deploy blockchain-based fintech solutions in Africa."
   },
   {
     "id": 4,
     "sector": "FINTECH",
-    "title": "Alliance-backed fintech Daya raises $2.4 million to build stablecoin payment rails",
-    "date": "Wed, 24 Jun 2026 12:28:47 +0000",
-    "interpretation": "This development highlights the growing investment and innovation in digital payments and fintech in East Africa, with significant implications for Kenya's financial sector.",
-    "opportunity": "The introduction of stablecoin payment rails presents an opportunity for Daya to revolutionize cross-border transactions and increase financial inclusion in Kenya.",
-    "risk": "Regulatory risks and potential instability in the digital payment landscape pose a significant risk to Daya's business model and user adoption."
+    "title": "Munich-based startup brings AI-powered business tools to African small businesses",
+    "date": "Thu, 25 Jun 2026 14:30:29 +0000",
+    "interpretation": "This matters strategically as it indicates an increasing penetration of digital technologies in African small businesses, enhancing operational efficiency.",
+    "opportunity": "There is an opportunity for Kenyan FINTech startups to leverage AI-powered tools to provide innovative financial solutions to local small businesses.",
+    "risk": "The emergence of foreign startups providing digital solutions to Kenyan small businesses poses a risk of disrupting the local FINTech market and fragmenting customer base."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "Google Pixel 11: Release date, price, and specs for every model",
-    "date": "Wed, 24 Jun 2026 11:57:41 +0000",
-    "interpretation": "This news matters strategically because it highlights innovation in the tech industry, reflecting broader trends that can impact consumer behavior and market competition.",
-    "opportunity": "Investors in e-mobility or consumer technology could benefit from the growth of the smartphone market, particularly if Google Pixel's sales contribute to increased demand for electric phones or other eco-friendly gadgets.",
-    "risk": "The release of the Google Pixel 11 may distract consumers from existing e-mobility options, potentially cannibalizing sales from other brands in the same market niche."
+    "sector": "FINTECH",
+    "title": "Why Opera-backed MiniPay wants Africans to spend stablecoins",
+    "date": "Thu, 25 Jun 2026 14:21:14 +0000",
+    "interpretation": "This strategic initiative by MiniPay highlights the growing adoption of digital currencies in Africa, presenting an opportunity for the continent to reduce dependence on traditional fiat currencies.",
+    "opportunity": "Emerging use cases for stablecoins in African markets, driven by the push for digital payments and financial inclusion.",
+    "risk": "Regulatory challenges and limited infrastructure may hinder widespread adoption of stablecoins in Africa, posing a risk to companies operating in this space."
   }
 ]
