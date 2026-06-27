@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Tala cuts jobs again",
-    "date": "Fri, 26 Jun 2026 06:16:23 +0000",
-    "interpretation": "Tala's job cuts signify potential struggles in maintaining profitability in the competitive Kenyan fintech space, posing a threat to its long-term sustainability.",
-    "opportunity": "This development presents an opportunity for other fintech companies in Kenya to fill the gap in microfinance and digitized lending services.",
-    "risk": "Tala's repeated job cuts raise concerns about the viability of similar fintech businesses in Kenya, potentially deterring investor interest in the sector."
+    "sector": "AGRICULTURE",
+    "title": "Bango thinks food prices shouldn\u2019t depend on which trader you ask",
+    "date": "Sat, 27 Jun 2026 05:57:36 +0000",
+    "interpretation": "This matter strategically because Bango's statement suggests that food prices are being manipulated by traders, which could lead to a broader discussion on price controls and regulatory reforms in the agriculture sector.",
+    "opportunity": "Kenyan government may consider implementing price control measures, creating opportunities for agricultural businesses that prioritize transparency and fair pricing.",
+    "risk": "Agricultural businesses that prioritize profit over transparency may face regulatory crackdowns, posing a risk to their operations and future growth."
   },
   {
     "id": 2,
-    "sector": "E-MOBILITY",
-    "title": "Apple just raised prices: See which devices cost more now",
-    "date": "Thu, 25 Jun 2026 20:45:47 +0000",
-    "interpretation": "This price hike in Apple devices may have a ripple effect on the manufacturing sector in Kenya, impacting import costs and ultimately consumer prices.",
-    "opportunity": "Kenyan manufacturing companies can capitalize on this trend by diversifying their product offerings, reducing costs, and targeting the affordable tech segment, potentially increasing their market share.",
-    "risk": "The price increase in Apple devices may exacerbate economic inequality in Kenya by reducing consumer purchasing power, which could impact overall economic growth."
+    "sector": "INFRASTRUCTURE",
+    "title": "Stabyl emerges from stealth with $2.7 million for Africa\u2019s FX infrastructure",
+    "date": "Fri, 26 Jun 2026 18:16:21 +0000",
+    "interpretation": "Stabyl's funding matters strategically because it indicates a growing demand for improved foreign exchange (FX) infrastructure in Africa.",
+    "opportunity": "There is a potential opportunity for investors to capitalize on the increasing need for efficient FX solutions in the African market.",
+    "risk": "The risk to investors is that Stabyl may struggle to effectively disrupt Africa's established FX infrastructure market with its new solutions."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Cardano shifts from blockchain pilots in Africa to deciding what gets built",
-    "date": "Thu, 25 Jun 2026 15:51:14 +0000",
-    "interpretation": "Cardano's pivot towards deciding what gets built in Africa highlights the growing importance of fintech infrastructure in the continent's digital transformation.",
-    "opportunity": "Kenya's fintech sector may benefit from Cardano's expertise and experience, providing potential investment opportunities for local innovators and entrepreneurs.",
-    "risk": "Regulatory uncertainty and competition from established players may impede Cardano's efforts to develop and deploy blockchain-based fintech solutions in Africa."
+    "sector": "INFRASTRUCTURE",
+    "title": "Why Africa\u2019s telcos are embracing Starlink instead of fighting it",
+    "date": "Fri, 26 Jun 2026 18:08:00 +0000",
+    "interpretation": "Africa's telcos embracing Starlink signifies a strategic shift towards investing in satellite-based internet infrastructure, paving the way for expanded digital connectivity and economic opportunities across the continent.",
+    "opportunity": "The Starlink trend presents an opportunity for Kenya to leapfrog traditional internet infrastructure development and become a leader in satellite-based internet services, potentially creating new avenues for economic growth and improved connectivity.",
+    "risk": "The increased reliance on Starlink and other satellite services may lead to decreased investment in traditional terrestrial internet infrastructure, potentially compromising Kenya's long-term digital ecosystem resilience."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Munich-based startup brings AI-powered business tools to African small businesses",
-    "date": "Thu, 25 Jun 2026 14:30:29 +0000",
-    "interpretation": "This matters strategically as it indicates an increasing penetration of digital technologies in African small businesses, enhancing operational efficiency.",
-    "opportunity": "There is an opportunity for Kenyan FINTech startups to leverage AI-powered tools to provide innovative financial solutions to local small businesses.",
-    "risk": "The emergence of foreign startups providing digital solutions to Kenyan small businesses poses a risk of disrupting the local FINTech market and fragmenting customer base."
+    "sector": "AGRICULTURE",
+    "title": "Google Pixel 11 vs. Pixel 10: Should you upgrade this year?",
+    "date": "Fri, 26 Jun 2026 12:02:15 +0000",
+    "interpretation": "This headlines signals strategic relevance of tech-enabled upgrades to increase overall user experience, which could impact agricultural productivity indirectly through better mobile-based services in Kenya.",
+    "opportunity": "There is potential opportunity for investments in the agricultural sector that leverage technology to improve efficiency and productivity.",
+    "risk": "Risk exists due to potential environmental impact of increased electronic waste generated by rapid tech upgrades."
   },
   {
     "id": 5,
-    "sector": "FINTECH",
-    "title": "Why Opera-backed MiniPay wants Africans to spend stablecoins",
-    "date": "Thu, 25 Jun 2026 14:21:14 +0000",
-    "interpretation": "This strategic initiative by MiniPay highlights the growing adoption of digital currencies in Africa, presenting an opportunity for the continent to reduce dependence on traditional fiat currencies.",
-    "opportunity": "Emerging use cases for stablecoins in African markets, driven by the push for digital payments and financial inclusion.",
-    "risk": "Regulatory challenges and limited infrastructure may hinder widespread adoption of stablecoins in Africa, posing a risk to companies operating in this space."
+    "sector": "HEALTHCARE",
+    "title": "A Soweto startup\u2019s unlikely journey from gadgets to AI healthcare",
+    "date": "Fri, 26 Jun 2026 12:00:26 +0000",
+    "interpretation": "This news highlights the growing intersection of emerging technologies like AI and traditional healthcare services in Kenya, indicating strategic importance for investments in this sector.",
+    "opportunity": "The opportunity exists to support Kenyan startups in developing innovative AI-powered healthcare solutions that can address the country's unique healthcare challenges and improve access to quality care.",
+    "risk": "There is a risk that Kenyan startups may face scalability and regulatory challenges as they transition from gadget-based businesses to AI healthcare solutions, impacting their growth and competitiveness."
   }
 ]
