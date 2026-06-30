@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "INFRASTRUCTURE",
-    "title": "Absa Kenya CEO Abdi Mohamed steps down after 32-year career",
-    "date": "Mon, 29 Jun 2026 09:12:25 +0000",
-    "interpretation": "This strategic management change within a prominent Kenyan bank could impact the country's financial sector's long-term stability and growth, potentially affecting broader infrastructure development.",
-    "opportunity": "Potential for a well-seasoned executive to step into the CEO role and spearhead innovative initiatives that foster growth and stability within the Kenyan financial sector.",
-    "risk": "The departure of a seasoned executive could lead to disruption and instability within the bank, potentially affecting Kenya's overall economic growth and stability."
+    "title": "Paga turns to tokenised investments in latest infrastructure push",
+    "date": "Tue, 30 Jun 2026 07:56:14 +0000",
+    "interpretation": "Paga's move into tokenized investments represents a strategic expansion of its business towards creating alternative infrastructure financing options, enhancing its role in Kenya's digital economy.",
+    "opportunity": "This development presents an opportunity for Paga to tap into a growing market for digital infrastructure investments and increase its market share in the Kenyan fintech sector.",
+    "risk": "The adoption of tokenized investments may pose regulatory and security risks for Paga, requiring careful management and compliance with existing regulatory frameworks."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Nigeria\u2019s fintechs built payments. Now they\u2019re becoming banks.",
-    "date": "Mon, 29 Jun 2026 09:04:16 +0000",
-    "interpretation": "The trend highlights the evolving role of fintechs in Nigeria, which can inform the development of the Kenyan fintech sector, potentially driving innovative financial services.",
-    "opportunity": "This opportunity signals a chance for Kenyan fintech firms to leverage Nigeria's success in payments and digital banking to grow their own offerings.",
-    "risk": "The potential disruption caused by fintechs becoming banks in Nigeria could pose a risk to traditional financial institutions in Nigeria and, by extension, Kenya."
+    "sector": "LOGISTICS",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Takealot finally delivers",
+    "date": "Tue, 30 Jun 2026 06:12:28 +0000",
+    "interpretation": "Takealot finally delivering is strategically significant as it indicates improved efficiency and reliability in the Kenyan logistics sector.",
+    "opportunity": "Potential investment opportunities may arise in the Kenyan e-commerce and logistics sector as Takealot's success may attract increased adoption and investment.",
+    "risk": "There may be a risk of increased competition in the Kenyan logistics sector if other companies follow Takealot's lead and improve their delivery services, potentially impacting margins and market share."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Abay Bank lists in Ethiopia",
-    "date": "Mon, 29 Jun 2026 06:23:42 +0000",
-    "interpretation": "The listing of Abay Bank in Ethiopia signifies growing demand and potential for fintech expansion in Africa's emerging markets, necessitating further investment in financial technology.",
-    "opportunity": "Abay Bank's listing presents a potential opportunity for investors to tap into Ethiopia's growing digital payments market and increase their foothold in Eastern Africa.",
-    "risk": "The Ethiopian banking sector remains heavily regulated, posing a regulatory risk to Abay Bank and potentially limiting the bank's ability to expand and increase profitability."
+    "sector": "HEALTHCARE",
+    "title": "Sub-Saharan Africa still imports over 90% of assistive tech despite policy gains",
+    "date": "Mon, 29 Jun 2026 14:26:11 +0000",
+    "interpretation": "This policy gain has not yet led to significant domestic production of assistive tech, which matters strategically because it means local needs are still heavily reliant on foreign imports, increasing costs and limiting accessibility.",
+    "opportunity": "Investing in local manufacturing and production of assistive tech in Kenya can meet growing demand and create a lucrative export market in Sub-Saharan Africa.",
+    "risk": "Continued import dependence may limit the effectiveness of Kenyan healthcare policies, particularly for marginalized communities, as they may not have equal access to assistive technologies."
   },
   {
     "id": 4,
     "sector": "INFRASTRUCTURE",
-    "title": "\u201cWe had no clear path about how this was going to turn out\u201d: Day 1-1000 of Blaaiz",
-    "date": "Sat, 27 Jun 2026 09:48:49 +0000",
-    "interpretation": "The ambiguity of Blaaiz's path highlights the complexity of navigating infrastructure developments in Kenya, underscoring the need for clear planning and execution.",
-    "opportunity": "The uncertainty surrounding Blaaiz's project could indicate potential infrastructure gaps or inefficiencies in the country, presenting an opportunity for alternative infrastructure solutions or innovative development models.",
-    "risk": "The unclear outcome of Blaaiz's project may suggest regulatory or project management risks associated with infrastructure development in Kenya, which could deter investor interest."
+    "title": "I&M taps departing Absa chief Abdi Mohamed as Kenya CEO",
+    "date": "Mon, 29 Jun 2026 13:50:55 +0000",
+    "interpretation": "This strategic hire by I&M Bank strengthens its regional leadership position in the East African financial sector, enhancing the bank's competitiveness and market reach.",
+    "opportunity": "The appointment of Abdi Mohamed could bring new business development and expansion opportunities for I&M Bank in Kenya, driven by his extensive experience and network.",
+    "risk": "The integration of Abdi Mohamed into the leadership team may introduce potential cultural or operational challenges, affecting the bank's performance and customer relationships."
   },
   {
     "id": 5,
-    "sector": "AGRICULTURE",
-    "title": "Bango thinks food prices shouldn\u2019t depend on which trader you ask",
-    "date": "Sat, 27 Jun 2026 05:57:36 +0000",
-    "interpretation": "This matters strategically as a consistent food pricing system would improve transparency and predictability in the Kenyan agricultural market, potentially boosting investment attractiveness.",
-    "opportunity": "The development of a standardized pricing system could create opportunities for businesses to invest in the agricultural sector with more confidence and accuracy.",
-    "risk": "Implementing a consistent food pricing system may require collaboration and coordination between various stakeholders, which could lead to a prolonged implementation process and potential delays."
+    "sector": "CLEAN ENERGY",
+    "title": "Why Holocene raised a $3 million fund to solve Africa\u2019s climate-tech exits",
+    "date": "Mon, 29 Jun 2026 13:33:00 +0000",
+    "interpretation": "This investment matters strategically because Holocene's $3 million fund addresses a significant obstacle facing African climate-tech startups, enabling them to scale their innovations and combat the continent's growing climate change challenges.",
+    "opportunity": "The emergence of climate-tech funding in Africa presents an opportunity for investors to capitalize on the region's rapid growth, innovative potential, and increasing focus on sustainability.",
+    "risk": "The risk of funding climate-tech startups in Africa lies in the difficulty of navigating the continent's complex investment landscapes, regulatory environments, and market volatility."
   }
 ]
