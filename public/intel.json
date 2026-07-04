@@ -1,47 +1,38 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 LemFi comes into Wealth",
-    "date": "Fri, 03 Jul 2026 06:01:27 +0000",
-    "interpretation": "LemFi's emergence into wealth could strategically impact the African fintech landscape by potentially increasing competition in the financial services sector, driving innovation, and expanding access to financial products.",
-    "opportunity": "This could be an opportunity for investors to gain exposure to the Kenyan fintech market, potentially leading to higher returns on investment.",
-    "risk": "There's a risk of increased competition in the financial services sector leading to decreased profit margins for existing players, potentially affecting the overall market performance."
+    "sector": "INFRASTRUCTURE",
+    "title": "Alaa Hamadto on building through uncertainty and believing in Sudan again",
+    "date": "Fri, 03 Jul 2026 10:59:05 +0000",
+    "interpretation": "The news highlights the entrepreneurial spirit in Sudan and its relevance to infrastructure development, hinting at opportunities for investment in the country's construction sector.",
+    "opportunity": "Investments in Sudan's infrastructure sector, including construction and real estate, could experience growth driven by renewed confidence in the country's economy.",
+    "risk": "Investing in Sudan's infrastructure sector poses risks due to existing volatility and uncertainty in the country's economic and political landscape."
   },
   {
     "id": 2,
-    "sector": "CLEAN ENERGY",
-    "title": "Catalyst Fund completes $30 million second close to back Africa\u2019s climate-tech startups",
-    "date": "Thu, 02 Jul 2026 14:40:32 +0000",
-    "interpretation": "This strategic funding boost for Africa's climate-tech startups matters strategically as it will accelerate the adoption of climate-resilient technologies across the continent.",
-    "opportunity": "This funding round presents an opportunity for investors to tap into Africa's growing climate-tech sector, which is poised for significant growth and returns.",
-    "risk": "A significant risk is that this funding could divert investments away from existing climate-action initiatives, diluting their impact and creating inefficiencies in the market."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 LemFi comes into Wealth",
+    "date": "Fri, 03 Jul 2026 06:01:27 +0000",
+    "interpretation": "LemFi's rise into wealth signifies significant growth and investor confidence in Kenya's fintech ecosystem, which can attract more investments and talent.",
+    "opportunity": "Investors may consider allocating funds to Kenyan fintech startups that leverage similar digital innovations and business models.",
+    "risk": "A surge in fintech investments may lead to market saturation, making it challenging for businesses to scale and maintain profitability."
   },
   {
     "id": 3,
-    "sector": "E-MOBILITY",
-    "title": "Afreximbank says Spiro investment signals Africa\u2019s battery ambitions",
-    "date": "Thu, 02 Jul 2026 13:22:12 +0000",
-    "interpretation": "This matter strategically because it highlights Africa's growth in the clean energy and e-mobility sectors, driven by investments in battery manufacturing and supply.",
-    "opportunity": "The investment signals a significant opportunity for companies involved in the E-MOBILITY sector to tap into the growing demand for battery manufacturing capacity in Africa.",
-    "risk": "There is a risk of uneven development in the E-MOBILITY sector if the capacity built is not utilized efficiently, or if the investment does not spur innovation and partnerships within the continent."
+    "sector": "CLEAN ENERGY",
+    "title": "Catalyst Fund completes $30 million second close to back Africa\u2019s climate-tech startups",
+    "date": "Thu, 02 Jul 2026 14:40:32 +0000",
+    "interpretation": "This investment matter strategically as it indicates growing interest and support from international investment funds for Africa's climate-tech startups, which could accelerate the development of clean energy solutions on the continent.",
+    "opportunity": "There is an emerging opportunity to invest in Africa's climate-tech sector, driven by increasing demand for clean energy solutions and growing support from international investment funds.",
+    "risk": "One potential risk is that the investment focus may be too concentrated, potentially disrupting existing clean energy markets and creating risks for investors who have not diversified their portfolios."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Nigeria heads into 2027 election worried about AI, report warns it\u2019s unprepared",
-    "date": "Thu, 02 Jul 2026 12:24:01 +0000",
-    "interpretation": "This news suggests that the potential consequences of Nigeria's unpreparedness for AI could have a broader impact on the country's infrastructure, given AI's role in optimizing and transforming various sectors.",
-    "opportunity": "The deployment of AI could provide Nigeria with an opportunity to revamp its existing infrastructure, enabling more efficient and sustainable development in the long run.",
-    "risk": "Failure to prepare for AI's integration could hinder Nigeria's ability to modernize its infrastructure, potentially leading to economic stagnation and social unrest."
-  },
-  {
-    "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "Novastar joins Google Africa Applied AI Lab to back startups",
-    "date": "Thu, 02 Jul 2026 12:04:24 +0000",
-    "interpretation": "This partnership between Novastar and Google Africa Applied AI Lab will matter strategically by providing early-stage support to innovative startups, accelerating Kenya's digital transformation.",
-    "opportunity": "The collaboration could unlock potential opportunities for startups in the region to access innovative AI technologies, improving their competitiveness and growth prospects.",
-    "risk": "There is a risk that the partnership may not lead to tangible results, and its impact may be limited to a select group of startups, failing to catalyze broader industry growth."
+    "sector": "CLEAN ENERGY",
+    "title": "Afreximbank says Spiro investment signals Africa\u2019s battery ambitions",
+    "date": "Thu, 02 Jul 2026 13:22:12 +0000",
+    "interpretation": "This development highlights Africa's growing focus on investing in renewable energy to drive economic growth and reduce carbon footprint.",
+    "opportunity": "Investing in African clean energy companies, particularly those involved in battery manufacturing, could yield significant returns due to rising demand for renewable energy solutions.",
+    "risk": "Investors may face risks associated with regulatory hurdles, energy grid infrastructure, and technology adoption, particularly in countries with limited experience in clean energy development."
   }
 ]
