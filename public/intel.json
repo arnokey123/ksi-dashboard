@@ -1,38 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "Alaa Hamadto on building through uncertainty and believing in Sudan again",
-    "date": "Fri, 03 Jul 2026 10:59:05 +0000",
-    "interpretation": "The news highlights the entrepreneurial spirit in Sudan and its relevance to infrastructure development, hinting at opportunities for investment in the country's construction sector.",
-    "opportunity": "Investments in Sudan's infrastructure sector, including construction and real estate, could experience growth driven by renewed confidence in the country's economy.",
-    "risk": "Investing in Sudan's infrastructure sector poses risks due to existing volatility and uncertainty in the country's economic and political landscape."
+    "sector": "E-MOBILITY",
+    "title": "Digital Nomads: The AI engineer who left Nigeria for Germany and quadrupled his income",
+    "date": "Sat, 04 Jul 2026 10:33:42 +0000",
+    "interpretation": "This news highlights the global shift of high-skilled workforce, potentially impacting talent acquisition and retention strategies in Kenya, particularly for industries leveraging AI and technology.",
+    "opportunity": "The influx of digital nomads and remote work opportunities may create a talent pipeline for Kenya's emerging technology and e-mobility sectors.",
+    "risk": "This trend may also pose a brain drain risk to Nigeria and other African countries, potentially limiting their access to top tech talent."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 LemFi comes into Wealth",
-    "date": "Fri, 03 Jul 2026 06:01:27 +0000",
-    "interpretation": "LemFi's rise into wealth signifies significant growth and investor confidence in Kenya's fintech ecosystem, which can attract more investments and talent.",
-    "opportunity": "Investors may consider allocating funds to Kenyan fintech startups that leverage similar digital innovations and business models.",
-    "risk": "A surge in fintech investments may lead to market saturation, making it challenging for businesses to scale and maintain profitability."
+    "title": "A Zimbabwean developer built a bride price calculator that went global",
+    "date": "Sat, 04 Jul 2026 08:03:20 +0000",
+    "interpretation": "This news highlights the growth potential of innovative financial solutions in Africa, where non-traditional methods such as bride price calculators can achieve global recognition.",
+    "opportunity": "Kenya's fintech sector may capitalize on the global attention surrounding innovative solutions, attracting investment and talent.",
+    "risk": "Kenyan fintech startups may struggle to replicate the success of the bride price calculator, as they may not have access to similar local market insights or innovative problem-solving capabilities."
   },
   {
     "id": 3,
-    "sector": "CLEAN ENERGY",
-    "title": "Catalyst Fund completes $30 million second close to back Africa\u2019s climate-tech startups",
-    "date": "Thu, 02 Jul 2026 14:40:32 +0000",
-    "interpretation": "This investment matter strategically as it indicates growing interest and support from international investment funds for Africa's climate-tech startups, which could accelerate the development of clean energy solutions on the continent.",
-    "opportunity": "There is an emerging opportunity to invest in Africa's climate-tech sector, driven by increasing demand for clean energy solutions and growing support from international investment funds.",
-    "risk": "One potential risk is that the investment focus may be too concentrated, potentially disrupting existing clean energy markets and creating risks for investors who have not diversified their portfolios."
+    "sector": "INFRASTRUCTURE",
+    "title": "Alaa Hamadto on building through uncertainty and believing in Sudan again",
+    "date": "Fri, 03 Jul 2026 10:59:05 +0000",
+    "interpretation": "The news suggests Alaa Hamadto's confidence in rebuilding and restoring Sudan's economy, indicating a potential strategic shift in investing in reconstruction efforts.",
+    "opportunity": "There is a high opportunity for investment in Sudan's infrastructure development, driven by government initiatives.",
+    "risk": "The ongoing uncertainties and potential economic instability in Sudan pose significant risks for investors, including project delays and market fluctuations."
   },
   {
     "id": 4,
-    "sector": "CLEAN ENERGY",
-    "title": "Afreximbank says Spiro investment signals Africa\u2019s battery ambitions",
-    "date": "Thu, 02 Jul 2026 13:22:12 +0000",
-    "interpretation": "This development highlights Africa's growing focus on investing in renewable energy to drive economic growth and reduce carbon footprint.",
-    "opportunity": "Investing in African clean energy companies, particularly those involved in battery manufacturing, could yield significant returns due to rising demand for renewable energy solutions.",
-    "risk": "Investors may face risks associated with regulatory hurdles, energy grid infrastructure, and technology adoption, particularly in countries with limited experience in clean energy development."
+    "sector": "HEALTHCARE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 LemFi comes into Wealth",
+    "date": "Fri, 03 Jul 2026 06:01:27 +0000",
+    "interpretation": "The growth of LemFi highlights the increasing adoption of fintech solutions in Kenya, which can have a positive impact on the country's financial inclusion and economic growth.",
+    "opportunity": "LemFi's success presents an opportunity for other fintech startups in Kenya to replicate similar models and leverage the growing demand for digital financial services.",
+    "risk": "The high growth rate of fintech companies in Kenya may attract regulatory scrutiny, potentially posing a risk to the industry's growth and stability."
+  },
+  {
+    "id": 5,
+    "sector": "E-MOBILITY",
+    "title": "Catalyst Fund completes $30 million second close to back Africa\u2019s climate-tech startups",
+    "date": "Thu, 02 Jul 2026 14:40:32 +0000",
+    "interpretation": "This strategic investment in climate-tech startups signifies a growing recognition of the importance of transitioning Africa's economy towards cleaner, more sustainable energy solutions, ultimately driving economic growth.",
+    "opportunity": "Africa's growing demand for climate-tech solutions presents a significant opportunity for startups and investors to capitalize on the development and implementation of innovative clean energy technologies.",
+    "risk": "Investing in untested climate-tech startups carries a higher risk of failure and potential losses, making it essential for Catalyst Fund to conduct thorough due diligence and risk assessment."
   }
 ]
