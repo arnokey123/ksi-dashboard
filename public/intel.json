@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "E-MOBILITY",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Sunset at Gigbanc",
-    "date": "Mon, 13 Jul 2026 07:07:20 +0000",
-    "interpretation": "This matters strategically because the shutdown of Gigbanc, possibly due to financial struggles, indicates a significant threat to Kenya's growing e-mobility sector and its associated ecosystem.",
-    "opportunity": "The potential acquisition or restructuring of Gigbanc could open up new investment and partnership opportunities for companies looking to expand their e-mobility presence in Kenya.",
-    "risk": "The demise of Gigbanc may disrupt the supply chain for electric vehicles and charging infrastructure in Kenya, posing a risk to investors and stakeholders in the e-mobility sector."
+    "sector": "FINTECH",
+    "title": "Kenyan court holds banks, telcos liable over $34,000 SIM swap fraud",
+    "date": "Mon, 13 Jul 2026 14:12:13 +0000",
+    "interpretation": "This matter strategically highlights the need for banks and telcos to improve their security protocols to prevent SIM swap fraud, thereby protecting consumer trust and reputation in the Kenyan fintech sector.",
+    "opportunity": "A potential opportunity arises for fintech companies to develop and provide secure solutions for banks and telcos to prevent SIM swap fraud and mitigate losses.",
+    "risk": "This liability ruling poses a significant risk for banks and telcos in Kenya, potentially leading to increased operational costs, fines, and reputational damage, affecting the overall fintech sector's stability and growth."
   },
   {
     "id": 2,
-    "sector": "E-MOBILITY",
-    "title": "\u201cWe weren\u2019t really sure what was going to finally stick\u201d: Day 1-1000 of Rayda",
-    "date": "Sat, 11 Jul 2026 11:46:38 +0000",
-    "interpretation": "This news article suggests a significant shift in consumer behavior and acceptance of electric mobility, indicating a growing potential market for related businesses.",
-    "opportunity": "E-mobility startups and companies operating in this space may experience increased investment and adoption, representing a strategic business opportunity.",
-    "risk": "If the adoption of e-mobility services doesn't meet expectations, businesses invested in this space may face financial losses and reputational damage."
+    "sector": "INFRASTRUCTURE",
+    "title": "Why LAVA believes the best of Africa\u2019s Web3 ecosystem is yet to come",
+    "date": "Mon, 13 Jul 2026 10:31:27 +0000",
+    "interpretation": "The article suggests that there is untapped potential in Africa's Web3 ecosystem, which could lead to significant infrastructure investments and upgrades.",
+    "opportunity": "Investing in Web3 infrastructure in Africa could yield high returns due to its growing adoption and limited current infrastructure support.",
+    "risk": "There's a risk that regulatory uncertainty in Africa could hinder the adoption and growth of the Web3 ecosystem, impacting investment returns."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Klump brings multi-bank instalment payments to Jumia\u2019s online checkout",
-    "date": "Sat, 11 Jul 2026 08:30:42 +0000",
-    "interpretation": "This partnership between Klump and Jumia represents a strategic move towards further digitalization of payments in Kenya, increasing financial inclusion and customer convenience.",
-    "opportunity": "Klump's integration into Jumia's online checkout may create an opportunity for Kenya's Fintech sector to attract more investments and partnerships.",
-    "risk": "Regulatory risks may arise if Klump's payment processing methods are not compliant with existing financial regulations in Kenya."
+    "sector": "INFRASTRUCTURE",
+    "title": "Africa\u2019s crypto payment experiment is finding its first believers at local stores",
+    "date": "Mon, 13 Jul 2026 09:54:53 +0000",
+    "interpretation": "This development matters strategically as it may catalyze the widespread adoption of digital currencies in Africa's informal economy, thereby improving the financial inclusion of millions of citizens.",
+    "opportunity": "The emergence of Africa's crypto payment experiment presents a significant opportunity for investors to capitalize on the growth of digital financial infrastructure in the region.",
+    "risk": "The lack of regulation and governance in Africa's crypto payment space poses significant risks for investors, including the potential for market volatility and capital flight."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Accrue targets African businesses with stablecoin-powered cross-border banking platform",
-    "date": "Fri, 10 Jul 2026 14:33:16 +0000",
-    "interpretation": "This announcement highlights Accrue's strategic focus on developing innovative financial solutions to address cross-border payment inefficiencies, which is critical for African businesses.",
-    "opportunity": "The introduction of a stablecoin-powered cross-border banking platform presents a significant opportunity for Accrue to capitalize on the growing demand for fintech solutions in Africa, potentially driving revenue growth and market expansion.",
-    "risk": "The successful implementation of Accrue's cross-border banking platform is subject to regulatory risks and market volatility associated with cryptocurrencies, which could impact its adoption and operational efficiency."
+    "sector": "INFRASTRUCTURE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Sunset at Gigbanc",
+    "date": "Mon, 13 Jul 2026 07:07:20 +0000",
+    "interpretation": "The article likely concerns Gigbanc's plans to wind down, which may impact Kenya's infrastructure sector by potentially delaying or canceling major projects.",
+    "opportunity": "A change in leadership or business strategies at Gigbanc could create an opportunity for other players to fill the gap in Kenya's infrastructure sector.",
+    "risk": "Gigbanc's planned wind-down could increase risk for investors and stakeholders who have committed resources to its infrastructure projects in Kenya."
   },
   {
     "id": 5,
     "sector": "FINTECH",
-    "title": "This Nigerian microfinance bank\u2019s slow-lending strategy is delivering fast results",
-    "date": "Fri, 10 Jul 2026 14:08:32 +0000",
-    "interpretation": "This slow-lending strategy may indicate a deliberate move towards risk management and loan portfolio quality, which could be a strategic shift in the Nigerian microfinance banking industry.",
-    "opportunity": "This model could be replicated in other fintech companies in Kenya, offering a potential alternative to fast-lending strategies that often lead to defaults and decreased profitability.",
-    "risk": "If the slow-lending strategy fails to deliver consistent results, it may negatively impact the microfinance bank's market share and ability to attract investors."
+    "title": "\u201cWe weren\u2019t really sure what was going to finally stick\u201d: Day 1-1000 of Rayda",
+    "date": "Sat, 11 Jul 2026 11:46:38 +0000",
+    "interpretation": "The unclear performance of 'Rayda' indicates uncertainty in the fintech sector, which may impact investor decisions and strategies.",
+    "opportunity": "The launch of 'Rayda' presents an opportunity for investors to participate in the growth potential of fintech, potentially driving returns in the Kenyan market.",
+    "risk": "The ambiguity surrounding 'Rayda's' success poses a risk to investors who may be tempted to enter the scene, highlighting the need for cautious consideration before investing in fintech."
   }
 ]
