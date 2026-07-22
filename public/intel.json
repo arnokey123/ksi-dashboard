@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Lie detector test for SIM cards",
-    "date": "Tue, 21 Jul 2026 06:29:36 +0000",
-    "interpretation": "This matter strategically because the implementation of a lie detector test in SIM cards could improve mobile network security and user trust, driving long-term investment growth in the Kenyan tech sector.",
-    "opportunity": "The introduction of secure SIM cards may open up new opportunities for investors to capitalize on emerging digital payment systems in Kenya.",
-    "risk": "There is a risk that the rollout of lie detector tests on SIM cards could be complex and time-consuming, posing operational challenges for telcos and impacting their business continuity."
+    "sector": "FINTECH",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 BVNK once for stablecoins",
+    "date": "Wed, 22 Jul 2026 06:19:17 +0000",
+    "interpretation": "This matters strategically as BVNK's involvement with stablecoins could provide a stable investment opportunity in the fintech sector, reducing potential risks for investors.",
+    "opportunity": "There is an emerging opportunity for investors to capitalize on the fintech growth in Africa through stablecoin investments with BVNK.",
+    "risk": "There is a risk that the volatility of cryptocurrencies could negatively impact BVNK's stablecoin investment, leading to potential losses for investors."
   },
   {
     "id": 2,
-    "sector": "INFRASTRUCTURE",
-    "title": "South Africa wants every SIM card to become a trusted digital ID",
-    "date": "Mon, 20 Jul 2026 13:49:11 +0000",
-    "interpretation": "This move can potentially increase digital inclusivity and streamline processes for residents and businesses, creating a more connected economy in South Africa.",
-    "opportunity": "Companies providing digital identity verification and access control solutions may experience growth as South Africa adopts this new system.",
-    "risk": "The implementation timeline and costs of replacing existing SIM cards with trusted digital IDs could be extensive, posing a challenge for local telcos."
+    "sector": "FINTECH",
+    "title": "South Africa wants more African trade. Stablecoins could help make it happen.",
+    "date": "Tue, 21 Jul 2026 16:08:45 +0000",
+    "interpretation": "The integration of stablecoins could significantly boost intra-African trade by enhancing cross-country payment systems and reducing currency exchange complexities.",
+    "opportunity": "There is a high opportunity for growth and adoption of fintech solutions in the African region, particularly in cross-border trade, as stability increases.",
+    "risk": "Adoption of stablecoins may be hindered by regional regulations and potential exchange controls, thus limiting widespread use."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Nigeria\u2019s central bank is rewriting the rules for fintech growth",
-    "date": "Mon, 20 Jul 2026 11:32:22 +0000",
-    "interpretation": "This development matters strategically as it suggests Nigeria is positioning itself to foster innovation and growth in the fintech sector, potentially paving the way for Kenyan fintech companies to explore expansion opportunities.",
-    "opportunity": "Nigerian fintech companies are likely to see enhanced investment and regulatory support, providing a potential opportunity for Kenyan investors to tap into the Nigerian market.",
-    "risk": "Increased regulatory clarity in Nigeria may lead to an influx of new fintech players, intensifying competition for Kenyan companies operating in the market."
+    "sector": "INFRASTRUCTURE",
+    "title": "SASSA August 2026 payment dates: Full schedule, grant amounts and SRD",
+    "date": "Tue, 21 Jul 2026 12:55:02 +0000",
+    "interpretation": "This news matters strategically because it highlights the government's social welfare policies, potentially influencing national spending and budget allocation, with implications for Kenya's macroeconomic landscape.",
+    "opportunity": "Government-backed social welfare initiatives may create demand for fintech solutions that facilitate grant distributions, presenting an opportunity for strategic investments in digital payment infrastructure.",
+    "risk": "Uncertainty surrounding grant amounts and payment schedules may create volatility in the financial markets, posing a risk to investments in the Kenyan economy."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "South Sudan\u2019s $50 e-visa fee threatens East African labour mobility",
-    "date": "Mon, 20 Jul 2026 11:28:41 +0000",
-    "interpretation": "This matter threatens to disrupt labour mobility in East Africa, potentially impacting infrastructure projects in Kenya and other countries that rely on migrant workers.",
-    "opportunity": "The introduction of e-visas presents an opportunity for Kenya to establish a more efficient and streamlined visa application process, potentially increasing tourism and investment revenue.",
-    "risk": "The high e-visa fee set by South Sudan poses a risk to East African countries that rely on migrant workers, potentially impacting regional economic growth and cooperation."
+    "sector": "AGRICULTURE",
+    "title": "Francophone Africa\u2019s smallest shops could become its biggest business opportunity",
+    "date": "Tue, 21 Jul 2026 11:25:51 +0000",
+    "interpretation": "This matters strategically because it highlights the overlooked potential of small-scale retailers in Francophone Africa to boost agriculture-based businesses.",
+    "opportunity": "Africa could witness a surge in agricultural entrepreneurship and job creation by focusing on small-scale retailers.",
+    "risk": "The potential for small shops to become a significant business opportunity also raises concerns about regulatory frameworks and infrastructure support."
   },
   {
     "id": 5,
-    "sector": "FINTECH",
-    "title": "GTBank Kenya begins search for new MD as Jubril Adeniji returns to Nigeria",
-    "date": "Mon, 20 Jul 2026 09:52:24 +0000",
-    "interpretation": "This leadership transition at GTBank Kenya affects the fintech sector's stability and strategic direction, potentially impacting the country's financial ecosystem.",
-    "opportunity": "GTBank Kenya's search for a new MD presents an opportunity for potential investors to enter the East African banking market.",
-    "risk": "The return of GTBank's former MD to Nigeria may signal instability and potentially trigger customer flight or financial losses in Kenya."
+    "sector": "E-MOBILITY",
+    "title": "State of Tech in Africa H1 2026 recap: Is consolidation the new growth story?",
+    "date": "Tue, 21 Jul 2026 11:00:00 +0000",
+    "interpretation": "This recap highlights strategic importance of identifying early adopters of e-mobility technologies in Africa and investing before consolidation occurs, driving long-term growth.",
+    "opportunity": "Africa presents an opportunity to invest in emerging e-mobility startups pre-consolidation, providing potential for higher returns.",
+    "risk": "Investors may face market volatility due to rapid consolidation in the e-mobility sector, potentially wiping out returns if invested at the wrong time."
   }
 ]
