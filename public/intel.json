@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 \u2018Warranty imeisha\u2019",
-    "date": "Thu, 23 Jul 2026 06:00:34 +0000",
-    "interpretation": "This news suggests a failure in after-sales support, which could erode trust in the tech company's hardware or products, negatively impacting their overall infrastructure and business operations.",
-    "opportunity": "This situation presents an opportunity for competitors to improve their warranty and after-sales services, solidifying customer trust and loyalty.",
-    "risk": "The warranty issue may indicate underlying quality control problems or inadequate customer service, posing a risk to the tech company's reputation and long-term viability."
+    "title": "South Africa\u2019s most important crime witness isn\u2019t human. It\u2019s a smartphone.",
+    "date": "Fri, 24 Jul 2026 06:56:29 +0000",
+    "interpretation": "This news highlights the increasing importance of digital forensics in crime solving, which could drive demand for digital infrastructure and cybersecurity services in Kenya.",
+    "opportunity": "Kenyan companies providing digital forensics and cybersecurity services could expand their market reach and revenue through partnerships with South African law enforcement agencies.",
+    "risk": "Increased reliance on digital evidence and infrastructure for crime solving could leave Kenya's justice system vulnerable to cyber threats and data breaches."
   },
   {
     "id": 2,
-    "sector": "E-MOBILITY",
-    "title": "Everything announced at Samsung Galaxy Unpacked July 2026",
-    "date": "Wed, 22 Jul 2026 16:18:05 +0000",
-    "interpretation": "The launch of new Samsung Galaxy devices may indicate advancements in portable charging technology and integration with electric vehicles, driving Kenya's e-mobility sector forward.",
-    "opportunity": "Opportunities for local e-mobility start-ups to integrate their services with the new Samsung devices, potentially increasing adoption of electric vehicles in Kenya.",
-    "risk": "Risk of over-reliance on foreign technology may hinder the growth of Kenya's local e-mobility innovation ecosystem."
+    "sector": "LOGISTICS",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Mr Price, Mr Europe",
+    "date": "Fri, 24 Jul 2026 06:00:38 +0000",
+    "interpretation": "This news indicates Mr Price is expanding into the European market, which could impact Kenyan logistics companies and create new opportunities for growth.",
+    "opportunity": "Expanding market presence through partnerships or acquisitions in Europe could provide significant revenue growth opportunities for Kenyan logistics companies.",
+    "risk": "Increased competition from established European logistics companies could pose a risk to small and medium-sized Kenyan companies looking to enter the European market."
   },
   {
     "id": 3,
-    "sector": "INFRASTRUCTURE",
-    "title": "MTN\u2019s $9.1 million network push takes South Africa\u2019s 5G race beyond metros",
-    "date": "Wed, 22 Jul 2026 15:07:31 +0000",
-    "interpretation": "This news signifies an expansion strategy by MTN that aims to bridge the digital divide in South Africa, potentially enhancing its market presence beyond urban areas.",
-    "opportunity": "Investing in MTN could provide opportunities for growth and increased returns as it expands its 5G network beyond major metros.",
-    "risk": "Investing in MTN's infrastructure push may carry risks associated with the complexities and costs of deploying 5G networks in rural areas."
+    "sector": "FINTECH",
+    "title": "WayaWaya appoints ex-Chase Bank Kenya executive Raj Singh as board adviser",
+    "date": "Thu, 23 Jul 2026 15:07:24 +0000",
+    "interpretation": "The appointment of a seasoned banking executive to an advisory role at WayaWaya signals a strategic effort to leverage expertise in traditional finance to support the growth of the fintech company.",
+    "opportunity": "The experience of Raj Singh could bring in fresh ideas and expertise to WayaWaya, potentially allowing the company to tap into new markets or expand its services more effectively.",
+    "risk": "The appointment of an external advisory member may also mean increased costs for WayaWaya, or that the company is attempting to compensate for a lack of existing expertise within its own leadership."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Audrey Chanakira believes the best technology begins with listening",
-    "date": "Wed, 22 Jul 2026 14:32:11 +0000",
-    "interpretation": "This quote by Audrey Chanakira suggests an emphasis on customer-centric design in fintech, which can lead to the development of more user-friendly and innovative financial solutions.",
-    "opportunity": "The focus on listening to customers may indicate an opportunity for fintech companies to develop personalized financial products and services that cater to the specific needs of the Kenyan market.",
-    "risk": "The emphasis on listening to customers may also increase the risk of fintech companies being overwhelmed by user feedback, leading to potential losses if not managed properly."
+    "sector": "MANUFACTURING",
+    "title": "Samsung One UI 9 is official: Everything we know so far",
+    "date": "Thu, 23 Jul 2026 14:48:51 +0000",
+    "interpretation": "The announcement of Samsung's One UI 9 holds strategic significance as it hints at the company's commitment to innovative technology and user experience, potentially influencing the future of the global electronics market.",
+    "opportunity": "This development presents an opportunity for Kenya's manufacturing sector to explore partnerships and collaborations with Samsung or other tech giants to boost innovation and competitiveness.",
+    "risk": "The increasing dominance of Samsung's technology in the global market poses a risk for local players in Kenya's manufacturing sector, who may struggle to keep up with the latest trends and innovations."
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "Norebase report finds Nigeria, Rwanda among Africa\u2019s fastest incorporation markets",
-    "date": "Wed, 22 Jul 2026 08:10:24 +0000",
-    "interpretation": "This report highlights Africa's economic growth trajectory, specifically the development of infrastructure and business environment in Nigeria and Rwanda, suggesting their competitive appeal for investors.",
-    "opportunity": "Investors may consider allocating assets to Nigeria and Rwanda to tap into their rapidly growing infrastructure market and capitalize on their improved business environments.",
-    "risk": "Rapid incorporation market growth may attract capital but also increase regulatory risks, potentially affecting the long-term stability of investment opportunities."
+    "sector": "MANUFACTURING",
+    "title": "Everything confirmed about the Samsung Galaxy Watch 9",
+    "date": "Thu, 23 Jul 2026 11:59:31 +0000",
+    "interpretation": "The launch of the Samsung Galaxy Watch 9 matters strategically as it can potentially boost consumer electronics demand across the region, including Kenya, thus influencing the local manufacturing sector's revenue.",
+    "opportunity": "Investing in regional consumer electronics companies could provide a promising opportunity for growth as demand is anticipated to increase due to new wearable device releases.",
+    "risk": "Uncertainty around local consumer adoption of new technologies may pose a risk to the growth of domestic electronics manufacturing, impacting investor returns."
   }
 ]
