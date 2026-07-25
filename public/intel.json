@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "South Africa\u2019s most important crime witness isn\u2019t human. It\u2019s a smartphone.",
-    "date": "Fri, 24 Jul 2026 06:56:29 +0000",
-    "interpretation": "This news highlights the increasing importance of digital forensics in crime solving, which could drive demand for digital infrastructure and cybersecurity services in Kenya.",
-    "opportunity": "Kenyan companies providing digital forensics and cybersecurity services could expand their market reach and revenue through partnerships with South African law enforcement agencies.",
-    "risk": "Increased reliance on digital evidence and infrastructure for crime solving could leave Kenya's justice system vulnerable to cyber threats and data breaches."
+    "sector": "FINTECH",
+    "title": "Kenya finalises crypto licencing framework for exchanges, digital asset firms",
+    "date": "Fri, 24 Jul 2026 16:17:49 +0000",
+    "interpretation": "This development indicates a shift towards formalisation and regulatory oversight in the rapidly growing Kenyan fintech sector, which could foster greater trust and investment.",
+    "opportunity": "A licencing framework for crypto exchanges and digital asset firms presents a potential entry point for foreign investment in Kenya's fintech sector, driving growth and innovation.",
+    "risk": "The regulatory environment may create uncertainty for existing players, forcing them to adapt or potentially exit the market, negatively impacting the overall competitiveness of the sector."
   },
   {
     "id": 2,
-    "sector": "LOGISTICS",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Mr Price, Mr Europe",
-    "date": "Fri, 24 Jul 2026 06:00:38 +0000",
-    "interpretation": "This news indicates Mr Price is expanding into the European market, which could impact Kenyan logistics companies and create new opportunities for growth.",
-    "opportunity": "Expanding market presence through partnerships or acquisitions in Europe could provide significant revenue growth opportunities for Kenyan logistics companies.",
-    "risk": "Increased competition from established European logistics companies could pose a risk to small and medium-sized Kenyan companies looking to enter the European market."
+    "sector": "INFRASTRUCTURE",
+    "title": "Why Vodacom is taking its AI talent search back to university",
+    "date": "Fri, 24 Jul 2026 15:14:53 +0000",
+    "interpretation": "This move by Vodacom demonstrates its investment in upskilling the East African workforce in AI technology, crucial for Kenya's growing telecommunication infrastructure sector.",
+    "opportunity": "Kenya's growing youth population and access to tertiary education create a significant talent pool for the country's tech sector, offering opportunities for investment in AI development and talent acquisition.",
+    "risk": "Dependence on foreign talent could lead to brain drain and skills gap in the local market if not effectively addressed through local training and development programs."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "WayaWaya appoints ex-Chase Bank Kenya executive Raj Singh as board adviser",
-    "date": "Thu, 23 Jul 2026 15:07:24 +0000",
-    "interpretation": "The appointment of a seasoned banking executive to an advisory role at WayaWaya signals a strategic effort to leverage expertise in traditional finance to support the growth of the fintech company.",
-    "opportunity": "The experience of Raj Singh could bring in fresh ideas and expertise to WayaWaya, potentially allowing the company to tap into new markets or expand its services more effectively.",
-    "risk": "The appointment of an external advisory member may also mean increased costs for WayaWaya, or that the company is attempting to compensate for a lack of existing expertise within its own leadership."
+    "sector": "AGRICULTURE",
+    "title": "Mercy Erhiawarien left Africa. She returned convinced it is the future",
+    "date": "Fri, 24 Jul 2026 13:21:22 +0000",
+    "interpretation": "Mercy Erhiawarien's positive experience upon returning to Africa may indicate renewed confidence in agricultural investment and growth opportunities on the continent.",
+    "opportunity": "Investing in African agriculture could provide attractive returns due to rising global demand for food security and the potential for innovation and productivity gains.",
+    "risk": "Returns on agricultural investments in Africa may be subject to high operational risks, environmental factors, and local market volatility."
   },
   {
     "id": 4,
-    "sector": "MANUFACTURING",
-    "title": "Samsung One UI 9 is official: Everything we know so far",
-    "date": "Thu, 23 Jul 2026 14:48:51 +0000",
-    "interpretation": "The announcement of Samsung's One UI 9 holds strategic significance as it hints at the company's commitment to innovative technology and user experience, potentially influencing the future of the global electronics market.",
-    "opportunity": "This development presents an opportunity for Kenya's manufacturing sector to explore partnerships and collaborations with Samsung or other tech giants to boost innovation and competitiveness.",
-    "risk": "The increasing dominance of Samsung's technology in the global market poses a risk for local players in Kenya's manufacturing sector, who may struggle to keep up with the latest trends and innovations."
+    "sector": "INFRASTRUCTURE",
+    "title": "\u201cI\u2019m an African\u201d: Why MTN says migration matters to South Africa\u2019s digital future",
+    "date": "Fri, 24 Jul 2026 11:29:40 +0000",
+    "interpretation": "The migration of users to digital platforms is crucial for South Africa's digital future as it enables increased access to telecommunications services and drives digital inclusion.",
+    "opportunity": "There could be a growing opportunity for MTN and other telecommunications providers to invest in upgrading their infrastructure to meet the increasing demands of digital migration.",
+    "risk": "A significant risk for MTN and other telecommunications providers in South Africa is the potential for market saturation, decreased revenue, or increased regulatory hurdles as the market becomes increasingly competitive and saturated."
   },
   {
     "id": 5,
-    "sector": "MANUFACTURING",
-    "title": "Everything confirmed about the Samsung Galaxy Watch 9",
-    "date": "Thu, 23 Jul 2026 11:59:31 +0000",
-    "interpretation": "The launch of the Samsung Galaxy Watch 9 matters strategically as it can potentially boost consumer electronics demand across the region, including Kenya, thus influencing the local manufacturing sector's revenue.",
-    "opportunity": "Investing in regional consumer electronics companies could provide a promising opportunity for growth as demand is anticipated to increase due to new wearable device releases.",
-    "risk": "Uncertainty around local consumer adoption of new technologies may pose a risk to the growth of domestic electronics manufacturing, impacting investor returns."
+    "sector": "FINTECH",
+    "title": "Duplo brings business finance software to Wema Bank\u2019s ALAT Business",
+    "date": "Fri, 24 Jul 2026 10:41:33 +0000",
+    "interpretation": "This partnership highlights Wema Bank's expansion of its digital services, solidifying its position in Kenya's fintech market.",
+    "opportunity": "The collaboration may create growth opportunities for Wema Bank's customer base and increase its market share in the business digital banking sector.",
+    "risk": "The success of this new offering depends on Wema Bank's ability to integrate Duplo's software seamlessly, minimizing potential disruptions to its existing customers."
   }
 ]
