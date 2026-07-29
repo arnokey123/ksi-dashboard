@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Zedcrest acquires Leatherback",
-    "date": "Tue, 28 Jul 2026 06:29:57 +0000",
-    "interpretation": "This matter strategically because Zedcrest's acquisition of Leatherback may indicate an increased presence of financial services players in the technology space in Kenya.",
-    "opportunity": "The acquisition presents an opportunity for investors to invest in Zedcrest's expanded fintech services, potentially offering higher returns.",
-    "risk": "The acquisition may also come with operational risks, such as integrating Leatherback's technology and processes into Zedcrest's existing business, which could negatively impact financial performance."
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Crypto winter at Luno",
+    "date": "Wed, 29 Jul 2026 06:07:35 +0000",
+    "interpretation": "A Crypto winter at Luno poses a significant threat to the growing FinTech sector in Kenya, as it may erode investor confidence and lead to a decline in digital asset adoption.",
+    "opportunity": "Investors can capitalize on the potential undervaluation of Luno and other struggling FinTech companies during this Crypto winter.",
+    "risk": "A prolonged Crypto winter may have a ripple effect, negatively impacting the broader FinTech ecosystem, leading to potential losses for investors."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Vodacom\u2019s $548 billion mobile money business shows fintech is driving its future",
-    "date": "Mon, 27 Jul 2026 15:10:48 +0000",
-    "interpretation": "This matter strategically because Vodacom's significant investments in mobile money indicate a strong commitment to leveraging fintech to drive growth and expansion.",
-    "opportunity": "Investors may consider Vodacom as a potential investment opportunity due to its growing fintech capabilities.",
-    "risk": "Investors may face risks related to regulatory changes or increased competition in the mobile money sector that could impact Vodacom's business model."
+    "sector": "INFRASTRUCTURE",
+    "title": "Africa no longer wants to import technology. It wants to write the rules",
+    "date": "Tue, 28 Jul 2026 13:44:35 +0000",
+    "interpretation": "This sentiment shift towards indigenous technology development can disrupt the traditional reliance on foreign technology and could lead to a potential growth in Kenya's homegrown innovation sector",
+    "opportunity": "Kenya could capitalize on this shift and position itself as a leader in regional technological innovation, potentially attracting foreign investment and talent",
+    "risk": "However, Kenya may face a challenge in upskilling its workforce to match the demand for specialized skills required for homegrown technology development"
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "African venture capital is backing fewer founders than ever",
-    "date": "Mon, 27 Jul 2026 11:07:44 +0000",
-    "interpretation": "This reduction in venture capital investments in African founders threatens Kenya's long-term fintech sector growth and innovation, potentially hindering financial inclusion and digital payments adoption.",
-    "opportunity": "Investing in fintech startups with scalable, digital solutions that address local pain points could yield high returns and drive Kenya's fintech sector growth.",
-    "risk": "Reduced venture capital investments in African fintech founders may lead to a talent exodus to other markets, resulting in a shortage of skilled professionals in Kenya's fintech sector."
+    "sector": "CLEAN ENERGY",
+    "title": "Egyptian startup Fincart raises $2.8 million to expand AI commerce platform",
+    "date": "Tue, 28 Jul 2026 12:07:03 +0000",
+    "interpretation": "This funding round highlights the growth potential of innovative fintech solutions in expanding regional digital ecosystems.",
+    "opportunity": "Egyptian startups leveraging AI technology in fintech may attract further investments and partnerships in a rapidly growing market.",
+    "risk": "Competition from established international fintech companies may pose a risk to smaller Egyptian startups"
   },
   {
     "id": 4,
     "sector": "FINTECH",
-    "title": "Zedcrest Group acquires cross-border payments startup Leatherback in global fintech push",
-    "date": "Mon, 27 Jul 2026 09:00:12 +0000",
-    "interpretation": "This acquisition marks a significant strategic move by Zedcrest Group to expand its fintech capabilities, enhancing its ability to cater to a broader cross-border payments market.",
-    "opportunity": "Zedcrest Group's acquisition of Leatherback presents a significant opportunity for investors to participate in the growing African fintech market, driven by the increasing demand for digital payment solutions.",
-    "risk": "The integration of Leatherback's operations into Zedcrest Group's existing infrastructure raises risks around operational complexity, regulatory compliance, and potential cultural differences between the two entities."
+    "title": "Airtel Money wants a $1 billion IPO. Can London deliver?",
+    "date": "Tue, 28 Jul 2026 11:49:24 +0000",
+    "interpretation": "A $1 billion IPO for Airtel Money highlights the growth of the FinTech sector in Africa, where mobile payments have become a key driver of digital economies.",
+    "opportunity": "The London IPO could attract new investors, expanding Airtel Money's reach and boosting the East African financial sector.",
+    "risk": "Failure to secure the IPO in London could hinder Airtel Money's growth, and raise questions about its global competitiveness."
   },
   {
     "id": 5,
-    "sector": "FINTECH",
-    "title": "Unlicenced Kenya\u2019s digital lenders cannot recover loans after court ruling",
-    "date": "Mon, 27 Jul 2026 08:42:35 +0000",
-    "interpretation": "This ruling poses a significant threat to the business models of unlicensed digital lenders in Kenya, forcing them to either obtain licenses or shut down operations.",
-    "opportunity": "Licensed digital lenders in Kenya could gain a competitive advantage and expand their market share due to the collapse of their unlicensed competitors.",
-    "risk": "The court ruling increases the risk of a financial crisis in Kenya if many digital lenders shut down or default on their loans, potentially affecting thousands of customers."
+    "sector": "INFRASTRUCTURE",
+    "title": "Absa Kenya automated 71% of processes after $31 million tech spend",
+    "date": "Tue, 28 Jul 2026 11:05:28 +0000",
+    "interpretation": "This development matters strategically as it showcases the positive impact of significant technology investments on process automation and efficiency, setting a precedent for other Kenyan financial institutions.",
+    "opportunity": "The adoption of automation and digitalization could lead to increased competitiveness and market share for Absa Kenya in the country's growing fintech sector.",
+    "risk": "The high upfront cost of $31 million could pose a significant financial risk, particularly if automation does not lead to substantial revenue growth or cost savings."
   }
 ]
