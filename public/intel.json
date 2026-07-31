@@ -2,46 +2,46 @@
   {
     "id": 1,
     "sector": "FINTECH",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 GoLemon shuts down",
-    "date": "Thu, 30 Jul 2026 06:17:03 +0000",
-    "interpretation": "The shutdown of GoLemon, a Fintech company, highlights the challenges and high failure rates within Kenya's tech ecosystem, which may deter foreign investors and hinder the country's digital transformation goals.",
-    "opportunity": "This presents an opportunity for existing Fintech players in Kenya to fill the gap left by GoLemon and to potentially partner with foreign investors looking for stable alternatives.",
-    "risk": "The Fintech sector's high failure rate and GoLemon's shut down may signal a broader risk to Kenya's economic growth, particularly in the tech industry, which could impact investor confidence and lead to reduced investments in the sector."
+    "title": "MTN Nigeria\u2019s fintech revenue slumps after airtime lending pause",
+    "date": "Fri, 31 Jul 2026 07:07:24 +0000",
+    "interpretation": "This decline in MTN Nigeria's fintech revenue is strategic because it highlights the risks of over-reliance on non-core revenue streams and the need for diversified business models.",
+    "opportunity": "The airtime lending pause may present an opportunity for MTN Nigeria to revisit its mobile money strategies and explore alternative, potentially more lucrative fintech services.",
+    "risk": "The decline in fintech revenue poses a risk to MTN Nigeria's overall revenue growth and profitability, requiring the company to implement corrective measures to mitigate this trend."
   },
   {
     "id": 2,
-    "sector": "FINTECH",
-    "title": "Kenya empowers investigators to seize crypto wallets tied to financial crime",
-    "date": "Wed, 29 Jul 2026 18:22:43 +0000",
-    "interpretation": "This development matters strategically as it indicates Kenya's efforts to strengthen its regulations and combat financial crime in the FinTech sector.",
-    "opportunity": "The government's increased focus on FinTech crime presents an opportunity for Kenyan startups to develop innovative solutions that can benefit from the growing regulatory landscape.",
-    "risk": "The increased scrutiny and potential regulatory overreach in the FinTech sector pose a risk to Kenyan companies that do not comply with the new regulations, potentially impacting their valuation and growth prospects."
+    "sector": "INFRASTRUCTURE",
+    "title": "Quick Fire \ud83d\udd25 with Omolara Dada",
+    "date": "Fri, 31 Jul 2026 06:00:17 +0000",
+    "interpretation": "This news headline suggests a high-energy, potentially impactful announcement that could have a direct or indirect influence on Kenya's infrastructure landscape, making it noteworthy for strategic analysis.",
+    "opportunity": "Investors could capitalize on potential partnerships or collaborations that emerge from this event, driving growth and innovation in the Kenyan infrastructure sector.",
+    "risk": "If the announcement proves to be more hype than substance, it may lead to investor disillusionment and potential losses, making a thorough diligence and risk assessment crucial before investing."
   },
   {
     "id": 3,
-    "sector": "FINTECH",
-    "title": "Kenya\u2019s new crypto rules could force exchanges to delist foreign stablecoins",
-    "date": "Wed, 29 Jul 2026 17:29:16 +0000",
-    "interpretation": "This matter strategically because Kenya's new crypto rules could impact the growth of the cryptocurrency market in the country, making it difficult for exchanges to offer a wide range of services and potentially driving users to more lenient regulatory environments.",
-    "opportunity": "The introduction of local stablecoins or digital payment systems that are compliant with the new regulations could create a new opportunity for fintech companies to tap into the growing demand for digital financial services in Kenya.",
-    "risk": "The delisting of foreign stablecoins could lead to a decline in user trust and adoption of cryptocurrency in Kenya, as well as create a risk of market instability if investors are forced to seek alternative investment options."
+    "sector": "INFRASTRUCTURE",
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 More birr for Ethiopia\u2019s Safaricom",
+    "date": "Fri, 31 Jul 2026 06:00:11 +0000",
+    "interpretation": "This strategic investment by Safaricom will likely enhance Ethiopia's digital infrastructure, increasing its digital penetration and growth prospects.",
+    "opportunity": "The investment presents an opportunity for Safaricom to expand its reach and offer new services in a rapidly growing African market.",
+    "risk": "The high cost of expansion into new markets, including significant investments in infrastructure, poses a risk for Safaricom's financial stability."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Why trust has become Nigeria\u2019s next digital payments challenge",
-    "date": "Wed, 29 Jul 2026 16:27:07 +0000",
-    "interpretation": "This news highlights the challenges of digital payments in Nigeria, underscoring the need for innovative fintech solutions to boost trust and financial inclusion.",
-    "opportunity": "There may be opportunities to invest in or partner with fintech companies that develop trust-enhancing digital payment platforms in Nigeria.",
-    "risk": "A lack of trust in digital payments could hinder Nigeria's financial inclusion growth and pose a risk to investors in the fintech sector."
+    "sector": "E-MOBILITY",
+    "title": "Nigeria\u2019s petrol three-wheelers are going electric\u2014with batteries powered by diesel",
+    "date": "Thu, 30 Jul 2026 15:22:15 +0000",
+    "interpretation": "The adoption of electric-powered three-wheelers in Nigeria could be a crucial step towards reducing emissions and increasing the adoption of electric vehicles in Africa, impacting the regional e-mobility industry.",
+    "opportunity": "Investors could capitalize on the growth of e-mobility in Africa, particularly in Nigeria, by backing companies that produce or supply electric vehicles, batteries, or associated charging infrastructure.",
+    "risk": "The use of diesel-powered batteries may limit the overall environmental benefits and increase operational costs, raising concerns about the long-term viability of this approach."
   },
   {
     "id": 5,
-    "sector": "E-MOBILITY",
-    "title": "Toheeb Popoola found Photoshop by accident. It changed his life.",
-    "date": "Wed, 29 Jul 2026 15:24:49 +0000",
-    "interpretation": "The mention of Photoshop in the context of life-changing innovation suggests potential opportunities for Kenyan developers to create innovative digital solutions in the realm of E-MOBILITY.",
-    "opportunity": "Toheeb Popoola's accidental discovery demonstrates the creative potential for innovation in Kenya's E-MOBILITY sector, suggesting new entrepreneurial and investment opportunities.",
-    "risk": "There is a risk that the accidental discovery may not translate to successful, scalable E-MOBILITY innovation, which would negatively impact potential investments."
+    "sector": "HEALTHCARE",
+    "title": "One founder\u2019s plan to make childbirth less financially dangerous",
+    "date": "Thu, 30 Jul 2026 13:38:01 +0000",
+    "interpretation": "This news highlights a significant opportunity in the healthcare sector, particularly in addressing financial barriers to healthcare access, which can have a positive impact on overall well-being and economic growth.",
+    "opportunity": "There is a potential for innovative healthcare solutions, such as financial inclusion models or insurance products, to address the economic burden of childbirth and attract investments in the Kenyan healthcare sector.",
+    "risk": "The implementation of such plans may face challenges in ensuring accessibility and affordability, which could lead to high operational costs and decreased adoption rates."
   }
 ]
