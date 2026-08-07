@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "INFRASTRUCTURE",
-    "title": "The surveillance system that helped Nigeria curb piracy\u00a0wants to fight banditry",
-    "date": "Wed, 05 Aug 2026 16:20:34 +0000",
-    "interpretation": "This news highlights the potential implementation of surveillance technology to combat banditry in Nigeria, which can inform Kenya's strategy in addressing its own infrastructure security concerns.",
-    "opportunity": "Implementing surveillance technology in key infrastructure areas in Kenya could significantly reduce crime rates and foster a safer environment for economic growth.",
-    "risk": "Relying heavily on surveillance technology may raise concerns about individual privacy and potential misuse, which could impact investor trust and confidence in the Kenyan government's approach to addressing crime."
+    "sector": "AGRICULTURE",
+    "title": "Quick Fire \ud83d\udd25 with Mohammed Bashir Yunusa",
+    "date": "Fri, 07 Aug 2026 06:01:16 +0000",
+    "interpretation": "This news headline could imply expertise in the field of agriculture, highlighting Mohammed Bashir Yunusa's potential involvement in initiatives or investments that drive growth in agricultural technologies or practices.",
+    "opportunity": "An opportunity to collaborate with Mohammed Bashir Yunusa on agricultural projects that can enhance food security, yields, and sustainability in Kenya.",
+    "risk": "There is a risk that Mohammed Bashir Yunusa's involvement in agriculture-related investments may be subject to weather-related crop failures or other external factors affecting agricultural productivity."
   },
   {
     "id": 2,
     "sector": "FINTECH",
-    "title": "Here\u2019s what a \u20a61 million crypto trade could cost under Nigeria\u2019s new tax rules",
-    "date": "Wed, 05 Aug 2026 15:33:47 +0000",
-    "interpretation": "Nigeria's new tax rules pose a strategic challenge to the growth of its thriving fintech sector, potentially deterring investors and stifling innovation.",
-    "opportunity": "Regulatory clarity and supportive policies could unlock substantial growth opportunities for fintech companies willing to operate in compliant environments.",
-    "risk": "Uncertainty surrounding new tax rules may lead to a decline in cryptocurrency adoption and a negative impact on the Nigerian economy's ability to adapt to emerging technologies."
+    "title": "Kenya\u2019s new crypto rules give exchanges right to appeal regulator decisions",
+    "date": "Thu, 06 Aug 2026 15:09:17 +0000",
+    "interpretation": "The new crypto rules will foster a stable regulatory environment, enabling Kenyan fintech companies to grow and compete globally.",
+    "opportunity": "The regulations may attract international investment in Kenya's fintech sector, driving innovation and job creation.",
+    "risk": "The increased regulatory appeal rights for crypto exchanges may lead to uncertainty and volatility in the market, deterring new investors."
   },
   {
     "id": 3,
     "sector": "INFRASTRUCTURE",
-    "title": "Omowonuola Akintola wants Africa to build its geospatial future",
-    "date": "Wed, 05 Aug 2026 12:44:49 +0000",
-    "interpretation": "This matters strategically because investing in geospatial technology can improve infrastructure planning, development, and maintenance across Africa, driving economic growth.",
-    "opportunity": "The opportunity for African investors to participate in the development and application of geospatial technology could lead to improved infrastructure development and returns on investment.",
-    "risk": "The risk of investing in geospatial technology lies in the potential for high upfront costs, lack of infrastructure, and limited expertise in its application, which could hinder adoption and returns."
+    "title": "As African newsrooms shrink, powerful companies face less scrutiny",
+    "date": "Thu, 06 Aug 2026 12:14:21 +0000",
+    "interpretation": "The dwindling number of independent media outlets in Africa may hinder the ability to hold influential companies accountable for their investments, potentially leading to unchecked infrastructure corruption and misallocation of resources.",
+    "opportunity": "The consolidation of African newsrooms could prompt a surge in demand for independent media outlets, creating opportunities for entrepreneurs and investors to fill the gaps with digital publishing platforms or alternative media services.",
+    "risk": "The erosion of an independent press in Africa increases the risk of infrastructure projects and investments being carried out with little transparency, scrutiny or oversight, potentially resulting in large-scale losses and reputational damage."
   },
   {
     "id": 4,
-    "sector": "INFRASTRUCTURE",
-    "title": "Exclusive: Kenya\u2019s Cloud9 acquires\u00a0Chpter less than a year after founders left",
-    "date": "Wed, 05 Aug 2026 09:03:14 +0000",
-    "interpretation": "This acquisition showcases growth of Kenya's emerging tech industry, setting a precedent for more consolidation in the local startup ecosystem.",
-    "opportunity": "Acquisition of Chpter presents a potential opportunity for Cloud9 to expand its digital infrastructure capabilities and reach a broader customer base in Kenya.",
-    "risk": "The high-profile exit of Chpter's founders followed by a quick acquisition may raise concerns about the company's operational stability and continuity."
+    "sector": "FINTECH",
+    "title": "Millions lack credit histories. African banks are changing how they lend",
+    "date": "Thu, 06 Aug 2026 11:36:27 +0000",
+    "interpretation": "The development is crucial for Africa's financial growth as it enables millions of people with limited or no credit history to access essential financial services.",
+    "opportunity": "The adoption of new lending models presents a significant opportunity for Fintech companies in Africa to increase their user base and consolidate their market positions.",
+    "risk": "There may be a risk of higher credit defaults for banks, which could potentially offset the benefits of expanding lending to previously excluded individuals."
   },
   {
     "id": 5,
-    "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 PalmPay eyes Hong Kong",
-    "date": "Wed, 05 Aug 2026 06:17:43 +0000",
-    "interpretation": "This news suggests that PalmPay is expanding its fintech presence globally, which could lead to increased brand recognition and revenue opportunities in Kenya.",
-    "opportunity": "PalmPay may leverage its existing user base in Kenya to offer cross-border payment services, increasing its market share in the region.",
-    "risk": "PalmPay's foray into the Hong Kong market could expose it to increased regulatory risks and competition from established players in the region."
+    "sector": "E-MOBILITY",
+    "title": "Why Spiro deployed 22,000 electric motorcycles in Rwanda but only 5,000 in Nigeria",
+    "date": "Thu, 06 Aug 2026 10:46:13 +0000",
+    "interpretation": "This news matters strategically because it highlights differences in adoption rates and market conditions between Rwanda and Nigeria, which can inform investment decisions in the e-mobility sector in Africa.",
+    "opportunity": "The disparity in electric motorcycle deployments in Rwanda and Nigeria presents a potential opportunity for investment and expansion in the fast-growing e-mobility market in Africa.",
+    "risk": "The significantly lower deployment in Nigeria may indicate regulatory or market hurdles, posing a risk for potential investors in the e-mobility sector in the country."
   }
 ]
