@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "LOGISTICS",
-    "title": "How Medwaka rebuilt itself into an emergency response platform",
-    "date": "Sat, 08 Aug 2026 09:00:00 +0000",
-    "interpretation": "This matter strategically because Medwaka's transformation into an emergency response platform indicates efficient crisis management capabilities that can be leveraged in Kenya's logistics and supply chain sectors.",
-    "opportunity": "There is an opportunity to invest in Medwaka's innovative platform, potentially leading to improved logistics and emergency response services in Kenya.",
-    "risk": "There is a risk of regulatory hurdles or increased competition from established companies if Medwaka fails to scale efficiently or faces security and data compliance issues."
+    "sector": "FINTECH",
+    "title": "Nigeria is making crypto companies collect taxes for the government",
+    "date": "Mon, 10 Aug 2026 12:52:55 +0000",
+    "interpretation": "This regulatory move by Nigeria demonstrates an increasing effort to tax the growth of the cryptocurrency market, which may set a precedent for other African countries.",
+    "opportunity": "Kenya's fintech sector may see increased scrutiny and potential growth as other African countries follow Nigeria's lead, providing a chance to adapt and innovate.",
+    "risk": "Uncertainty around regulatory environments may deter potential investors and hinder the growth of Kenya's fintech sector if Nigeria's regulations are adopted uniformly."
   },
   {
     "id": 2,
     "sector": "INFRASTRUCTURE",
-    "title": "IHS exits Latin America as MTN takeover moves closer",
-    "date": "Fri, 07 Aug 2026 17:33:10 +0000",
-    "interpretation": "This development matters strategically because the acquisition of IHS by MTN may signify increased expansion into infrastructure development in countries with high mobile penetration.",
-    "opportunity": "This deal may provide an entry point for telecom operators to offer additional infrastructure services, potentially creating new revenue streams.",
-    "risk": "The potential expansion of MTN's operations into infrastructure may also increase market concentration, posing a risk to competition and consumer choice."
+    "title": "The Next Wave: The mechanics of buying your own company",
+    "date": "Mon, 10 Aug 2026 09:36:16 +0000",
+    "interpretation": "The potential to acquire one's own company could disrupt traditional business acquisition models, enabling more entrepreneurs to build, own and operate their own infrastructure projects.",
+    "opportunity": "This news may signal opportunities for private equity investments and M&A deals in the infrastructure sector as entrepreneurs consider self-acquisition paths.",
+    "risk": "The trend may also expose investors to increased risks of underfunding, mismanaged debt, and potential business failures, especially in infrastructure projects with complex financing requirements."
   },
   {
     "id": 3,
     "sector": "INFRASTRUCTURE",
-    "title": "South Africa is betting on WhatsApp to bring Gen Z back to the ballot box",
-    "date": "Fri, 07 Aug 2026 13:39:35 +0000",
-    "interpretation": "This matter strategically because governments are exploring innovative technologies to increase voter turnout and engagement in the democratic process, which can have broader implications for civic participation and digital inclusion.",
-    "opportunity": "The potential to increase voter turnout through innovative technologies could create a growth opportunity for companies developing digital infrastructure and solutions in emerging markets.",
-    "risk": "There is a risk that the reliance on unsecured messaging platforms like WhatsApp could compromise voter security and potentially lead to electoral manipulation."
+    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Less drama, more SuperSport",
+    "date": "Mon, 10 Aug 2026 08:06:59 +0000",
+    "interpretation": "The mention of SuperSport suggests a possible expansion of broadcasting infrastructure in Kenya, which may boost the telecommunications sector and contribute to the country's growing digital economy.",
+    "opportunity": "Potential opportunities arise from investments in modern broadcasting infrastructure, offering scope for increased connectivity, media growth, and digital services.",
+    "risk": "Investing in broadcasting infrastructure might be exposed to risks such as competition, regulatory changes, and high initial investment costs."
   },
   {
     "id": 4,
-    "sector": "FINTECH",
-    "title": "Binance, Luno, Yellow Card, others seek Kenyan crypto licences under new rules",
-    "date": "Fri, 07 Aug 2026 10:28:04 +0000",
-    "interpretation": "The move by major crypto exchanges to seek Kenyan licenses underscores the growth and recognition of the fintech sector in the country, driving strategic development and investment.",
-    "opportunity": "This regulatory shift may unlock significant investment opportunities in Kenya's fintech sector, with major crypto exchanges positioning themselves for a potential surge in cryptocurrency adoption and usage.",
-    "risk": "However, potential regulatory hurdles and security risks associated with cryptocurrency may impact the long-term viability and stability of this emerging industry in Kenya."
+    "sector": "LOGISTICS",
+    "title": "How Medwaka rebuilt itself into an emergency response platform",
+    "date": "Sat, 08 Aug 2026 09:00:00 +0000",
+    "interpretation": "Medwaka's transformation into an emergency response platform highlights the strategic importance of adapting to new technologies and changing market needs in the logistics sector, enabling businesses to better serve clients and stay competitive.",
+    "opportunity": "Investment opportunities exist in companies that have successfully pivoted to innovative platforms and services, offering scalable solutions to meet evolving client demands.",
+    "risk": "There is a risk that companies that fail to adapt to technological changes may lose market share, highlighting the need for strategic planning and innovation adoption in the logistics sector."
   },
   {
     "id": 5,
-    "sector": "AGRICULTURE",
-    "title": "The Tanzanian brothers who turned a childhood water problem into a company",
-    "date": "Fri, 07 Aug 2026 09:29:05 +0000",
-    "interpretation": "This matters strategically as it highlights innovation and entrepreneurship in addressing a basic household need, potentially disrupting the traditional agriculture and water treatment sectors.",
-    "opportunity": "Investment opportunity in water treatment and irrigation technologies developed by innovative local startups could bring returns through increased efficiency and sustainability in agriculture.",
-    "risk": "Risks associated with scalability and adoption of local innovations in the agriculture sector need to be critically evaluated."
+    "sector": "INFRASTRUCTURE",
+    "title": "IHS exits Latin America as MTN takeover moves closer",
+    "date": "Fri, 07 Aug 2026 17:33:10 +0000",
+    "interpretation": "This strategic shift by IHS may create opportunities for MTN and other telecom operators in Latin America, potentially increasing market competition and innovation.",
+    "opportunity": "MTN's acquisition of IHS could lead to significant growth in Latin America, especially in telecommunications infrastructure.",
+    "risk": "The IHS exit may leave a void in the region's telecommunications market, potentially disrupting existing services and relationships with customers."
   }
 ]
