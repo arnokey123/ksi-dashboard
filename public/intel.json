@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "sector": "FINTECH",
-    "title": "Nigeria is making crypto companies collect taxes for the government",
-    "date": "Mon, 10 Aug 2026 12:52:55 +0000",
-    "interpretation": "This regulatory move by Nigeria demonstrates an increasing effort to tax the growth of the cryptocurrency market, which may set a precedent for other African countries.",
-    "opportunity": "Kenya's fintech sector may see increased scrutiny and potential growth as other African countries follow Nigeria's lead, providing a chance to adapt and innovate.",
-    "risk": "Uncertainty around regulatory environments may deter potential investors and hinder the growth of Kenya's fintech sector if Nigeria's regulations are adopted uniformly."
+    "sector": "INFRASTRUCTURE",
+    "title": "MTN expects profits to fall up to 30% as Iran investment takes a hit",
+    "date": "Tue, 11 Aug 2026 16:49:16 +0000",
+    "interpretation": "This news highlights a significant risk for MTN's operations and strategic expansion, as a substantial decline in profits may strain the company's resources and hinder its infrastructure development plans.",
+    "opportunity": "A potential opportunity arises for investors to acquire MTN's underperforming assets at a discounted rate, possibly offering a long-term value play.",
+    "risk": "MTN's exposure to a volatile market and unforeseen circumstances may significantly erode shareholder value, triggering a reevaluation of the company's growth prospects in East Africa."
   },
   {
     "id": 2,
     "sector": "INFRASTRUCTURE",
-    "title": "The Next Wave: The mechanics of buying your own company",
-    "date": "Mon, 10 Aug 2026 09:36:16 +0000",
-    "interpretation": "The potential to acquire one's own company could disrupt traditional business acquisition models, enabling more entrepreneurs to build, own and operate their own infrastructure projects.",
-    "opportunity": "This news may signal opportunities for private equity investments and M&A deals in the infrastructure sector as entrepreneurs consider self-acquisition paths.",
-    "risk": "The trend may also expose investors to increased risks of underfunding, mismanaged debt, and potential business failures, especially in infrastructure projects with complex financing requirements."
+    "title": "IHS Towers revenue rises 8% as diesel, merger costs squeeze profits",
+    "date": "Tue, 11 Aug 2026 15:47:10 +0000",
+    "interpretation": "This matter strategically as the squeeze on profits highlights the increasing operational costs faced by telco tower operators, which may impact growth and competitiveness in the African market.",
+    "opportunity": "IHS Towers' ability to pass on rising costs to its customers through higher revenue may indicate an opportunity for investors to invest in the company if it can maintain its pricing power.",
+    "risk": "The increasing costs associated with diesel and merger costs pose a risk to IHS Towers' future profitability, which may impact its stock price and overall financial performance."
   },
   {
     "id": 3,
     "sector": "INFRASTRUCTURE",
-    "title": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80TechCabal Daily \u2013 Less drama, more SuperSport",
-    "date": "Mon, 10 Aug 2026 08:06:59 +0000",
-    "interpretation": "The mention of SuperSport suggests a possible expansion of broadcasting infrastructure in Kenya, which may boost the telecommunications sector and contribute to the country's growing digital economy.",
-    "opportunity": "Potential opportunities arise from investments in modern broadcasting infrastructure, offering scope for increased connectivity, media growth, and digital services.",
-    "risk": "Investing in broadcasting infrastructure might be exposed to risks such as competition, regulatory changes, and high initial investment costs."
+    "title": "Nigeria collects $19.9 billion in taxes as digital systems expand",
+    "date": "Tue, 11 Aug 2026 15:42:24 +0000",
+    "interpretation": "The expansion of digital tax systems in Nigeria indicates a move towards a more modern and efficient tax infrastructure, which could potentially be replicated in other African countries, including Kenya.",
+    "opportunity": "Kenya may explore the implementation of similar tax digitalization strategies to boost its own tax revenue and improve its tax compliance rates.",
+    "risk": "Kenya may face significant technological and logistical challenges in implementing digital tax systems, which could lead to system failures and revenue losses."
   },
   {
     "id": 4,
-    "sector": "LOGISTICS",
-    "title": "How Medwaka rebuilt itself into an emergency response platform",
-    "date": "Sat, 08 Aug 2026 09:00:00 +0000",
-    "interpretation": "Medwaka's transformation into an emergency response platform highlights the strategic importance of adapting to new technologies and changing market needs in the logistics sector, enabling businesses to better serve clients and stay competitive.",
-    "opportunity": "Investment opportunities exist in companies that have successfully pivoted to innovative platforms and services, offering scalable solutions to meet evolving client demands.",
-    "risk": "There is a risk that companies that fail to adapt to technological changes may lose market share, highlighting the need for strategic planning and innovation adoption in the logistics sector."
+    "sector": "INFRASTRUCTURE",
+    "title": "How Android Halo shows you what your AI agent is doing",
+    "date": "Tue, 11 Aug 2026 14:07:03 +0000",
+    "interpretation": "This news shows how AI can be used to increase transparency in complex infrastructure systems, making it more efficient and easier to manage.",
+    "opportunity": "The integration of AI and IoT in infrastructure could enable the development of smart cities and efficient utility management systems, creating a large market opportunity for technology companies.",
+    "risk": "There is a risk that widespread adoption of AI-powered infrastructure management could lead to job displacement for human administrators, requiring companies to invest in retraining programs."
   },
   {
     "id": 5,
     "sector": "INFRASTRUCTURE",
-    "title": "IHS exits Latin America as MTN takeover moves closer",
-    "date": "Fri, 07 Aug 2026 17:33:10 +0000",
-    "interpretation": "This strategic shift by IHS may create opportunities for MTN and other telecom operators in Latin America, potentially increasing market competition and innovation.",
-    "opportunity": "MTN's acquisition of IHS could lead to significant growth in Latin America, especially in telecommunications infrastructure.",
-    "risk": "The IHS exit may leave a void in the region's telecommunications market, potentially disrupting existing services and relationships with customers."
+    "title": "South Africa wants to use machine learning to screen travellers for fraud",
+    "date": "Tue, 11 Aug 2026 11:59:41 +0000",
+    "interpretation": "This move could significantly impact Kenya's Fintech sector as it may influence adoption of digital payment systems and enhance fraud detection capabilities.",
+    "opportunity": "Investing in AI-powered identity verification solutions for Kenya's financial institutions to increase efficiency and security.",
+    "risk": "A potential cyberattack on South Africa's machine learning system could set a precedent for other countries, including Kenya, to be cautious when adopting similar technology."
   }
 ]
